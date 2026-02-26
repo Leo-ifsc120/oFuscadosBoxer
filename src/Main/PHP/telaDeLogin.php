@@ -15,7 +15,7 @@
 <form action="cadastro.php" method="post">
     <div class="container">
         <label for="nome">Nome: </label>
-        <input type="text" id="nome" name="nome" required autofocus><br>
+        <input type="text" id="nome" name="nome" required autofo><br>
 
         <label for="email">Email: </label>
         <input type="email" id="email" name="email" required><br>
