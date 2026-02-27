@@ -16,8 +16,30 @@
 
     <?php
 
-    $name = $_POST("nome");
-    echo "<p> $name </p>"
+    $serverName = "LEONARDO_NOTE\sqlexpress";
+    $connectionInfo = array("Database"=>"aula", "UID"=>"", "PWD"=>"");
+
+    $conn = sqlsrv_connect($serverName, $connectionInfo);
+    if( $conn ) {
+        echo "<p>Connection established.</p><br>";
+    }else{
+        echo "<p>Connection could not be established.</p><br>";
+        die( print_r( sqlsrv_errors(), true));
+    }
+
+    echo "<table> <tr><td>id</td><td>nome</td><td>idade</td></tr> ";
+    $stmt = sqlsrv_query($conn, "select * from aluno");
+    if( $stmt === false) {
+        die( print_r( sqlsrv_errors(), true) );
+    }
+
+    while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
+        echo "<tr><td>" . $row[0] . "</td>";
+        echo "<td>" . $row[1] . "</td>";
+        echo "<td>" . $row[2] . "</td>";
+    }
+
+
 
     ?>
 </div>

@@ -57,3 +57,17 @@ input
     height: 50px;
     font-size: 18px;
 }
+table
+{
+    margin: auto;
+    border: solid black 1px;
+}
+td
+{
+    margin: auto;
+    padding: 10px;
+    border: solid black 1px;
+}
+@media  {
+    
+}
