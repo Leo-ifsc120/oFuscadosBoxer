@@ -59,15 +59,24 @@ input
 }
 table
 {
-    margin: auto;
+    grid-column: 2;
     border: solid black 1px;
+    padding: 20px;
 }
 td
 {
     margin: auto;
     padding: 10px;
     border: solid black 1px;
+
 }
+
+#theader
+{
+    background-color: #7C7C7C;
+
+}
+
 @media  {
     
 }

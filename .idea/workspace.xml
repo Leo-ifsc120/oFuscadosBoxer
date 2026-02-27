@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/img/teste.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/sql/aula.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/phpinfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/cadastro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="PHP File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -119,17 +112,6 @@
       <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="oFuscadosBoxer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="oFuscadosBoxer" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -156,6 +138,8 @@
       <workItem from="1772150579345" duration="864000" />
       <workItem from="1772155065686" duration="4935000" />
       <workItem from="1772160250503" duration="3059000" />
+      <workItem from="1772163395529" duration="346000" />
+      <workItem from="1772197309962" duration="3570000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -173,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772147988379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772163543696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772163543696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
