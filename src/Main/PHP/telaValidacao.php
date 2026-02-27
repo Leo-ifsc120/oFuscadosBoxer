@@ -16,10 +16,24 @@ while( $row = sqlsrv_fetch_array( $query, SQLSRV_FETCH_NUMERIC) )
 {
 
     $userCheck = $row[1];
-    if($user = $userCheck)
+    $passCheck = $row[2];
+    if(strtoupper($user) !== $userCheck)
+    {
+        require "telaDeLogin.php";
+        die("<div class='error'><P class='error'>O usuario ou senha incorretos</P></div>");
+    }
+    elseif($pass !== $passCheck)
+    {
+        require "telaDeLogin.php";
+        die("<div class='error'><P class='error'>O usuario ou senha incorretos</P></div>");
+    }
+    else
     {
         require "cadastro.php";
+        die();
     }
+
+
 
 }
 ?>

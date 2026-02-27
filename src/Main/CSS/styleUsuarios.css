@@ -31,7 +31,6 @@ div.container
     background-color: #929292;
     width: auto;
     height: auto;
-
 }
 
 table
@@ -44,15 +43,14 @@ td
     margin: auto;
     padding: 10px;
     border: solid black 1px;
-
 }
 
 #theader
 {
     background-color: #7C7C7C;
-
 }
 
-@media  min{
+@media  min
+{
 
 }

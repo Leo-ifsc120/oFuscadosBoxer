@@ -34,6 +34,23 @@ div.container
 
 }
 
+div.error
+{
+    border: solid black 5px;
+    margin: 20px auto;
+    grid-template-columns: 1;
+    background-color: #929292;
+    width: 500px;
+    height: 90px;
+}
+
+p.error
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+
 label
 {
     font-size: 20px;
