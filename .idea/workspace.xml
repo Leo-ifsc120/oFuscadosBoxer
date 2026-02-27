@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/telaValidacao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/cadastro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="PHP File" />
         <option value="CSS File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -139,7 +138,10 @@
       <workItem from="1772155065686" duration="4935000" />
       <workItem from="1772160250503" duration="3059000" />
       <workItem from="1772163395529" duration="346000" />
-      <workItem from="1772197309962" duration="3570000" />
+      <workItem from="1772197309962" duration="3702000" />
+      <workItem from="1772209027819" duration="1265000" />
+      <workItem from="1772210331808" duration="520000" />
+      <workItem from="1772210885732" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772163543696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772202222789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772202222789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -12,16 +12,13 @@
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
-<form action="cadastro.php" method="post">
+<form action="telaValidacao.php" method="post">
     <div class="container">
-        <label for="nome">Nome: </label>
-        <input type="text" id="nome" name="nome" required autofocus><br>
+        <label for="usuario">Nome: </label>
+        <input type="text" id="nome" name="usuario" required autofocus><br>
 
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="senha">Senha: </label>
-        <input type="password" id="senha" name="senha" required><br>
+        <label for="password">Senha: </label>
+        <input type="password" id="senha" name="password" required><br>
 
         <input type="submit" value="Cadastrar" id="button">
     </div>
