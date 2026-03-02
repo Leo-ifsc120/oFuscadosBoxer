@@ -16658,28 +16658,7 @@
     <collation id="5541" parent="1" name="Romansh_100_CS_AS_KS_WS">
       <Description>Romansh-100, case-sensitive, accent-sensitive, kanatype-sensitive, width-sensitive</Description>
     </collation>
-    <database id="5542" parent="1" name="master">
-      <AssembliesChecksum>13880230</AssembliesChecksum>
-      <Current>1</Current>
-      <FileGroupsChecksum>2580033660301081</FileGroupsChecksum>
-      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_note\SQLEXP</Fingerprint>
-      <ObjectId>1</ObjectId>
-      <RolesChecksum>2074712896951</RolesChecksum>
-      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
-    </database>
-    <database id="5543" parent="1" name="tempdb">
-      <ObjectId>2</ObjectId>
-      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
-    </database>
-    <database id="5544" parent="1" name="model">
-      <ObjectId>3</ObjectId>
-      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
-    </database>
-    <database id="5545" parent="1" name="msdb">
-      <ObjectId>4</ObjectId>
-      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
-    </database>
-    <database id="5546" parent="1" name="Oficina">
+    <database id="5542" parent="1" name="Oficina">
       <AssembliesChecksum>15500541</AssembliesChecksum>
       <FileGroupsChecksum>2580033660301081</FileGroupsChecksum>
       <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_note\SQLEXP</Fingerprint>
@@ -16691,630 +16670,505 @@
       <RolesChecksum>2074681705597</RolesChecksum>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </database>
-    <database id="5547" parent="1" name="aula">
-      <AssembliesChecksum>13879637</AssembliesChecksum>
+    <database id="5543" parent="1" name="master">
+      <AssembliesChecksum>13880230</AssembliesChecksum>
+      <Current>1</Current>
       <FileGroupsChecksum>2580033660301081</FileGroupsChecksum>
       <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_note\SQLEXP</Fingerprint>
-      <Grants>6|database||1|connect|G
-6|database||0|view any column encryption key definition|G
-6|database||0|view any column master key definition|G</Grants>
-      <ObjectId>6</ObjectId>
-      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
-      <RolesChecksum>2074669713699</RolesChecksum>
+      <ObjectId>1</ObjectId>
+      <RolesChecksum>2074712896951</RolesChecksum>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <linked-server id="5548" parent="1" name="Leonardo_note\SQLEXPRESS">
+    <database id="5544" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="5545" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="5546" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <linked-server id="5547" parent="1" name="Leonardo_note\SQLEXPRESS">
       <DataSource>Leonardo_note\SQLEXPRESS</DataSource>
       <Product>SQL Server</Product>
       <ProviderName>SQLNCLI</ProviderName>
     </linked-server>
-    <login id="5549" parent="1" name="sa">
+    <login id="5548" parent="1" name="sa">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>1</ObjectId>
     </login>
-    <login id="5550" parent="1" name="public">
+    <login id="5549" parent="1" name="public">
       <Enabled>1</Enabled>
       <ObjectId>2</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5551" parent="1" name="sysadmin">
+    <login id="5550" parent="1" name="sysadmin">
       <Enabled>1</Enabled>
       <ObjectId>3</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5552" parent="1" name="securityadmin">
+    <login id="5551" parent="1" name="securityadmin">
       <Enabled>1</Enabled>
       <ObjectId>4</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5553" parent="1" name="serveradmin">
+    <login id="5552" parent="1" name="serveradmin">
       <Enabled>1</Enabled>
       <ObjectId>5</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5554" parent="1" name="setupadmin">
+    <login id="5553" parent="1" name="setupadmin">
       <Enabled>1</Enabled>
       <ObjectId>6</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5555" parent="1" name="processadmin">
+    <login id="5554" parent="1" name="processadmin">
       <Enabled>1</Enabled>
       <ObjectId>7</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5556" parent="1" name="diskadmin">
+    <login id="5555" parent="1" name="diskadmin">
       <Enabled>1</Enabled>
       <ObjectId>8</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5557" parent="1" name="dbcreator">
+    <login id="5556" parent="1" name="dbcreator">
       <Enabled>1</Enabled>
       <ObjectId>9</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5558" parent="1" name="bulkadmin">
+    <login id="5557" parent="1" name="bulkadmin">
       <Enabled>1</Enabled>
       <ObjectId>10</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5559" parent="1" name="##MS_ServerStateReader##">
+    <login id="5558" parent="1" name="##MS_ServerStateReader##">
       <Enabled>1</Enabled>
       <ObjectId>11</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5560" parent="1" name="##MS_ServerStateManager##">
+    <login id="5559" parent="1" name="##MS_ServerStateManager##">
       <Enabled>1</Enabled>
       <ObjectId>12</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5561" parent="1" name="##MS_DefinitionReader##">
+    <login id="5560" parent="1" name="##MS_DefinitionReader##">
       <Enabled>1</Enabled>
       <ObjectId>13</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5562" parent="1" name="##MS_DatabaseConnector##">
+    <login id="5561" parent="1" name="##MS_DatabaseConnector##">
       <Enabled>1</Enabled>
       <ObjectId>14</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5563" parent="1" name="##MS_DatabaseManager##">
+    <login id="5562" parent="1" name="##MS_DatabaseManager##">
       <Enabled>1</Enabled>
       <ObjectId>15</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5564" parent="1" name="##MS_LoginManager##">
+    <login id="5563" parent="1" name="##MS_LoginManager##">
       <Enabled>1</Enabled>
       <ObjectId>16</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5565" parent="1" name="##MS_SecurityDefinitionReader##">
+    <login id="5564" parent="1" name="##MS_SecurityDefinitionReader##">
       <Enabled>1</Enabled>
       <ObjectId>17</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5566" parent="1" name="##MS_PerformanceDefinitionReader##">
+    <login id="5565" parent="1" name="##MS_PerformanceDefinitionReader##">
       <Enabled>1</Enabled>
       <ObjectId>18</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5567" parent="1" name="##MS_ServerSecurityStateReader##">
+    <login id="5566" parent="1" name="##MS_ServerSecurityStateReader##">
       <Enabled>1</Enabled>
       <ObjectId>19</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5568" parent="1" name="##MS_ServerPerformanceStateReader##">
+    <login id="5567" parent="1" name="##MS_ServerPerformanceStateReader##">
       <Enabled>1</Enabled>
       <ObjectId>20</ObjectId>
       <Type>server-role</Type>
       <OwnerId>1</OwnerId>
     </login>
-    <login id="5569" parent="1" name="##MS_SQLResourceSigningCertificate##">
+    <login id="5568" parent="1" name="##MS_SQLResourceSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>101</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5570" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+    <login id="5569" parent="1" name="##MS_SQLReplicationSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>102</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5571" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+    <login id="5570" parent="1" name="##MS_SQLAuthenticatorCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>103</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5572" parent="1" name="##MS_PolicySigningCertificate##">
+    <login id="5571" parent="1" name="##MS_PolicySigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>105</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5573" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+    <login id="5572" parent="1" name="##MS_SmoExtendedSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>106</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5574" parent="1" name="##MS_PolicyEventProcessingLogin##">
+    <login id="5573" parent="1" name="##MS_PolicyEventProcessingLogin##">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>256</ObjectId>
     </login>
-    <login id="5575" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+    <login id="5574" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>257</ObjectId>
     </login>
-    <login id="5576" parent="1" name="##MS_AgentSigningCertificate##">
+    <login id="5575" parent="1" name="##MS_AgentSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>258</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5577" parent="1" name="Leonardo_note\leona">
+    <login id="5576" parent="1" name="Leonardo_note\leona">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>259</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5578" parent="1" name="NT SERVICE\SQLWriter">
+    <login id="5577" parent="1" name="NT SERVICE\SQLWriter">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>260</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5579" parent="1" name="NT SERVICE\Winmgmt">
+    <login id="5578" parent="1" name="NT SERVICE\Winmgmt">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>261</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5580" parent="1" name="NT Service\MSSQL$SQLEXPRESS">
+    <login id="5579" parent="1" name="NT Service\MSSQL$SQLEXPRESS">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>262</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5581" parent="1" name="BUILTIN\Users">
+    <login id="5580" parent="1" name="BUILTIN\Users">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>263</ObjectId>
       <Type>windows-group</Type>
     </login>
-    <login id="5582" parent="1" name="NT AUTHORITY\SYSTEM">
+    <login id="5581" parent="1" name="NT AUTHORITY\SYSTEM">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>264</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5583" parent="1" name="NT SERVICE\SQLTELEMETRY$SQLEXPRESS">
+    <login id="5582" parent="1" name="NT SERVICE\SQLTELEMETRY$SQLEXPRESS">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>265</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <assembly id="5584" parent="5542" name="Microsoft.SqlServer.Types">
+    <assembly id="5583" parent="5542" name="Microsoft.SqlServer.Types">
       <ObjectId>1</ObjectId>
       <Visible>1</Visible>
     </assembly>
-    <filegroup id="5585" parent="5542" name="PRIMARY">
+    <filegroup id="5584" parent="5542" name="PRIMARY">
       <DefaultGroup>1</DefaultGroup>
       <ObjectId>1</ObjectId>
     </filegroup>
-    <role id="5586" parent="5542" name="##MS_AgentSigningCertificate##">
+    <role id="5585" parent="5542" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="5586" parent="5542" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5587" parent="5542" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5588" parent="5542" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5589" parent="5542" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5590" parent="5542" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5591" parent="5542" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5592" parent="5542" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5593" parent="5542" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5594" parent="5542" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5595" parent="5542" name="dbo">
+      <AuthType>windows</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+      <Type>windows-user</Type>
+    </role>
+    <role id="5596" parent="5542" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="5597" parent="5542" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5598" parent="5542" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <schema id="5599" parent="5542" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="5600" parent="5542" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="5601" parent="5542" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="5602" parent="5542" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="5603" parent="5542" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="5604" parent="5542" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="5605" parent="5542" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="5606" parent="5542" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="5607" parent="5542" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="5608" parent="5542" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="5609" parent="5542" name="dbo">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <IntrospectionTimestamp>2026-03-02.11:59:27</IntrospectionTimestamp>
+      <LastIntrospectionL1Timestamp>2026-03-02.11:59:27</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2026-03-02.11:59:27</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2026-03-02.11:59:27</LastIntrospectionL3Timestamp>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2026-03-02.17:59:28</LastIntrospectionLocalTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="5610" parent="5542" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="5611" parent="5542" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <assembly id="5612" parent="5543" name="Microsoft.SqlServer.Types">
+      <ObjectId>1</ObjectId>
+      <Visible>1</Visible>
+    </assembly>
+    <filegroup id="5613" parent="5543" name="PRIMARY">
+      <DefaultGroup>1</DefaultGroup>
+      <ObjectId>1</ObjectId>
+    </filegroup>
+    <role id="5614" parent="5543" name="##MS_AgentSigningCertificate##">
       <AuthType>none</AuthType>
       <ObjectId>6</ObjectId>
       <Type>certificate-mapped-user</Type>
     </role>
-    <role id="5587" parent="5542" name="##MS_PolicyEventProcessingLogin##">
+    <role id="5615" parent="5543" name="##MS_PolicyEventProcessingLogin##">
       <AuthType>instance</AuthType>
       <DefaultSchema>dbo</DefaultSchema>
       <ObjectId>5</ObjectId>
     </role>
-    <role id="5588" parent="5542" name="INFORMATION_SCHEMA">
+    <role id="5616" parent="5543" name="INFORMATION_SCHEMA">
       <AuthType>none</AuthType>
       <ObjectId>3</ObjectId>
     </role>
-    <role id="5589" parent="5542" name="db_accessadmin">
+    <role id="5617" parent="5543" name="db_accessadmin">
       <AuthType>none</AuthType>
       <ObjectId>16385</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5590" parent="5542" name="db_backupoperator">
+    <role id="5618" parent="5543" name="db_backupoperator">
       <AuthType>none</AuthType>
       <ObjectId>16389</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5591" parent="5542" name="db_datareader">
+    <role id="5619" parent="5543" name="db_datareader">
       <AuthType>none</AuthType>
       <ObjectId>16390</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5592" parent="5542" name="db_datawriter">
+    <role id="5620" parent="5543" name="db_datawriter">
       <AuthType>none</AuthType>
       <ObjectId>16391</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5593" parent="5542" name="db_ddladmin">
+    <role id="5621" parent="5543" name="db_ddladmin">
       <AuthType>none</AuthType>
       <ObjectId>16387</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5594" parent="5542" name="db_denydatareader">
+    <role id="5622" parent="5543" name="db_denydatareader">
       <AuthType>none</AuthType>
       <ObjectId>16392</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5595" parent="5542" name="db_denydatawriter">
+    <role id="5623" parent="5543" name="db_denydatawriter">
       <AuthType>none</AuthType>
       <ObjectId>16393</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5596" parent="5542" name="db_owner">
+    <role id="5624" parent="5543" name="db_owner">
       <AuthType>none</AuthType>
       <ObjectId>16384</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5597" parent="5542" name="db_securityadmin">
+    <role id="5625" parent="5543" name="db_securityadmin">
       <AuthType>none</AuthType>
       <ObjectId>16386</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5598" parent="5542" name="dbo">
+    <role id="5626" parent="5543" name="dbo">
       <AuthType>instance</AuthType>
       <DefaultSchema>dbo</DefaultSchema>
       <ObjectId>1</ObjectId>
     </role>
-    <role id="5599" parent="5542" name="guest">
+    <role id="5627" parent="5543" name="guest">
       <AuthType>none</AuthType>
       <DefaultSchema>guest</DefaultSchema>
       <ObjectId>2</ObjectId>
     </role>
-    <role id="5600" parent="5542" name="public">
+    <role id="5628" parent="5543" name="public">
       <AuthType>none</AuthType>
       <ObjectId>0</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5601" parent="5542" name="sys">
+    <role id="5629" parent="5543" name="sys">
       <AuthType>none</AuthType>
       <ObjectId>4</ObjectId>
     </role>
-    <schema id="5602" parent="5542" name="INFORMATION_SCHEMA">
+    <schema id="5630" parent="5543" name="INFORMATION_SCHEMA">
       <ObjectId>3</ObjectId>
     </schema>
-    <schema id="5603" parent="5542" name="db_accessadmin">
+    <schema id="5631" parent="5543" name="db_accessadmin">
       <ObjectId>16385</ObjectId>
     </schema>
-    <schema id="5604" parent="5542" name="db_backupoperator">
+    <schema id="5632" parent="5543" name="db_backupoperator">
       <ObjectId>16389</ObjectId>
     </schema>
-    <schema id="5605" parent="5542" name="db_datareader">
+    <schema id="5633" parent="5543" name="db_datareader">
       <ObjectId>16390</ObjectId>
     </schema>
-    <schema id="5606" parent="5542" name="db_datawriter">
+    <schema id="5634" parent="5543" name="db_datawriter">
       <ObjectId>16391</ObjectId>
     </schema>
-    <schema id="5607" parent="5542" name="db_ddladmin">
+    <schema id="5635" parent="5543" name="db_ddladmin">
       <ObjectId>16387</ObjectId>
     </schema>
-    <schema id="5608" parent="5542" name="db_denydatareader">
+    <schema id="5636" parent="5543" name="db_denydatareader">
       <ObjectId>16392</ObjectId>
     </schema>
-    <schema id="5609" parent="5542" name="db_denydatawriter">
+    <schema id="5637" parent="5543" name="db_denydatawriter">
       <ObjectId>16393</ObjectId>
     </schema>
-    <schema id="5610" parent="5542" name="db_owner">
+    <schema id="5638" parent="5543" name="db_owner">
       <ObjectId>16384</ObjectId>
     </schema>
-    <schema id="5611" parent="5542" name="db_securityadmin">
+    <schema id="5639" parent="5543" name="db_securityadmin">
       <ObjectId>16386</ObjectId>
     </schema>
-    <schema id="5612" parent="5542" name="dbo">
+    <schema id="5640" parent="5543" name="dbo">
       <ObjectId>1</ObjectId>
     </schema>
-    <schema id="5613" parent="5542" name="guest">
+    <schema id="5641" parent="5543" name="guest">
       <ObjectId>2</ObjectId>
     </schema>
-    <schema id="5614" parent="5542" name="sys">
+    <schema id="5642" parent="5543" name="sys">
       <ObjectId>4</ObjectId>
     </schema>
-    <assembly id="5615" parent="5546" name="Microsoft.SqlServer.Types">
-      <ObjectId>1</ObjectId>
-      <Visible>1</Visible>
-    </assembly>
-    <filegroup id="5616" parent="5546" name="PRIMARY">
-      <DefaultGroup>1</DefaultGroup>
-      <ObjectId>1</ObjectId>
-    </filegroup>
-    <role id="5617" parent="5546" name="INFORMATION_SCHEMA">
-      <AuthType>none</AuthType>
-      <ObjectId>3</ObjectId>
-    </role>
-    <role id="5618" parent="5546" name="db_accessadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16385</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5619" parent="5546" name="db_backupoperator">
-      <AuthType>none</AuthType>
-      <ObjectId>16389</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5620" parent="5546" name="db_datareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16390</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5621" parent="5546" name="db_datawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16391</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5622" parent="5546" name="db_ddladmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16387</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5623" parent="5546" name="db_denydatareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16392</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5624" parent="5546" name="db_denydatawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16393</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5625" parent="5546" name="db_owner">
-      <AuthType>none</AuthType>
-      <ObjectId>16384</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5626" parent="5546" name="db_securityadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16386</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5627" parent="5546" name="dbo">
-      <AuthType>windows</AuthType>
-      <DefaultSchema>dbo</DefaultSchema>
-      <ObjectId>1</ObjectId>
-      <Type>windows-user</Type>
-    </role>
-    <role id="5628" parent="5546" name="guest">
-      <AuthType>none</AuthType>
-      <DefaultSchema>guest</DefaultSchema>
-      <ObjectId>2</ObjectId>
-    </role>
-    <role id="5629" parent="5546" name="public">
-      <AuthType>none</AuthType>
-      <ObjectId>0</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5630" parent="5546" name="sys">
-      <AuthType>none</AuthType>
-      <ObjectId>4</ObjectId>
-    </role>
-    <schema id="5631" parent="5546" name="INFORMATION_SCHEMA">
-      <ObjectId>3</ObjectId>
-    </schema>
-    <schema id="5632" parent="5546" name="db_accessadmin">
-      <ObjectId>16385</ObjectId>
-    </schema>
-    <schema id="5633" parent="5546" name="db_backupoperator">
-      <ObjectId>16389</ObjectId>
-    </schema>
-    <schema id="5634" parent="5546" name="db_datareader">
-      <ObjectId>16390</ObjectId>
-    </schema>
-    <schema id="5635" parent="5546" name="db_datawriter">
-      <ObjectId>16391</ObjectId>
-    </schema>
-    <schema id="5636" parent="5546" name="db_ddladmin">
-      <ObjectId>16387</ObjectId>
-    </schema>
-    <schema id="5637" parent="5546" name="db_denydatareader">
-      <ObjectId>16392</ObjectId>
-    </schema>
-    <schema id="5638" parent="5546" name="db_denydatawriter">
-      <ObjectId>16393</ObjectId>
-    </schema>
-    <schema id="5639" parent="5546" name="db_owner">
-      <ObjectId>16384</ObjectId>
-    </schema>
-    <schema id="5640" parent="5546" name="db_securityadmin">
-      <ObjectId>16386</ObjectId>
-    </schema>
-    <schema id="5641" parent="5546" name="dbo">
-      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <IntrospectionTimestamp>2026-02-26.21:17:48</IntrospectionTimestamp>
-      <LastIntrospectionL1Timestamp>2026-02-26.21:17:48</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2026-02-26.21:17:48</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2026-02-26.21:17:48</LastIntrospectionL3Timestamp>
-      <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-02-27.03:17:49</LastIntrospectionLocalTimestamp>
-      <ObjectId>1</ObjectId>
-    </schema>
-    <schema id="5642" parent="5546" name="guest">
-      <ObjectId>2</ObjectId>
-    </schema>
-    <schema id="5643" parent="5546" name="sys">
-      <ObjectId>4</ObjectId>
-    </schema>
-    <assembly id="5644" parent="5547" name="Microsoft.SqlServer.Types">
-      <ObjectId>1</ObjectId>
-      <Visible>1</Visible>
-    </assembly>
-    <filegroup id="5645" parent="5547" name="PRIMARY">
-      <DefaultGroup>1</DefaultGroup>
-      <ObjectId>1</ObjectId>
-    </filegroup>
-    <role id="5646" parent="5547" name="INFORMATION_SCHEMA">
-      <AuthType>none</AuthType>
-      <ObjectId>3</ObjectId>
-    </role>
-    <role id="5647" parent="5547" name="db_accessadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16385</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5648" parent="5547" name="db_backupoperator">
-      <AuthType>none</AuthType>
-      <ObjectId>16389</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5649" parent="5547" name="db_datareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16390</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5650" parent="5547" name="db_datawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16391</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5651" parent="5547" name="db_ddladmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16387</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5652" parent="5547" name="db_denydatareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16392</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5653" parent="5547" name="db_denydatawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16393</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5654" parent="5547" name="db_owner">
-      <AuthType>none</AuthType>
-      <ObjectId>16384</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5655" parent="5547" name="db_securityadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16386</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5656" parent="5547" name="dbo">
-      <AuthType>windows</AuthType>
-      <DefaultSchema>dbo</DefaultSchema>
-      <ObjectId>1</ObjectId>
-      <Type>windows-user</Type>
-    </role>
-    <role id="5657" parent="5547" name="guest">
-      <AuthType>none</AuthType>
-      <DefaultSchema>guest</DefaultSchema>
-      <ObjectId>2</ObjectId>
-    </role>
-    <role id="5658" parent="5547" name="public">
-      <AuthType>none</AuthType>
-      <ObjectId>0</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5659" parent="5547" name="sys">
-      <AuthType>none</AuthType>
-      <ObjectId>4</ObjectId>
-    </role>
-    <schema id="5660" parent="5547" name="INFORMATION_SCHEMA">
-      <ObjectId>3</ObjectId>
-    </schema>
-    <schema id="5661" parent="5547" name="db_accessadmin">
-      <ObjectId>16385</ObjectId>
-    </schema>
-    <schema id="5662" parent="5547" name="db_backupoperator">
-      <ObjectId>16389</ObjectId>
-    </schema>
-    <schema id="5663" parent="5547" name="db_datareader">
-      <ObjectId>16390</ObjectId>
-    </schema>
-    <schema id="5664" parent="5547" name="db_datawriter">
-      <ObjectId>16391</ObjectId>
-    </schema>
-    <schema id="5665" parent="5547" name="db_ddladmin">
-      <ObjectId>16387</ObjectId>
-    </schema>
-    <schema id="5666" parent="5547" name="db_denydatareader">
-      <ObjectId>16392</ObjectId>
-    </schema>
-    <schema id="5667" parent="5547" name="db_denydatawriter">
-      <ObjectId>16393</ObjectId>
-    </schema>
-    <schema id="5668" parent="5547" name="db_owner">
-      <ObjectId>16384</ObjectId>
-    </schema>
-    <schema id="5669" parent="5547" name="db_securityadmin">
-      <ObjectId>16386</ObjectId>
-    </schema>
-    <schema id="5670" parent="5547" name="dbo">
-      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <Current>1</Current>
-      <IntrospectionTimestamp>2026-02-26.21:21:49</IntrospectionTimestamp>
-      <LastIntrospectionL1Timestamp>2026-02-26.21:21:49</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2026-02-26.21:21:49</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2026-02-26.21:21:49</LastIntrospectionL3Timestamp>
-      <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-02-27.03:21:51</LastIntrospectionLocalTimestamp>
-      <ObjectId>1</ObjectId>
-    </schema>
-    <schema id="5671" parent="5547" name="guest">
-      <ObjectId>2</ObjectId>
-    </schema>
-    <schema id="5672" parent="5547" name="sys">
-      <ObjectId>4</ObjectId>
-    </schema>
-    <table id="5673" parent="5641" name="TblAnotacoes">
+    <table id="5643" parent="5609" name="TblAnotacoes">
       <CreatedTimestamp>2021-10-05.13:27:33.530</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17322,7 +17176,7 @@
       <ObjectId>1390627997</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5674" parent="5641" name="TblClientes">
+    <table id="5644" parent="5609" name="TblClientes">
       <CreatedTimestamp>2021-04-20.07:49:55.987</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17330,7 +17184,7 @@
       <ObjectId>430624577</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5675" parent="5641" name="TblEndereco">
+    <table id="5645" parent="5609" name="TblEndereco">
       <CreatedTimestamp>2021-11-18.13:09:59.903</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17339,7 +17193,7 @@
       <LobDataSpaceId>0</LobDataSpaceId>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </table>
-    <table id="5676" parent="5641" name="TblFornecedores">
+    <table id="5646" parent="5609" name="TblFornecedores">
       <CreatedTimestamp>2021-11-21.17:29:22.617</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17347,7 +17201,7 @@
       <ObjectId>2094630505</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5677" parent="5641" name="TblProdutoFornecedor">
+    <table id="5647" parent="5609" name="TblProdutoFornecedor">
       <CreatedTimestamp>2022-03-24.07:44:24.870</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17355,7 +17209,7 @@
       <ObjectId>843150049</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5678" parent="5641" name="TblProdutos">
+    <table id="5648" parent="5609" name="TblProdutos">
       <CreatedTimestamp>2021-08-03.11:58:33.910</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17363,7 +17217,7 @@
       <ObjectId>782625831</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5679" parent="5641" name="TblServicos">
+    <table id="5649" parent="5609" name="TblServicos">
       <CreatedTimestamp>2021-04-01.07:16:32.793</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17371,7 +17225,7 @@
       <ObjectId>2018106230</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5680" parent="5641" name="TblServicosPrestados">
+    <table id="5650" parent="5609" name="TblServicosPrestados">
       <CreatedTimestamp>2021-08-27.12:45:54.260</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17379,7 +17233,7 @@
       <ObjectId>1246627484</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5681" parent="5641" name="TblServicosPrestadosVenda">
+    <table id="5651" parent="5609" name="TblServicosPrestadosVenda">
       <CreatedTimestamp>2021-08-27.12:46:03.267</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17387,7 +17241,7 @@
       <ObjectId>1294627655</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5682" parent="5641" name="TblServicosVendaProdutos">
+    <table id="5652" parent="5609" name="TblServicosVendaProdutos">
       <CreatedTimestamp>2021-08-04.12:08:04.797</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17395,7 +17249,7 @@
       <ObjectId>878626173</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5683" parent="5641" name="TblUsuario">
+    <table id="5653" parent="5609" name="TblUsuario">
       <CreatedTimestamp>2021-11-29.12:29:20.723</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17403,7 +17257,7 @@
       <ObjectId>203147769</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5684" parent="5641" name="TblperfilUsuario">
+    <table id="5654" parent="5609" name="TblperfilUsuario">
       <CreatedTimestamp>2021-12-01.10:58:14.500</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17411,7 +17265,7 @@
       <ObjectId>235147883</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5685" parent="5641" name="tblEntrada">
+    <table id="5655" parent="5609" name="tblEntrada">
       <CreatedTimestamp>2022-04-01.13:35:09.280</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17419,7 +17273,7 @@
       <ObjectId>875150163</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5686" parent="5641" name="tblEntradaProdutos">
+    <table id="5656" parent="5609" name="tblEntradaProdutos">
       <CreatedTimestamp>2022-04-06.07:53:54.917</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17427,7 +17281,7 @@
       <ObjectId>1115151018</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5687" parent="5641" name="tblVeiculos">
+    <table id="5657" parent="5609" name="tblVeiculos">
       <CreatedTimestamp>2021-03-23.12:35:24.683</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17435,7 +17289,7 @@
       <ObjectId>338100245</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5688" parent="5641" name="tblVeiculosClientes">
+    <table id="5658" parent="5609" name="tblVeiculosClientes">
       <CreatedTimestamp>2021-04-20.07:50:00.863</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <DetailsLevel>3</DetailsLevel>
@@ -17444,36 +17298,28 @@
       <LobDataSpaceId>0</LobDataSpaceId>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </table>
-    <view id="5689" parent="5641" name="vwServicosProdutos">
+    <view id="5659" parent="5609" name="vwServicosProdutos">
       <CreatedTimestamp>2022-08-24.12:58:32.320</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2022-08-24.13:01:25.563</ModifiedTimestamp>
       <ObjectId>1483152329</ObjectId>
       <SourceTextLength>321</SourceTextLength>
     </view>
-    <table id="5690" parent="5670" name="aluno">
-      <CreatedTimestamp>2026-02-26.21:21:49.350</CreatedTimestamp>
-      <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2026-02-26.21:21:49.350</ModifiedTimestamp>
-      <ObjectId>1589580701</ObjectId>
-      <LobDataSpaceId>0</LobDataSpaceId>
-    </table>
-    <column id="5691" parent="5673" name="Cdanotacao">
+    <column id="5660" parent="5643" name="Cdanotacao">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5692" parent="5673" name="DsAnotacao">
+    <column id="5661" parent="5643" name="DsAnotacao">
       <Position>2</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5693" parent="5673" name="DtAnotacao">
+    <column id="5662" parent="5643" name="DtAnotacao">
       <Position>3</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="5694" parent="5673" name="PK__tblanota__DA67F16D219AFCCF">
+    <index id="5663" parent="5643" name="PK__tblanota__DA67F16D219AFCCF">
       <Clustering>1</Clustering>
       <ColNames>Cdanotacao</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17481,7 +17327,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5695" parent="5673" name="PK__tblanota__DA67F16D219AFCCF">
+    <key id="5664" parent="5643" name="PK__tblanota__DA67F16D219AFCCF">
       <CreatedTimestamp>2021-10-05.13:27:33.537</CreatedTimestamp>
       <ModifiedTimestamp>2021-10-05.13:27:33.537</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17489,100 +17335,100 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__tblanota__DA67F16D219AFCCF</UnderlyingIndexName>
     </key>
-    <column id="5696" parent="5674" name="CdCliente">
+    <column id="5665" parent="5644" name="CdCliente">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5697" parent="5674" name="DsRazao">
+    <column id="5666" parent="5644" name="DsRazao">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5698" parent="5674" name="DsFantasia">
+    <column id="5667" parent="5644" name="DsFantasia">
       <Position>3</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5699" parent="5674" name="DsTelefone">
+    <column id="5668" parent="5644" name="DsTelefone">
       <Position>4</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5700" parent="5674" name="DsEndereco">
+    <column id="5669" parent="5644" name="DsEndereco">
       <Position>5</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5701" parent="5674" name="CdCep">
+    <column id="5670" parent="5644" name="CdCep">
       <Position>6</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5702" parent="5674" name="Dsemail">
+    <column id="5671" parent="5644" name="Dsemail">
       <Position>7</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5703" parent="5674" name="DsBairro">
+    <column id="5672" parent="5644" name="DsBairro">
       <Position>8</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5704" parent="5674" name="DsCidade">
+    <column id="5673" parent="5644" name="DsCidade">
       <Position>9</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5705" parent="5674" name="DSRegiao">
+    <column id="5674" parent="5644" name="DSRegiao">
       <Position>10</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5706" parent="5674" name="CdCnpjCPF">
+    <column id="5675" parent="5644" name="CdCnpjCPF">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5707" parent="5674" name="CdIE">
+    <column id="5676" parent="5644" name="CdIE">
       <Position>12</Position>
       <StoredType>char(9 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5708" parent="5674" name="DsWattsapp">
+    <column id="5677" parent="5644" name="DsWattsapp">
       <Position>13</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5709" parent="5674" name="DtCadasto">
+    <column id="5678" parent="5644" name="DtCadasto">
       <Position>14</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5710" parent="5674" name="Nrendereco">
+    <column id="5679" parent="5644" name="Nrendereco">
       <Position>15</Position>
       <StoredType>numeric(7)|0s</StoredType>
     </column>
-    <column id="5711" parent="5674" name="Dscomplemento">
+    <column id="5680" parent="5644" name="Dscomplemento">
       <Position>16</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5712" parent="5674" name="Dsusuario">
+    <column id="5681" parent="5644" name="Dsusuario">
       <Position>17</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5713" parent="5674" name="Dssenha">
+    <column id="5682" parent="5644" name="Dssenha">
       <Position>18</Position>
       <StoredType>varchar(64 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5714" parent="5674" name="DsNome">
+    <column id="5683" parent="5644" name="DsNome">
       <Position>19</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <index id="5715" parent="5674" name="PK__TblClien__FE6512F1B4A9F46D">
+    <index id="5684" parent="5644" name="PK__TblClien__FE6512F1B4A9F46D">
       <Clustering>1</Clustering>
       <ColNames>CdCliente</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17590,7 +17436,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5716" parent="5674" name="PK__TblClien__FE6512F1B4A9F46D">
+    <key id="5685" parent="5644" name="PK__TblClien__FE6512F1B4A9F46D">
       <CreatedTimestamp>2021-04-20.07:49:55.987</CreatedTimestamp>
       <ModifiedTimestamp>2021-04-20.07:49:55.987</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17598,126 +17444,126 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblClien__FE6512F1B4A9F46D</UnderlyingIndexName>
     </key>
-    <column id="5717" parent="5675" name="CdEndereco">
+    <column id="5686" parent="5645" name="CdEndereco">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <SequenceIdentity>1(7)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5718" parent="5675" name="DsEndereco">
+    <column id="5687" parent="5645" name="DsEndereco">
       <Position>2</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5719" parent="5675" name="DSCidade">
+    <column id="5688" parent="5645" name="DSCidade">
       <Position>3</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5720" parent="5675" name="DSBairro">
+    <column id="5689" parent="5645" name="DSBairro">
       <Position>4</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5721" parent="5675" name="DSUF">
+    <column id="5690" parent="5645" name="DSUF">
       <Position>5</Position>
       <StoredType>varchar(2 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5722" parent="5675" name="CodIBGE">
+    <column id="5691" parent="5645" name="CodIBGE">
       <Position>6</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5723" parent="5675" name="CdCEP">
+    <column id="5692" parent="5645" name="CdCEP">
       <Position>7</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5724" parent="5676" name="Cdfornecedor">
+    <column id="5693" parent="5646" name="Cdfornecedor">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5725" parent="5676" name="DsRazao">
+    <column id="5694" parent="5646" name="DsRazao">
       <Position>2</Position>
       <StoredType>varchar(45 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5726" parent="5676" name="DsFantasia">
+    <column id="5695" parent="5646" name="DsFantasia">
       <Position>3</Position>
       <StoredType>varchar(35 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5727" parent="5676" name="DsTelefone">
+    <column id="5696" parent="5646" name="DsTelefone">
       <Position>4</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5728" parent="5676" name="DsEndereco">
+    <column id="5697" parent="5646" name="DsEndereco">
       <Position>5</Position>
       <StoredType>varchar(45 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5729" parent="5676" name="CdCep">
+    <column id="5698" parent="5646" name="CdCep">
       <Position>6</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5730" parent="5676" name="Dsemail">
+    <column id="5699" parent="5646" name="Dsemail">
       <Position>7</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5731" parent="5676" name="DsBairro">
+    <column id="5700" parent="5646" name="DsBairro">
       <Position>8</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5732" parent="5676" name="dsCidade">
+    <column id="5701" parent="5646" name="dsCidade">
       <Position>9</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5733" parent="5676" name="DSRegiao">
+    <column id="5702" parent="5646" name="DSRegiao">
       <Position>10</Position>
       <StoredType>varchar(2 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5734" parent="5676" name="CdCnpjCpf">
+    <column id="5703" parent="5646" name="CdCnpjCpf">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5735" parent="5676" name="CdIE">
+    <column id="5704" parent="5646" name="CdIE">
       <Position>12</Position>
       <StoredType>varchar(14 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5736" parent="5676" name="DsWattsapp">
+    <column id="5705" parent="5646" name="DsWattsapp">
       <Position>13</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5737" parent="5676" name="DsContato">
+    <column id="5706" parent="5646" name="DsContato">
       <Position>14</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5738" parent="5676" name="DtCadasto">
+    <column id="5707" parent="5646" name="DtCadasto">
       <Position>15</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5739" parent="5676" name="Nrendereco">
+    <column id="5708" parent="5646" name="Nrendereco">
       <Position>16</Position>
       <StoredType>numeric(7)|0s</StoredType>
     </column>
-    <column id="5740" parent="5676" name="Dscomplemento">
+    <column id="5709" parent="5646" name="Dscomplemento">
       <Position>17</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <index id="5741" parent="5676" name="PK__TblForne__34B460B7E91EAB0C">
+    <index id="5710" parent="5646" name="PK__TblForne__34B460B7E91EAB0C">
       <Clustering>1</Clustering>
       <ColNames>Cdfornecedor</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17725,7 +17571,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5742" parent="5676" name="PK__TblForne__34B460B7E91EAB0C">
+    <key id="5711" parent="5646" name="PK__TblForne__34B460B7E91EAB0C">
       <CreatedTimestamp>2021-11-21.17:29:22.620</CreatedTimestamp>
       <ModifiedTimestamp>2021-11-21.17:29:22.620</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17733,20 +17579,20 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblForne__34B460B7E91EAB0C</UnderlyingIndexName>
     </key>
-    <column id="5743" parent="5677" name="Cdprodutofornecedor">
+    <column id="5712" parent="5647" name="Cdprodutofornecedor">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5744" parent="5677" name="Cdfornecedor">
+    <column id="5713" parent="5647" name="Cdfornecedor">
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5745" parent="5677" name="cdproduto">
+    <column id="5714" parent="5647" name="cdproduto">
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <index id="5746" parent="5677" name="PK__TblProdu__2250EBE2EF4E5EE1">
+    <index id="5715" parent="5647" name="PK__TblProdu__2250EBE2EF4E5EE1">
       <Clustering>1</Clustering>
       <ColNames>Cdprodutofornecedor</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17754,7 +17600,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5747" parent="5677" name="PK__TblProdu__2250EBE2EF4E5EE1">
+    <key id="5716" parent="5647" name="PK__TblProdu__2250EBE2EF4E5EE1">
       <CreatedTimestamp>2022-03-24.07:44:24.873</CreatedTimestamp>
       <ModifiedTimestamp>2022-03-24.07:44:24.873</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17762,87 +17608,87 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblProdu__2250EBE2EF4E5EE1</UnderlyingIndexName>
     </key>
-    <column id="5748" parent="5678" name="Cdproduto">
+    <column id="5717" parent="5648" name="Cdproduto">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5749" parent="5678" name="DsDescricao">
+    <column id="5718" parent="5648" name="DsDescricao">
       <Position>2</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5750" parent="5678" name="DsEmbalagem">
+    <column id="5719" parent="5648" name="DsEmbalagem">
       <Position>3</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5751" parent="5678" name="VlProduto">
+    <column id="5720" parent="5648" name="VlProduto">
       <Position>4</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5752" parent="5678" name="DsFabricante">
+    <column id="5721" parent="5648" name="DsFabricante">
       <Position>5</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5753" parent="5678" name="CdFabricante">
+    <column id="5722" parent="5648" name="CdFabricante">
       <Position>6</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5754" parent="5678" name="DsFornecedor">
+    <column id="5723" parent="5648" name="DsFornecedor">
       <Position>7</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5755" parent="5678" name="Qtestoque">
+    <column id="5724" parent="5648" name="Qtestoque">
       <Position>8</Position>
       <StoredType>numeric(5)|0s</StoredType>
     </column>
-    <column id="5756" parent="5678" name="Dsaplicacao">
+    <column id="5725" parent="5648" name="Dsaplicacao">
       <Position>9</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5757" parent="5678" name="DsAnoaplicacao">
+    <column id="5726" parent="5648" name="DsAnoaplicacao">
       <Position>10</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5758" parent="5678" name="DsUsado">
+    <column id="5727" parent="5648" name="DsUsado">
       <Position>11</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5759" parent="5678" name="DtCadastro">
+    <column id="5728" parent="5648" name="DtCadastro">
       <Position>12</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5760" parent="5678" name="QtEstoqueMinimo">
+    <column id="5729" parent="5648" name="QtEstoqueMinimo">
       <Position>13</Position>
       <StoredType>numeric(5)|0s</StoredType>
     </column>
-    <column id="5761" parent="5678" name="fotopro">
+    <column id="5730" parent="5648" name="fotopro">
       <Position>22</Position>
       <StoredType>varchar(50 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5762" parent="5678" name="CodBarras">
+    <column id="5731" parent="5648" name="CodBarras">
       <Position>23</Position>
       <StoredType>nchar(13 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5763" parent="5678" name="DsObservacao">
+    <column id="5732" parent="5648" name="DsObservacao">
       <Position>24</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5764" parent="5678" name="FotoImagem">
+    <column id="5733" parent="5648" name="FotoImagem">
       <Position>25</Position>
       <StoredType>varbinary(max)|0s</StoredType>
     </column>
-    <index id="5765" parent="5678" name="PK__TblProdu__E4C67224609AFCB4">
+    <index id="5734" parent="5648" name="PK__TblProdu__E4C67224609AFCB4">
       <Clustering>1</Clustering>
       <ColNames>Cdproduto</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17850,7 +17696,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5766" parent="5678" name="PK__TblProdu__E4C67224609AFCB4">
+    <key id="5735" parent="5648" name="PK__TblProdu__E4C67224609AFCB4">
       <CreatedTimestamp>2021-08-03.11:58:33.913</CreatedTimestamp>
       <ModifiedTimestamp>2021-08-03.11:58:33.913</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17858,79 +17704,79 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblProdu__E4C67224609AFCB4</UnderlyingIndexName>
     </key>
-    <column id="5767" parent="5679" name="CdServico">
+    <column id="5736" parent="5649" name="CdServico">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5768" parent="5679" name="cdcliente">
+    <column id="5737" parent="5649" name="cdcliente">
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5769" parent="5679" name="cdveiculo">
+    <column id="5738" parent="5649" name="cdveiculo">
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5770" parent="5679" name="NrKmAtual">
+    <column id="5739" parent="5649" name="NrKmAtual">
       <Position>4</Position>
       <StoredType>numeric(8)|0s</StoredType>
     </column>
-    <column id="5771" parent="5679" name="DsAvaria">
+    <column id="5740" parent="5649" name="DsAvaria">
       <Position>5</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5772" parent="5679" name="DsDFReclamado">
+    <column id="5741" parent="5649" name="DsDFReclamado">
       <Position>6</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5773" parent="5679" name="DsDFconstatado">
+    <column id="5742" parent="5649" name="DsDFconstatado">
       <Position>7</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5774" parent="5679" name="InStatus">
+    <column id="5743" parent="5649" name="InStatus">
       <Position>8</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="5775" parent="5679" name="InSituacao">
+    <column id="5744" parent="5649" name="InSituacao">
       <Position>9</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="5776" parent="5679" name="DtEntrada">
+    <column id="5745" parent="5649" name="DtEntrada">
       <Position>10</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5777" parent="5679" name="DtPrevisto">
+    <column id="5746" parent="5649" name="DtPrevisto">
       <Position>11</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5778" parent="5679" name="DtSaida">
+    <column id="5747" parent="5649" name="DtSaida">
       <Position>12</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5779" parent="5679" name="VlordemServicoDesconto">
+    <column id="5748" parent="5649" name="VlordemServicoDesconto">
       <Position>13</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5780" parent="5679" name="VlordemServicoPgAntecipado">
+    <column id="5749" parent="5649" name="VlordemServicoPgAntecipado">
       <Position>14</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5781" parent="5679" name="VlordemServicofaltaPagar">
+    <column id="5750" parent="5649" name="VlordemServicofaltaPagar">
       <Position>15</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5782" parent="5679" name="InTrocaoleo">
+    <column id="5751" parent="5649" name="InTrocaoleo">
       <Position>16</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="5783" parent="5679" name="DtOrdemServico">
+    <column id="5752" parent="5649" name="DtOrdemServico">
       <Position>17</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="5784" parent="5679" name="PK__Tblservi__9267C0CD40A6B33A">
+    <index id="5753" parent="5649" name="PK__Tblservi__9267C0CD40A6B33A">
       <Clustering>1</Clustering>
       <ColNames>CdServico</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17938,7 +17784,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5785" parent="5679" name="PK__Tblservi__9267C0CD40A6B33A">
+    <key id="5754" parent="5649" name="PK__Tblservi__9267C0CD40A6B33A">
       <CreatedTimestamp>2021-04-01.07:16:32.800</CreatedTimestamp>
       <ModifiedTimestamp>2021-04-01.07:16:32.800</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17946,21 +17792,21 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__Tblservi__9267C0CD40A6B33A</UnderlyingIndexName>
     </key>
-    <column id="5786" parent="5680" name="CdSevicosprestados">
+    <column id="5755" parent="5650" name="CdSevicosprestados">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5787" parent="5680" name="DsDescricao">
+    <column id="5756" parent="5650" name="DsDescricao">
       <Position>2</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5788" parent="5680" name="VlServicoPrestadofixo">
+    <column id="5757" parent="5650" name="VlServicoPrestadofixo">
       <Position>4</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <index id="5789" parent="5680" name="PK__Tblservi__BD8312FB9FDCC94B">
+    <index id="5758" parent="5650" name="PK__Tblservi__BD8312FB9FDCC94B">
       <Clustering>1</Clustering>
       <ColNames>CdSevicosprestados</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -17968,7 +17814,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5790" parent="5680" name="PK__Tblservi__BD8312FB9FDCC94B">
+    <key id="5759" parent="5650" name="PK__Tblservi__BD8312FB9FDCC94B">
       <CreatedTimestamp>2021-08-27.12:45:54.263</CreatedTimestamp>
       <ModifiedTimestamp>2021-08-27.12:45:54.263</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -17976,37 +17822,37 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__Tblservi__BD8312FB9FDCC94B</UnderlyingIndexName>
     </key>
-    <column id="5791" parent="5681" name="CdSprestadosVenda">
+    <column id="5760" parent="5651" name="CdSprestadosVenda">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <SequenceIdentity>1(10990)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5792" parent="5681" name="CdServico">
+    <column id="5761" parent="5651" name="CdServico">
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5793" parent="5681" name="CdSevicosprestados">
+    <column id="5762" parent="5651" name="CdSevicosprestados">
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5794" parent="5681" name="DsDescricao">
+    <column id="5763" parent="5651" name="DsDescricao">
       <Position>4</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5795" parent="5681" name="Qtservicosprestados">
+    <column id="5764" parent="5651" name="Qtservicosprestados">
       <Position>5</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5796" parent="5681" name="VlProdutoVenda">
+    <column id="5765" parent="5651" name="VlProdutoVenda">
       <Position>6</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5797" parent="5681" name="VlServicoPrestadototal">
+    <column id="5766" parent="5651" name="VlServicoPrestadototal">
       <Position>7</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <foreign-key id="5798" parent="5681" name="FK__TblServicosPrestadosVenda__CdServico">
+    <foreign-key id="5767" parent="5651" name="FK__TblServicosPrestadosVenda__CdServico">
       <ColNames>CdServico</ColNames>
       <CreatedTimestamp>2023-02-22.12:10:38.780</CreatedTimestamp>
       <ModifiedTimestamp>2023-02-22.12:10:38.780</ModifiedTimestamp>
@@ -18016,7 +17862,7 @@
       <RefTableId>2018106230</RefTableId>
       <RefTableName>TblServicos</RefTableName>
     </foreign-key>
-    <foreign-key id="5799" parent="5681" name="FK__TblServicosPrestadosVenda_CdSevicovenda">
+    <foreign-key id="5768" parent="5651" name="FK__TblServicosPrestadosVenda_CdSevicovenda">
       <ColNames>CdSevicosprestados</ColNames>
       <CreatedTimestamp>2021-08-27.12:46:03.267</CreatedTimestamp>
       <ModifiedTimestamp>2023-02-22.12:10:07.650</ModifiedTimestamp>
@@ -18025,7 +17871,7 @@
       <RefTableId>1246627484</RefTableId>
       <RefTableName>TblServicosPrestados</RefTableName>
     </foreign-key>
-    <index id="5800" parent="5681" name="PK__TblServi__88A27B6F802287D9">
+    <index id="5769" parent="5651" name="PK__TblServi__88A27B6F802287D9">
       <Clustering>1</Clustering>
       <ColNames>CdSprestadosVenda</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18033,7 +17879,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5801" parent="5681" name="PK__TblServi__88A27B6F802287D9">
+    <key id="5770" parent="5651" name="PK__TblServi__88A27B6F802287D9">
       <CreatedTimestamp>2021-08-27.12:46:03.267</CreatedTimestamp>
       <ModifiedTimestamp>2021-08-27.12:46:03.267</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18041,37 +17887,37 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblServi__88A27B6F802287D9</UnderlyingIndexName>
     </key>
-    <column id="5802" parent="5682" name="CdServicovenda">
+    <column id="5771" parent="5652" name="CdServicovenda">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <SequenceIdentity>1(14833)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5803" parent="5682" name="CdServico">
+    <column id="5772" parent="5652" name="CdServico">
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5804" parent="5682" name="CdProduto">
+    <column id="5773" parent="5652" name="CdProduto">
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5805" parent="5682" name="DsProduto">
+    <column id="5774" parent="5652" name="DsProduto">
       <Position>4</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5806" parent="5682" name="QtProdutoVenda">
+    <column id="5775" parent="5652" name="QtProdutoVenda">
       <Position>5</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5807" parent="5682" name="VlProdutoVenda">
+    <column id="5776" parent="5652" name="VlProdutoVenda">
       <Position>6</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5808" parent="5682" name="VlProdutoVendatotal">
+    <column id="5777" parent="5652" name="VlProdutoVendatotal">
       <Position>7</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <foreign-key id="5809" parent="5682" name="FK__TblServicosVendaProdutos__CdServico">
+    <foreign-key id="5778" parent="5652" name="FK__TblServicosVendaProdutos__CdServico">
       <ColNames>CdServico</ColNames>
       <CreatedTimestamp>2023-02-22.12:09:35.470</CreatedTimestamp>
       <ModifiedTimestamp>2023-02-22.12:09:35.470</ModifiedTimestamp>
@@ -18081,7 +17927,7 @@
       <RefTableId>2018106230</RefTableId>
       <RefTableName>TblServicos</RefTableName>
     </foreign-key>
-    <foreign-key id="5810" parent="5682" name="FK__TblServicosVendaProdutos__CdProduto">
+    <foreign-key id="5779" parent="5652" name="FK__TblServicosVendaProdutos__CdProduto">
       <ColNames>CdProduto</ColNames>
       <CreatedTimestamp>2021-08-04.12:08:04.800</CreatedTimestamp>
       <ModifiedTimestamp>2023-02-22.12:06:57.697</ModifiedTimestamp>
@@ -18090,7 +17936,7 @@
       <RefTableId>782625831</RefTableId>
       <RefTableName>TblProdutos</RefTableName>
     </foreign-key>
-    <index id="5811" parent="5682" name="PK__TblServi__BB9AF0F5592502BD">
+    <index id="5780" parent="5652" name="PK__TblServi__BB9AF0F5592502BD">
       <Clustering>1</Clustering>
       <ColNames>CdServicovenda</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18098,7 +17944,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5812" parent="5682" name="PK__TblServi__BB9AF0F5592502BD">
+    <key id="5781" parent="5652" name="PK__TblServi__BB9AF0F5592502BD">
       <CreatedTimestamp>2021-08-04.12:08:04.800</CreatedTimestamp>
       <ModifiedTimestamp>2021-08-04.12:08:04.800</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18106,7 +17952,7 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblServi__BB9AF0F5592502BD</UnderlyingIndexName>
     </key>
-    <trigger id="5813" parent="5682" name="TIServicos">
+    <trigger id="5782" parent="5652" name="TIServicos">
       <CreatedTimestamp>2021-12-10.06:21:13.843</CreatedTimestamp>
       <Events>I</Events>
       <ModifiedTimestamp>2021-12-10.06:21:13.843</ModifiedTimestamp>
@@ -18114,7 +17960,7 @@
       <SourceTextLength>392</SourceTextLength>
       <Turn>after-stmt</Turn>
     </trigger>
-    <trigger id="5814" parent="5682" name="TDServicos">
+    <trigger id="5783" parent="5652" name="TDServicos">
       <CreatedTimestamp>2021-12-10.06:21:19.493</CreatedTimestamp>
       <Events>D</Events>
       <ModifiedTimestamp>2021-12-10.06:21:19.493</ModifiedTimestamp>
@@ -18122,103 +17968,103 @@
       <SourceTextLength>390</SourceTextLength>
       <Turn>after-stmt</Turn>
     </trigger>
-    <column id="5815" parent="5683" name="Cdusuario">
+    <column id="5784" parent="5653" name="Cdusuario">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5816" parent="5683" name="Dsusuario">
+    <column id="5785" parent="5653" name="Dsusuario">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5817" parent="5683" name="Dssenha">
+    <column id="5786" parent="5653" name="Dssenha">
       <Position>3</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5818" parent="5683" name="Dssenhaconfirma">
+    <column id="5787" parent="5653" name="Dssenhaconfirma">
       <Position>4</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5819" parent="5683" name="DsNome">
+    <column id="5788" parent="5653" name="DsNome">
       <Position>5</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5820" parent="5683" name="DsTelefone">
+    <column id="5789" parent="5653" name="DsTelefone">
       <Position>6</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5821" parent="5683" name="DsEndereco">
+    <column id="5790" parent="5653" name="DsEndereco">
       <Position>7</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5822" parent="5683" name="CdCep">
+    <column id="5791" parent="5653" name="CdCep">
       <Position>8</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5823" parent="5683" name="Dsemail">
+    <column id="5792" parent="5653" name="Dsemail">
       <Position>9</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5824" parent="5683" name="DsBairro">
+    <column id="5793" parent="5653" name="DsBairro">
       <Position>10</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5825" parent="5683" name="DsCidade">
+    <column id="5794" parent="5653" name="DsCidade">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5826" parent="5683" name="DSRegiao">
+    <column id="5795" parent="5653" name="DSRegiao">
       <Position>12</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5827" parent="5683" name="CdCPF">
+    <column id="5796" parent="5653" name="CdCPF">
       <Position>13</Position>
       <StoredType>char(14 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5828" parent="5683" name="CdRG">
+    <column id="5797" parent="5653" name="CdRG">
       <Position>14</Position>
       <StoredType>char(9 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5829" parent="5683" name="DsWattsapp">
+    <column id="5798" parent="5653" name="DsWattsapp">
       <Position>15</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5830" parent="5683" name="DtCadasto">
+    <column id="5799" parent="5653" name="DtCadasto">
       <Position>16</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5831" parent="5683" name="Nrendereco">
+    <column id="5800" parent="5653" name="Nrendereco">
       <Position>17</Position>
       <StoredType>numeric(7)|0s</StoredType>
     </column>
-    <column id="5832" parent="5683" name="Dscomplemento">
+    <column id="5801" parent="5653" name="Dscomplemento">
       <Position>18</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5833" parent="5683" name="InStatus">
+    <column id="5802" parent="5653" name="InStatus">
       <Position>19</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="5834" parent="5683" name="Intipouser">
+    <column id="5803" parent="5653" name="Intipouser">
       <Position>20</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <index id="5835" parent="5683" name="PK__TblUsuar__A912989908502FA9">
+    <index id="5804" parent="5653" name="PK__TblUsuar__A912989908502FA9">
       <Clustering>1</Clustering>
       <ColNames>Cdusuario</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18226,7 +18072,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5836" parent="5683" name="PK__TblUsuar__A912989908502FA9">
+    <key id="5805" parent="5653" name="PK__TblUsuar__A912989908502FA9">
       <CreatedTimestamp>2021-11-29.12:29:20.727</CreatedTimestamp>
       <ModifiedTimestamp>2021-11-29.12:29:20.727</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18234,17 +18080,17 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__TblUsuar__A912989908502FA9</UnderlyingIndexName>
     </key>
-    <column id="5837" parent="5684" name="Cdperfiluser">
+    <column id="5806" parent="5654" name="Cdperfiluser">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5838" parent="5684" name="DsNomeperfil">
+    <column id="5807" parent="5654" name="DsNomeperfil">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <index id="5839" parent="5684" name="PK__Tblperfi__2AB718F9A51B133F">
+    <index id="5808" parent="5654" name="PK__Tblperfi__2AB718F9A51B133F">
       <Clustering>1</Clustering>
       <ColNames>Cdperfiluser</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18252,7 +18098,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5840" parent="5684" name="PK__Tblperfi__2AB718F9A51B133F">
+    <key id="5809" parent="5654" name="PK__Tblperfi__2AB718F9A51B133F">
       <CreatedTimestamp>2021-12-01.10:58:14.503</CreatedTimestamp>
       <ModifiedTimestamp>2021-12-01.10:58:14.503</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18260,58 +18106,58 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__Tblperfi__2AB718F9A51B133F</UnderlyingIndexName>
     </key>
-    <column id="5841" parent="5685" name="CdEntrada">
+    <column id="5810" parent="5655" name="CdEntrada">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5842" parent="5685" name="DtEntrada">
+    <column id="5811" parent="5655" name="DtEntrada">
       <Position>2</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5843" parent="5685" name="DsUsuario">
+    <column id="5812" parent="5655" name="DsUsuario">
       <Position>3</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5844" parent="5685" name="Cdnotaentrada">
+    <column id="5813" parent="5655" name="Cdnotaentrada">
       <Position>4</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5845" parent="5685" name="cdfornecedor">
+    <column id="5814" parent="5655" name="cdfornecedor">
       <Position>5</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5846" parent="5685" name="dsfornecedor">
+    <column id="5815" parent="5655" name="dsfornecedor">
       <Position>6</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5847" parent="5685" name="DsObservacao">
+    <column id="5816" parent="5655" name="DsObservacao">
       <Position>7</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5848" parent="5685" name="DstipoMovi">
+    <column id="5817" parent="5655" name="DstipoMovi">
       <Position>8</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5849" parent="5685" name="VltotalEntradaProdutos">
+    <column id="5818" parent="5655" name="VltotalEntradaProdutos">
       <Position>9</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5850" parent="5685" name="DtEmisaoNF">
+    <column id="5819" parent="5655" name="DtEmisaoNF">
       <Position>10</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5851" parent="5685" name="DsFantasia">
+    <column id="5820" parent="5655" name="DsFantasia">
       <Position>11</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <index id="5852" parent="5685" name="PK__tblEntra__795A4984E436707C">
+    <index id="5821" parent="5655" name="PK__tblEntra__795A4984E436707C">
       <Clustering>1</Clustering>
       <ColNames>CdEntrada</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18319,7 +18165,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5853" parent="5685" name="PK__tblEntra__795A4984E436707C">
+    <key id="5822" parent="5655" name="PK__tblEntra__795A4984E436707C">
       <CreatedTimestamp>2022-04-01.13:35:09.287</CreatedTimestamp>
       <ModifiedTimestamp>2022-04-01.13:35:09.287</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18327,43 +18173,43 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__tblEntra__795A4984E436707C</UnderlyingIndexName>
     </key>
-    <column id="5854" parent="5686" name="CdentradaProdutos">
+    <column id="5823" parent="5656" name="CdentradaProdutos">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <SequenceIdentity>1(140)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5855" parent="5686" name="Cdentrada">
+    <column id="5824" parent="5656" name="Cdentrada">
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5856" parent="5686" name="cdproduto">
+    <column id="5825" parent="5656" name="cdproduto">
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5857" parent="5686" name="DsProduto">
+    <column id="5826" parent="5656" name="DsProduto">
       <Position>4</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5858" parent="5686" name="DsEmbalagem">
+    <column id="5827" parent="5656" name="DsEmbalagem">
       <Position>5</Position>
       <StoredType>varchar(5 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5859" parent="5686" name="QtProdutoEntrada">
+    <column id="5828" parent="5656" name="QtProdutoEntrada">
       <Position>6</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5860" parent="5686" name="VlProdutocompra">
+    <column id="5829" parent="5656" name="VlProdutocompra">
       <Position>7</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <column id="5861" parent="5686" name="VlProdutoVenda">
+    <column id="5830" parent="5656" name="VlProdutoVenda">
       <Position>8</Position>
       <StoredType>numeric(10,2)|0s</StoredType>
     </column>
-    <foreign-key id="5862" parent="5686" name="FK__tblEntrad__Cdent__4460231C">
+    <foreign-key id="5831" parent="5656" name="FK__tblEntrad__Cdent__4460231C">
       <ColNames>Cdentrada</ColNames>
       <CreatedTimestamp>2022-04-06.07:53:54.917</CreatedTimestamp>
       <ModifiedTimestamp>2022-04-06.07:53:54.917</ModifiedTimestamp>
@@ -18373,7 +18219,7 @@
       <RefTableId>875150163</RefTableId>
       <RefTableName>tblEntrada</RefTableName>
     </foreign-key>
-    <foreign-key id="5863" parent="5686" name="FK__tblEntrad__cdpro__45544755">
+    <foreign-key id="5832" parent="5656" name="FK__tblEntrad__cdpro__45544755">
       <ColNames>cdproduto</ColNames>
       <CreatedTimestamp>2022-04-06.07:53:54.920</CreatedTimestamp>
       <ModifiedTimestamp>2022-04-06.07:53:54.920</ModifiedTimestamp>
@@ -18383,7 +18229,7 @@
       <RefTableId>782625831</RefTableId>
       <RefTableName>TblProdutos</RefTableName>
     </foreign-key>
-    <index id="5864" parent="5686" name="PK__tblEntra__0C9F227C3261CBD7">
+    <index id="5833" parent="5656" name="PK__tblEntra__0C9F227C3261CBD7">
       <Clustering>1</Clustering>
       <ColNames>CdentradaProdutos</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18391,7 +18237,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5865" parent="5686" name="PK__tblEntra__0C9F227C3261CBD7">
+    <key id="5834" parent="5656" name="PK__tblEntra__0C9F227C3261CBD7">
       <CreatedTimestamp>2022-04-06.07:53:54.917</CreatedTimestamp>
       <ModifiedTimestamp>2022-04-06.07:53:54.917</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18399,7 +18245,7 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__tblEntra__0C9F227C3261CBD7</UnderlyingIndexName>
     </key>
-    <trigger id="5866" parent="5686" name="TIEntradaProdutos">
+    <trigger id="5835" parent="5656" name="TIEntradaProdutos">
       <CreatedTimestamp>2022-04-11.13:11:56.310</CreatedTimestamp>
       <Events>I</Events>
       <ModifiedTimestamp>2022-04-11.13:11:56.310</ModifiedTimestamp>
@@ -18407,7 +18253,7 @@
       <SourceTextLength>423</SourceTextLength>
       <Turn>after-stmt</Turn>
     </trigger>
-    <trigger id="5867" parent="5686" name="TDEntradaProdutos">
+    <trigger id="5836" parent="5656" name="TDEntradaProdutos">
       <CreatedTimestamp>2022-04-11.13:11:50.667</CreatedTimestamp>
       <Events>D</Events>
       <ModifiedTimestamp>2022-04-11.13:11:50.667</ModifiedTimestamp>
@@ -18415,114 +18261,114 @@
       <SourceTextLength>422</SourceTextLength>
       <Turn>after-stmt</Turn>
     </trigger>
-    <column id="5868" parent="5687" name="CdVeiculo">
+    <column id="5837" parent="5657" name="CdVeiculo">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5869" parent="5687" name="DsVeiculo">
+    <column id="5838" parent="5657" name="DsVeiculo">
       <Position>2</Position>
       <StoredType>varchar(35 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5870" parent="5687" name="DsModelo">
+    <column id="5839" parent="5657" name="DsModelo">
       <Position>3</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5871" parent="5687" name="DtAnoFabricacao">
+    <column id="5840" parent="5657" name="DtAnoFabricacao">
       <Position>4</Position>
       <StoredType>numeric(6)|0s</StoredType>
     </column>
-    <column id="5872" parent="5687" name="Dtmodelo">
+    <column id="5841" parent="5657" name="Dtmodelo">
       <Position>5</Position>
       <StoredType>numeric(6)|0s</StoredType>
     </column>
-    <column id="5873" parent="5687" name="Dsproprietario">
+    <column id="5842" parent="5657" name="Dsproprietario">
       <Position>6</Position>
       <StoredType>varchar(50 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5874" parent="5687" name="DsApelido">
+    <column id="5843" parent="5657" name="DsApelido">
       <Position>7</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5875" parent="5687" name="DsPlaca">
+    <column id="5844" parent="5657" name="DsPlaca">
       <Position>8</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5876" parent="5687" name="CdUFLocal">
+    <column id="5845" parent="5657" name="CdUFLocal">
       <Position>9</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5877" parent="5687" name="DsMarca">
+    <column id="5846" parent="5657" name="DsMarca">
       <Position>10</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5878" parent="5687" name="Dsrenavam">
+    <column id="5847" parent="5657" name="Dsrenavam">
       <Position>11</Position>
       <StoredType>numeric(15)|0s</StoredType>
     </column>
-    <column id="5879" parent="5687" name="Dsmotor">
+    <column id="5848" parent="5657" name="Dsmotor">
       <Position>12</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5880" parent="5687" name="NrKmInicial">
+    <column id="5849" parent="5657" name="NrKmInicial">
       <Position>13</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5881" parent="5687" name="NrKmAtual">
+    <column id="5850" parent="5657" name="NrKmAtual">
       <Position>14</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5882" parent="5687" name="InStatus">
+    <column id="5851" parent="5657" name="InStatus">
       <Position>15</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="5883" parent="5687" name="dtcadastro">
+    <column id="5852" parent="5657" name="dtcadastro">
       <Position>16</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="5884" parent="5687" name="DsCor">
+    <column id="5853" parent="5657" name="DsCor">
       <Position>17</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5885" parent="5687" name="DsObservacao">
+    <column id="5854" parent="5657" name="DsObservacao">
       <Position>18</Position>
       <StoredType>varchar(max)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5886" parent="5687" name="DsCilindrada">
+    <column id="5855" parent="5657" name="DsCilindrada">
       <Position>19</Position>
       <StoredType>varchar(6 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5887" parent="5687" name="DsHp">
+    <column id="5856" parent="5657" name="DsHp">
       <Position>20</Position>
       <StoredType>varchar(6 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5888" parent="5687" name="DsCombustivel">
+    <column id="5857" parent="5657" name="DsCombustivel">
       <Position>21</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5889" parent="5687" name="fotoVei">
+    <column id="5858" parent="5657" name="fotoVei">
       <Position>22</Position>
       <StoredType>varchar(50 char)|0s</StoredType>
       <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
-    <column id="5890" parent="5687" name="CdCliente">
+    <column id="5859" parent="5657" name="CdCliente">
       <Position>23</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <index id="5891" parent="5687" name="PK__tblVeicu__2370CC4261A1E4A1">
+    <index id="5860" parent="5657" name="PK__tblVeicu__2370CC4261A1E4A1">
       <Clustering>1</Clustering>
       <ColNames>CdVeiculo</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -18530,7 +18376,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5892" parent="5687" name="PK__tblVeicu__2370CC4261A1E4A1">
+    <key id="5861" parent="5657" name="PK__tblVeicu__2370CC4261A1E4A1">
       <CreatedTimestamp>2021-03-23.12:35:24.687</CreatedTimestamp>
       <ModifiedTimestamp>2021-03-23.12:35:24.687</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -18538,17 +18384,17 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__tblVeicu__2370CC4261A1E4A1</UnderlyingIndexName>
     </key>
-    <column id="5893" parent="5688" name="CdVeiculo">
+    <column id="5862" parent="5658" name="CdVeiculo">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5894" parent="5688" name="CdCliente">
+    <column id="5863" parent="5658" name="CdCliente">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <foreign-key id="5895" parent="5688" name="FK__tblVeicul__CdVei__1C873BEC">
+    <foreign-key id="5864" parent="5658" name="FK__tblVeicul__CdVei__1C873BEC">
       <ColNames>CdVeiculo</ColNames>
       <CreatedTimestamp>2021-04-20.07:50:00.863</CreatedTimestamp>
       <ModifiedTimestamp>2021-04-20.07:50:00.863</ModifiedTimestamp>
@@ -18558,7 +18404,7 @@
       <RefTableId>338100245</RefTableId>
       <RefTableName>tblVeiculos</RefTableName>
     </foreign-key>
-    <foreign-key id="5896" parent="5688" name="FK__tblVeicul__CdCli__1D7B6025">
+    <foreign-key id="5865" parent="5658" name="FK__tblVeicul__CdCli__1D7B6025">
       <ColNames>CdCliente</ColNames>
       <CreatedTimestamp>2021-04-20.07:50:00.867</CreatedTimestamp>
       <ModifiedTimestamp>2021-04-20.07:50:00.867</ModifiedTimestamp>
@@ -18568,47 +18414,18 @@
       <RefTableId>430624577</RefTableId>
       <RefTableName>TblClientes</RefTableName>
     </foreign-key>
-    <column id="5897" parent="5689" name="CdServico">
+    <column id="5866" parent="5659" name="CdServico">
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5898" parent="5689" name="VlTotal">
+    <column id="5867" parent="5659" name="VlTotal">
       <Position>2</Position>
       <StoredType>numeric(38,2)|0s</StoredType>
     </column>
-    <column id="5899" parent="5689" name="InTipoProduto">
+    <column id="5868" parent="5659" name="InTipoProduto">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="5900" parent="5690" name="id">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int|0s</StoredType>
-    </column>
-    <column id="5901" parent="5690" name="nome">
-      <Position>2</Position>
-      <StoredType>varchar(100 char)|0s</StoredType>
-    </column>
-    <column id="5902" parent="5690" name="idade">
-      <Position>3</Position>
-      <StoredType>int|0s</StoredType>
-    </column>
-    <index id="5903" parent="5690" name="PK__aluno__3213E83F54D31A23">
-      <Clustering>1</Clustering>
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Position>1</Position>
-      <Unique>1</Unique>
-      <PartitionDataSpaceId>1</PartitionDataSpaceId>
-    </index>
-    <key id="5904" parent="5690" name="PK__aluno__3213E83F54D31A23">
-      <CreatedTimestamp>2026-02-26.21:21:49.350</CreatedTimestamp>
-      <ModifiedTimestamp>2026-02-26.21:21:49.350</ModifiedTimestamp>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>1605580758</ObjectId>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PK__aluno__3213E83F54D31A23</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>
