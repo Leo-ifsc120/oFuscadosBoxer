@@ -15,9 +15,7 @@
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
             </node>
-            <node kind="database">
-              <name qname="aula" />
-              <name qname="Oficina" />
+            <node kind="database" qname="Oficina">
               <node kind="schema" qname="dbo" />
             </node>
           </node>

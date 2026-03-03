@@ -34,7 +34,7 @@ div.container
 
 }
 
-div.error
+div#error
 {
     border: solid black 5px;
     margin: 20px auto;
@@ -44,7 +44,7 @@ div.error
     height: 90px;
 }
 
-p.error
+p#error
 {
     text-align: center;
     font-size: 30px;
