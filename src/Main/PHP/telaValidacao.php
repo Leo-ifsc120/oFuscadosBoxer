@@ -20,7 +20,7 @@ do
     {
         if ($passCheck == $pass)
         {
-            require "cadastro.php";
+            require "tabelas.php";
             die();
         }
     }

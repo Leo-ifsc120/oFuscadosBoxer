@@ -22,7 +22,7 @@
     $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 
-    echo "<table> <tr id='theader'><td>Id</td><td>Descrição</td><td>Embalagem</td><td>Produto</td><td>Fabricante</td><td>Fornecedor</td><td>Estoque</td><td>Aplicação</td><td>Ano da Aplicação</td><td>Usado</td><td>Estoque minimo</td><td>fotopro</td></tr>";
+    echo "<table> <tr id='theader'><th>Id</th><th>Descrição</th><th>Embalagem</th><th>Produto</th><th>Fabricante</th><th>Fornecedor</th><th>Estoque</th><th>Aplicação</th><th>Ano da Aplicação</th><th>Usado</th><th>Estoque minimo</th><th>fotopro</th></tr>";
     $stmt = sqlsrv_query($conn, "select * from TblProdutos");
     if( $stmt === false) {
         die( print_r( sqlsrv_errors(), true) );
