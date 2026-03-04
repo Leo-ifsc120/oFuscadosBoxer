@@ -29,18 +29,20 @@
     }
 
     while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
-        echo "<tr><td>" . $row[0] . "</td>";
-        echo "<td>" . $row[1] . "</td>";
-        echo "<td>" . $row[2] . "</td>";
-        echo "<td>" . $row[3] . "</td>";
-        echo "<td>" . $row[4] . "</td>";
-        echo "<td>" . $row[6] . "</td>";
-        echo "<td>" . $row[7] . "</td>";
-        echo "<td>" . $row[8] . "</td>";
-        echo "<td>" . $row[9] . "</td>";
-        echo "<td>" . $row[10] . "</td>";
-        echo "<td>" . $row[12] . "</td>";
-        echo "<td> <img alt='' src='$row[13]'> </td> </tr>";
+        echo "<tr>
+                <td> $row[0] </td>
+                <td> $row[1] </td>
+                <td> $row[2] </td>
+                <td> $row[3] </td>
+                <td> $row[4] </td>
+                <td> $row[6] </td>
+                <td> $row[7] </td>
+                <td> $row[8] </td>
+                <td> $row[9] </td>
+                <td> $row[10] </td>
+                <td> $row[12] </td>
+                <td> <img alt='' src='$row[13]'></td> 
+              </tr>";
     }
 
 

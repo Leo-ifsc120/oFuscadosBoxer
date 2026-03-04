@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaValidacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/telaValidacao.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -93,6 +93,7 @@
       &quot;sqlserver&quot;
     ],
     &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f/database/\&quot;Oficina\&quot;&quot;,
       &quot;17959df4-dd0b-4765-90fc-09dffc206d4f&quot;
     ]
   }
@@ -112,6 +113,7 @@
       <script-file value="$PROJECT_DIR$/src/Main/sql/aula.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" />
+      <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" namespace="database/&quot;Oficina&quot;" />
       <method v="2" />
     </configuration>
   </component>
@@ -153,7 +155,12 @@
       <workItem from="1772474166453" duration="1623000" />
       <workItem from="1772499166335" duration="1465000" />
       <workItem from="1772554516278" duration="48000" />
-      <workItem from="1772555693867" duration="705000" />
+      <workItem from="1772555693867" duration="1543000" />
+      <workItem from="1772562923202" duration="176000" />
+      <workItem from="1772624428702" duration="1217000" />
+      <workItem from="1772625674791" duration="900000" />
+      <workItem from="1772640075586" duration="89000" />
+      <workItem from="1772640207493" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -219,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772500630279</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772556607225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772556607225</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

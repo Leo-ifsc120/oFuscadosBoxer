@@ -7,6 +7,8 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 $user = $_POST["usuario"];
 $pass = $_POST["password"];
+$real = "renato";
+
 
 $check = "select Dsusuario, Dssenha from TblUsuario";
 
