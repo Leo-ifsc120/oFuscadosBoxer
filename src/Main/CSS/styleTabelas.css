@@ -13,7 +13,7 @@ header
     height: 150px;
     display: flex;
 }
-img
+img#logo
 {
     width: 150px;
     height: 150px;
@@ -51,7 +51,42 @@ tr:nth-child(even) {
     background-color: #7C7C7C;
 }
 
-@media  min
+div.button
 {
+    height: 100px;
+}
 
+input
+{
+    margin-left: 20px;
+    margin-top: 12.5px;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+}
+#fornecedores
+{
+    background-image: url("../img/Imagens/FORNECEDORES.png");
+    background-size: cover;
+}
+#clientes
+{
+    background-image: url("../img/Imagens/Clientes.png");
+    background-size: cover;
+}
+#produtos
+{
+    background-image: url("../img/Imagens/Produtos.png");
+    background-size: cover;
+}
+#servicos
+{
+    background-image: url("../img/Imagens/servicos.png");
+    background-size: cover;
+}
+#veiculos
+{
+    background-image: url("../img/Imagens/veiculos.png");
+    background-size: cover;
 }

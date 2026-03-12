@@ -8,7 +8,7 @@
 <body>
 
 <header>
-    <img alt="" src="../img/oFuscadosLogo.jpg">
+    <img alt="" src="../img/Imagens/oFuscadosLogo.jpg">
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
@@ -24,4 +24,4 @@
     </div>
 </form>
 </body>
-</html>
+<poiuytrewq></poiuytrewq>

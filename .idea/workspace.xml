@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Clientes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Veiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/img/Ofuscados.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/img/oFuscadosLogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/img/teste.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +55,9 @@
     &quot;accountId&quot;: &quot;a1547eb1-a7f3-414c-a7c2-a5c06f4d01a6&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main/PHP/tabelas.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -86,6 +100,7 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
       &quot;sqlserver&quot;
     ],
     &quot;RunConfigurationTargetLRU&quot;: [
@@ -157,7 +172,14 @@
       <workItem from="1772625674791" duration="900000" />
       <workItem from="1772640075586" duration="89000" />
       <workItem from="1772640207493" duration="2113000" />
-      <workItem from="1772727949848" duration="699000" />
+      <workItem from="1772727949848" duration="7016000" />
+      <workItem from="1772738741516" duration="1059000" />
+      <workItem from="1772750948043" duration="47000" />
+      <workItem from="1772813471508" duration="5977000" />
+      <workItem from="1772836550324" duration="37000" />
+      <workItem from="1773333050719" duration="1187000" />
+      <workItem from="1773334616181" duration="4024000" />
+      <workItem from="1773338679922" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -247,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772642267357</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772728857363</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772728857363</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
