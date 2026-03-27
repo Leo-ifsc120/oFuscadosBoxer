@@ -20,7 +20,7 @@ do
     {
         if ($passCheck == $pass)
         {
-            require "tabelas.php";
+            require "../Tables/tabelas.php";
             die();
         }
     }

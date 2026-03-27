@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>OFuscadosBoxer</title>
-    <link rel="stylesheet" href="../CSS/styleTabelas.css">
+    <link rel="stylesheet" href="../../CSS/styleTabelas.css">
 </head>
 <body>
 
 <header>
-    <img alt="" src="../img/Imagens/oFuscadosLogo.jpg" id="logo">
+    <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
@@ -32,10 +32,7 @@
 
     <?php
 
-    $serverName = "LEONARDO_NOTE\sqlexpress";
-    $connectionInfo = array("Database"=>"Oficina", "UID"=>"", "PWD"=>"");
-
-    $conn = sqlsrv_connect($serverName, $connectionInfo);
+    require "../DataBase/Connection.php";
 
     $btnVeiculos = isset($_POST["veiculos"]);
     $btnClientes = isset($_POST["clientes"]);

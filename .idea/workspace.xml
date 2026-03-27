@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Clientes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Veiculos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/img/Ofuscados.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/img/oFuscadosLogo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/img/teste.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/telaDeLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/telaValidacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/telaValidacao.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,9 +117,11 @@
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\Tables" />
+      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\DataBase" />
+      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\Login" />
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP" />
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\MainScreen" />
-      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -131,8 +136,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -180,6 +185,8 @@
       <workItem from="1773333050719" duration="1187000" />
       <workItem from="1773334616181" duration="4024000" />
       <workItem from="1773338679922" duration="646000" />
+      <workItem from="1774121487591" duration="212000" />
+      <workItem from="1774576758263" duration="8573000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />

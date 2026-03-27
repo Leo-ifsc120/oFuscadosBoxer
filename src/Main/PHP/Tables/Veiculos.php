@@ -22,4 +22,5 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
                 <td> <img src='$row[13]'></td>
               </tr>";
 }
-$smtm = null;
+echo "</table>";
+$stmt = null;

@@ -24,4 +24,5 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
                 <td> $date    </td>
               </tr>";
 }
-$smtm = null;
+echo "</table>";
+$stmt = null;

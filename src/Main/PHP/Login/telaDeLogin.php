@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>OFuscadosBoxer</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/style.css">
 </head>
 <body>
 
 <header>
-    <img alt="" src="../img/Imagens/oFuscadosLogo.jpg">
+    <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg">
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
-<form action="telaValidacao.php" method="post">
+<form action="../telaValidacao.php" method="post">
     <div class="container">
         <label for="usuario">Nome: </label>
         <input type="text" id="nome" name="usuario" required autofocus><br>
