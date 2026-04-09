@@ -12,7 +12,7 @@
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
-<form action="../telaValidacao.php" method="post">
+<form action="TelaValidacao.php" method="post">
     <div class="container">
         <label for="usuario">Nome: </label>
         <input type="text" id="nome" name="usuario" required autofocus><br>

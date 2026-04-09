@@ -16,13 +16,13 @@
 
     <div class="button">
 
-        <form action="tabelas.php" method="post">
+        <form action="../Tables/tabelas.php" method="post">
 
-            <input type="submit" id="clientes" name="clientes" value=""></input>
-            <input type="submit" id="fornecedores" name="fornecedores" value=""></input>
-            <input type="submit" id="produtos" name="produtos" value=""></input>
-            <input type="submit" id="servicos" name="servicos" value=""></input>
-            <input type="submit" id="veiculos" name="veiculos" value=""></input>
+            <input type="submit" id="clientes" name="clientes" value="">
+            <input type="submit" id="fornecedores" name="fornecedores" value="">
+            <input type="submit" id="produtos" name="produtos" value="">
+            <input type="submit" id="servicos" name="servicos" value="">
+            <input type="submit" id="veiculos" name="veiculos" value="">
 
         </form>
 

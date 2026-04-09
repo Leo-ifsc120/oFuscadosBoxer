@@ -1,10 +1,6 @@
 <?php
 
-$serverName = "LEONARDO_NOTE\sqlexpress";
-$connectionInfo = array("Database"=>"Oficina", "UID"=>"", "PWD"=>"");
-
-$conn = sqlsrv_connect($serverName, $connectionInfo);
-
+require '../DataBase/Connection.php';
 $user = $_POST["usuario"];
 $pass = $_POST["password"];
 
@@ -27,11 +23,7 @@ do
 
 }while( $row = sqlsrv_fetch_array($query));
 
-require "telaDeLogin.php";
+require "TelaDeLogin.php";
 die("<div id='error'><p id='error'>Login ou Senha incorretos</p></div>");
 
 
-
-
-
-?>

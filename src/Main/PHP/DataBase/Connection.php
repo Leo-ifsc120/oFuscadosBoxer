@@ -9,4 +9,3 @@ $connectionInfo = array("Database"=>$dataBase, "UID"=>$username, "PWD"=>$passwor
 
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
-?>
