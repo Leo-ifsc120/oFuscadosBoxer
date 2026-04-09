@@ -12,28 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;Falta ainda implementar: Tabela de serviços, arrumar tabela de produtos, Implementar crud no sistema">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be408892-4ddf-4149-93e8-0b6a5591cff2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be408892-4ddf-4149-93e8-0b6a5591cff2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be408892-4ddf-4149-93e8-0b6a5591cff2/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be408892-4ddf-4149-93e8-0b6a5591cff2/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be408892-4ddf-4149-93e8-0b6a5591cff2/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Login/telaDeLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/TelaDeLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Login/telaValidacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
-    </list>
+    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update &#10;Fornecedores incompleto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +53,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Login/TelaDeLogin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -211,6 +191,7 @@
       <workItem from="1774994883311" duration="12000" />
       <workItem from="1774994911385" duration="5194000" />
       <workItem from="1775586240331" duration="1731000" />
+      <workItem from="1775752342278" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -316,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774585824153</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update &#10;Fornecedores incompleto">
+      <option name="closed" value="true" />
+      <created>1775752640714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775752640714</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +326,8 @@
     <MESSAGE value="Novo Repositorio" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update&#10;Falta ainda implementar: Tabela de serviços, arrumar tabela de produtos, Implementar crud no sistema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;Falta ainda implementar: Tabela de serviços, arrumar tabela de produtos, Implementar crud no sistema" />
+    <MESSAGE value="Update &#10;Fornecedores incompleto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update &#10;Fornecedores incompleto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
