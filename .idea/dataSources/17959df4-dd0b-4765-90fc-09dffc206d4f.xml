@@ -36,7 +36,7 @@
 0|root||264|view server state|G
 0|root||265|view server state|G</Grants>
       <PermissionsCheckSum>43840693215</PermissionsCheckSum>
-      <ServerVersion>17.0.1000</ServerVersion>
+      <ServerVersion>16.0.1000</ServerVersion>
     </root>
     <collation id="2" parent="1" name="Albanian_BIN">
       <Description>Albanian, binary sort</Description>
@@ -16661,7 +16661,7 @@
     <database id="5542" parent="1" name="Oficina">
       <AssembliesChecksum>15500541</AssembliesChecksum>
       <FileGroupsChecksum>2580033660301081</FileGroupsChecksum>
-      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_note\SQLEXP</Fingerprint>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_Note\SQLEXP</Fingerprint>
       <Grants>5|database||1|connect|G
 5|database||0|view any column encryption key definition|G
 5|database||0|view any column master key definition|G</Grants>
@@ -16671,12 +16671,12 @@
       <CollationName>Latin1_General_CI_AS</CollationName>
     </database>
     <database id="5543" parent="1" name="master">
-      <AssembliesChecksum>13880230</AssembliesChecksum>
+      <AssembliesChecksum>6975173</AssembliesChecksum>
       <Current>1</Current>
       <FileGroupsChecksum>2580033660301081</FileGroupsChecksum>
-      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_note\SQLEXP</Fingerprint>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@Leonardo_Note\SQLEXP</Fingerprint>
       <ObjectId>1</ObjectId>
-      <RolesChecksum>2074712896951</RolesChecksum>
+      <RolesChecksum>2074636644046</RolesChecksum>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
     <database id="5544" parent="1" name="model">
@@ -16691,8 +16691,8 @@
       <ObjectId>2</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <linked-server id="5547" parent="1" name="Leonardo_note\SQLEXPRESS">
-      <DataSource>Leonardo_note\SQLEXPRESS</DataSource>
+    <linked-server id="5547" parent="1" name="Leonardo_Note\SQLEXPRESS">
+      <DataSource>Leonardo_Note\SQLEXPRESS</DataSource>
       <Product>SQL Server</Product>
       <ProviderName>SQLNCLI</ProviderName>
     </linked-server>
@@ -16858,7 +16858,7 @@
       <ObjectId>258</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5576" parent="1" name="Leonardo_note\leona">
+    <login id="5576" parent="1" name="Leonardo_Note\leona">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>259</ObjectId>
@@ -17019,12 +17019,12 @@
     </schema>
     <schema id="5609" parent="5542" name="dbo">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <IntrospectionTimestamp>2026-03-28.11:30:50</IntrospectionTimestamp>
-      <LastIntrospectionL1Timestamp>2026-03-28.11:30:50</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2026-03-28.11:30:50</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2026-03-28.11:30:50</LastIntrospectionL3Timestamp>
+      <IntrospectionTimestamp>2026-05-14.10:16:27</IntrospectionTimestamp>
+      <LastIntrospectionL1Timestamp>2026-05-14.10:16:27</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2026-05-14.10:16:27</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2026-05-14.10:16:27</LastIntrospectionL3Timestamp>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-03-28.17:30:50</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-05-14.16:16:28</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5610" parent="5542" name="guest">
@@ -17284,8 +17284,8 @@
     <table id="5657" parent="5609" name="tblVeiculos">
       <CreatedTimestamp>2021-03-23.12:35:24.683</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2026-03-04.10:28:22.523</ModifiedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2025-08-29.05:08:21.393</ModifiedTimestamp>
       <ObjectId>338100245</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
@@ -17313,7 +17313,6 @@
     <column id="5661" parent="5643" name="DsAnotacao">
       <Position>2</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5662" parent="5643" name="DtAnotacao">
       <Position>3</Position>
@@ -17343,62 +17342,50 @@
     <column id="5666" parent="5644" name="DsRazao">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5667" parent="5644" name="DsFantasia">
       <Position>3</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5668" parent="5644" name="DsTelefone">
       <Position>4</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5669" parent="5644" name="DsEndereco">
       <Position>5</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5670" parent="5644" name="CdCep">
       <Position>6</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5671" parent="5644" name="Dsemail">
       <Position>7</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5672" parent="5644" name="DsBairro">
       <Position>8</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5673" parent="5644" name="DsCidade">
       <Position>9</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5674" parent="5644" name="DSRegiao">
       <Position>10</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5675" parent="5644" name="CdCnpjCPF">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5676" parent="5644" name="CdIE">
       <Position>12</Position>
       <StoredType>char(9 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5677" parent="5644" name="DsWattsapp">
       <Position>13</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5678" parent="5644" name="DtCadasto">
       <Position>14</Position>
@@ -17411,22 +17398,18 @@
     <column id="5680" parent="5644" name="Dscomplemento">
       <Position>16</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5681" parent="5644" name="Dsusuario">
       <Position>17</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5682" parent="5644" name="Dssenha">
       <Position>18</Position>
       <StoredType>varchar(64 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5683" parent="5644" name="DsNome">
       <Position>19</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <index id="5684" parent="5644" name="PK__TblClien__FE6512F1B4A9F46D">
       <Clustering>1</Clustering>
@@ -17453,32 +17436,26 @@
     <column id="5687" parent="5645" name="DsEndereco">
       <Position>2</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5688" parent="5645" name="DSCidade">
       <Position>3</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5689" parent="5645" name="DSBairro">
       <Position>4</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5690" parent="5645" name="DSUF">
       <Position>5</Position>
       <StoredType>varchar(2 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5691" parent="5645" name="CodIBGE">
       <Position>6</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5692" parent="5645" name="CdCEP">
       <Position>7</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5693" parent="5646" name="Cdfornecedor">
       <NotNull>1</NotNull>
@@ -17488,67 +17465,54 @@
     <column id="5694" parent="5646" name="DsRazao">
       <Position>2</Position>
       <StoredType>varchar(45 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5695" parent="5646" name="DsFantasia">
       <Position>3</Position>
       <StoredType>varchar(35 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5696" parent="5646" name="DsTelefone">
       <Position>4</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5697" parent="5646" name="DsEndereco">
       <Position>5</Position>
       <StoredType>varchar(45 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5698" parent="5646" name="CdCep">
       <Position>6</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5699" parent="5646" name="Dsemail">
       <Position>7</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5700" parent="5646" name="DsBairro">
       <Position>8</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5701" parent="5646" name="dsCidade">
       <Position>9</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5702" parent="5646" name="DSRegiao">
       <Position>10</Position>
       <StoredType>varchar(2 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5703" parent="5646" name="CdCnpjCpf">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5704" parent="5646" name="CdIE">
       <Position>12</Position>
       <StoredType>varchar(14 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5705" parent="5646" name="DsWattsapp">
       <Position>13</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5706" parent="5646" name="DsContato">
       <Position>14</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5707" parent="5646" name="DtCadasto">
       <Position>15</Position>
@@ -17561,7 +17525,6 @@
     <column id="5709" parent="5646" name="Dscomplemento">
       <Position>17</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <index id="5710" parent="5646" name="PK__TblForne__34B460B7E91EAB0C">
       <Clustering>1</Clustering>
@@ -17616,12 +17579,10 @@
     <column id="5718" parent="5648" name="DsDescricao">
       <Position>2</Position>
       <StoredType>varchar(70 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5719" parent="5648" name="DsEmbalagem">
       <Position>3</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5720" parent="5648" name="VlProduto">
       <Position>4</Position>
@@ -17630,17 +17591,14 @@
     <column id="5721" parent="5648" name="DsFabricante">
       <Position>5</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5722" parent="5648" name="CdFabricante">
       <Position>6</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5723" parent="5648" name="DsFornecedor">
       <Position>7</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5724" parent="5648" name="Qtestoque">
       <Position>8</Position>
@@ -17649,17 +17607,14 @@
     <column id="5725" parent="5648" name="Dsaplicacao">
       <Position>9</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5726" parent="5648" name="DsAnoaplicacao">
       <Position>10</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5727" parent="5648" name="DsUsado">
       <Position>11</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5728" parent="5648" name="DtCadastro">
       <Position>12</Position>
@@ -17672,17 +17627,14 @@
     <column id="5730" parent="5648" name="fotopro">
       <Position>22</Position>
       <StoredType>varchar(50 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5731" parent="5648" name="CodBarras">
       <Position>23</Position>
       <StoredType>nchar(13 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5732" parent="5648" name="DsObservacao">
       <Position>24</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5733" parent="5648" name="FotoImagem">
       <Position>25</Position>
@@ -17724,17 +17676,14 @@
     <column id="5740" parent="5649" name="DsAvaria">
       <Position>5</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5741" parent="5649" name="DsDFReclamado">
       <Position>6</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5742" parent="5649" name="DsDFconstatado">
       <Position>7</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5743" parent="5649" name="InStatus">
       <Position>8</Position>
@@ -17800,7 +17749,6 @@
     <column id="5756" parent="5650" name="DsDescricao">
       <Position>2</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5757" parent="5650" name="VlServicoPrestadofixo">
       <Position>4</Position>
@@ -17825,7 +17773,7 @@
     <column id="5760" parent="5651" name="CdSprestadosVenda">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1(10990)</SequenceIdentity>
+      <SequenceIdentity>1(11021)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
     <column id="5761" parent="5651" name="CdServico">
@@ -17890,7 +17838,7 @@
     <column id="5771" parent="5652" name="CdServicovenda">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1(14833)</SequenceIdentity>
+      <SequenceIdentity>1(14901)</SequenceIdentity>
       <StoredType>int|0s</StoredType>
     </column>
     <column id="5772" parent="5652" name="CdServico">
@@ -17976,72 +17924,58 @@
     <column id="5785" parent="5653" name="Dsusuario">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5786" parent="5653" name="Dssenha">
       <Position>3</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5787" parent="5653" name="Dssenhaconfirma">
       <Position>4</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5788" parent="5653" name="DsNome">
       <Position>5</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5789" parent="5653" name="DsTelefone">
       <Position>6</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5790" parent="5653" name="DsEndereco">
       <Position>7</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5791" parent="5653" name="CdCep">
       <Position>8</Position>
       <StoredType>varchar(8 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5792" parent="5653" name="Dsemail">
       <Position>9</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5793" parent="5653" name="DsBairro">
       <Position>10</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5794" parent="5653" name="DsCidade">
       <Position>11</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5795" parent="5653" name="DSRegiao">
       <Position>12</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5796" parent="5653" name="CdCPF">
       <Position>13</Position>
       <StoredType>char(14 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5797" parent="5653" name="CdRG">
       <Position>14</Position>
       <StoredType>char(9 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5798" parent="5653" name="DsWattsapp">
       <Position>15</Position>
       <StoredType>varchar(20 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5799" parent="5653" name="DtCadasto">
       <Position>16</Position>
@@ -18054,7 +17988,6 @@
     <column id="5801" parent="5653" name="Dscomplemento">
       <Position>18</Position>
       <StoredType>varchar(30 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5802" parent="5653" name="InStatus">
       <Position>19</Position>
@@ -18088,7 +18021,6 @@
     <column id="5807" parent="5654" name="DsNomeperfil">
       <Position>2</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <index id="5808" parent="5654" name="PK__Tblperfi__2AB718F9A51B133F">
       <Clustering>1</Clustering>
@@ -18118,12 +18050,10 @@
     <column id="5812" parent="5655" name="DsUsuario">
       <Position>3</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5813" parent="5655" name="Cdnotaentrada">
       <Position>4</Position>
       <StoredType>varchar(10 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5814" parent="5655" name="cdfornecedor">
       <Position>5</Position>
@@ -18132,17 +18062,14 @@
     <column id="5815" parent="5655" name="dsfornecedor">
       <Position>6</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5816" parent="5655" name="DsObservacao">
       <Position>7</Position>
       <StoredType>varchar(max)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5817" parent="5655" name="DstipoMovi">
       <Position>8</Position>
       <StoredType>varchar(15 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5818" parent="5655" name="VltotalEntradaProdutos">
       <Position>9</Position>
@@ -18155,7 +18082,6 @@
     <column id="5820" parent="5655" name="DsFantasia">
       <Position>11</Position>
       <StoredType>varchar(60 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <index id="5821" parent="5655" name="PK__tblEntra__795A4984E436707C">
       <Clustering>1</Clustering>
@@ -18190,12 +18116,10 @@
     <column id="5826" parent="5656" name="DsProduto">
       <Position>4</Position>
       <StoredType>varchar(40 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5827" parent="5656" name="DsEmbalagem">
       <Position>5</Position>
       <StoredType>varchar(5 char)|0s</StoredType>
-      <CollationName>Latin1_General_CI_AS</CollationName>
     </column>
     <column id="5828" parent="5656" name="QtProdutoEntrada">
       <Position>6</Position>
@@ -18348,7 +18272,7 @@
     </column>
     <column id="5858" parent="5657" name="fotoVei">
       <Position>22</Position>
-      <StoredType>varchar(200 char)|0s</StoredType>
+      <StoredType>varchar(50 char)|0s</StoredType>
     </column>
     <column id="5859" parent="5657" name="CdCliente">
       <Position>23</Position>

@@ -2,9 +2,11 @@
 
 
 echo "<table> <tr id='theader'><th>Id</th><th>Código de Barras</th><th>Descrição</th><th>Embalagem</th><th>Estoque</th><th>Fabricantes</th><th>Código dos Fabricantes</th><th>Aplicação</th><th>Ano da Aplicação</th><th>Estado</th><th>Estoque Minimo</th><th>Foto do Produto</th></tr>";
-$stmt = sqlsrv_query($conn, "select * from TblProdutos");
 
-while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_NUMERIC)) {
+$stmt = "select * from TblProdutos";
+$result = $conn->query($stmt)->fetchAll();
+
+foreach($result as $row) {
 
     echo "<tr>
                 <td> $row[0]  </td>

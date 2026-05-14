@@ -1,29 +1,24 @@
 <?php
-
 require '../DataBase/Connection.php';
 $user = $_POST["usuario"];
 $pass = $_POST["password"];
 
-$check = "select Dsusuario, Dssenha from TblUsuario";
 
-$query = sqlsrv_query($conn, $check);
-$row = sqlsrv_fetch_array($query);
-do
+
+$check = "select Dsusuario, Dssenha from TblUsuario where Dsusuario = 'strtoupper($user)' and Dssenha = $pass";
+
+$resultado = $conn->query($check)->fetchAll();
+
+if ($resultado = null)
 {
-    $userCheck = $row[0];
-    $passCheck = $row[1];
-    if($userCheck == strtoupper($user))
-    {
-        if ($passCheck == $pass)
-        {
-            require "../Tables/tabelas.php";
-            die();
-        }
-    }
+    require "TelaDeLogin.php";
+    die("<div id='error'><p id='error'>Login ou Senha incorretos</p></div>");
 
-}while( $row = sqlsrv_fetch_array($query));
+}
+else
+{
+    require "../Tables/tabelas.php";
+}
 
-require "TelaDeLogin.php";
-die("<div id='error'><p id='error'>Login ou Senha incorretos</p></div>");
 
 

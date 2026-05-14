@@ -1,10 +1,12 @@
 <?php
 
 echo "<table> <tr id='theader'><th>Id</th><th>Razão social/Nome</th><th>E-mail</th><th>Telefone</th><th>Whatsapp</th><th>Cnpj/Cpf</th><th>Endereço</th><th>Nu Endereço</th><th>Bairro</th><th>Cidade</th><th>Região</th><th>Complemento</th><th>CEP</th><th>Fantasia</th><th>Data Cadastro</th></tr>";
-$stmt = sqlsrv_query($conn, "select * from TblClientes");
 
-while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
-    $date = $row[13]->format('d/m/Y');
+$stmt = "select * from TblClientes";
+$result = $conn->query($stmt)->fetchAll();
+
+foreach( $result as $row ) {
+    
 
     echo "<tr>
                 <td> $row[0]  </td>
@@ -21,7 +23,7 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
                 <td> $row[15] </td>
                 <td> $row[5]  </td>
                 <td> $row[2]  </td>
-                <td> $date    </td>
+                <td> $row[13]   </td>
               </tr>";
 }
 echo "</table>";

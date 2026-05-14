@@ -3,6 +3,10 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/StickyLines/DisabledLanguageList/@EntryValue" value="JAVA" type="string" />
+    <option name="/Default/Environment/StickyLines/Enabled/@EntryValue" value="false" type="bool" />
+  </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -21,10 +25,30 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="b148762d-1291-43fa-80c7-e98d9da3c2bc" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="b148762d-1291-43fa-80c7-e98d9da3c2bc" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/leona/IdeaProjects/oFuscadosBoxer" value="3ADRTlzdS4Ym7I3oKMfDK6FZnAA" />
       <entry key="_D:/Trabalhos/IntellijProjects/Projetos_Pessoais/oFuscadosBoxer" value="3C2aiy25OUxVoiI4WMRiT1NfzvX" />
+      <entry key="_D:/Trabalhos/IntellijProjects/oFuscadosBoxer" value="3DiqkByNeJCOUM4AxFsZyOTBlXe" />
+      <entry key="_D:/Trabalhos/IntellijProjects/ofuscadosBoxer" value="3Diqj1dZM7af0JeaJa88iZ6361m" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -54,6 +78,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Login/TelaDeLogin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -75,9 +100,16 @@
   &quot;keyToString&quot;: {
     &quot;Database Script.aula.sql.executor&quot;: &quot;Run&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.telaValidacao.php.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PHP Script.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Servicos.php.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Script.TelaDeLogin.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -96,7 +128,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -192,6 +224,7 @@
       <workItem from="1774994911385" duration="5194000" />
       <workItem from="1775586240331" duration="1731000" />
       <workItem from="1775752342278" duration="431000" />
+      <workItem from="1778775372830" duration="10113000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />

@@ -1,11 +1,7 @@
 <?php
 
-$dataBase = "Oficina";
-$username = "";
-$password = "";
-$serverName = "LEONARDO_NOTE\sqlexpress";
-
-$connectionInfo = array("Database"=>$dataBase, "UID"=>$username, "PWD"=>$password, "CharacterSet"=>"UTF-8");
-
-$conn = sqlsrv_connect($serverName, $connectionInfo);
+$serverName = "LEONARDO_NOTE\SQLEXPRESS";
+$connectionInfo = array( "Database"=>"Oficina");
+$conn = new PDO("sqlsrv:server=$serverName;Database=Oficina", "", "");
+//$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
