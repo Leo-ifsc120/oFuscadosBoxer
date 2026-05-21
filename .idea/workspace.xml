@@ -16,7 +16,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update &#10;Fornecedores incompleto" />
+    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +68,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="package.json" />
         <option value="PHP File" />
       </list>
     </option>
@@ -71,11 +84,12 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/leo-damasio/oFuscadosBoxer.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Leo-ifsc120/oFuscadosBoxer.git&quot;,
     &quot;accountId&quot;: &quot;a1547eb1-a7f3-414c-a7c2-a5c06f4d01a6&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main/JavaScript/Node.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Login/TelaDeLogin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -84,7 +98,69 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000003269978" />
+      <entry key="MS500" value="1.0126738618058937" />
+      <entry key="S2" value="1.3357489340127628" />
+      <entry key="S5" value="1.6816804289470038" />
+      <entry key="S10" value="2.0352431961406063" />
+      <entry key="S30" value="3.1542203625820826" />
+      <entry key="S60" value="4.411723284170993" />
+      <entry key="M2" value="7.138036648896932" />
+      <entry key="M5" value="17.373551472553263" />
+      <entry key="M10" value="36.505551822404854" />
+      <entry key="M15" value="56.10618481525125" />
+      <entry key="M30" value="107.07906934286876" />
+      <entry key="H1" value="167.3429571049254" />
+      <entry key="H2" value="217.11107287061685" />
+      <entry key="H4" value="249.6882067355177" />
+      <entry key="D1" value="281.91762435591875" />
+      <entry key="W1" value="287.9743313978644" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.281755369288868E-25" />
+      <entry key="MS500" value="1.3375941792542026E-5" />
+      <entry key="S2" value="0.060475727443868414" />
+      <entry key="S5" value="0.32582988079033287" />
+      <entry key="S10" value="0.5869761566022874" />
+      <entry key="S30" value="1.1004277400029576" />
+      <entry key="S60" value="1.7056168160866318" />
+      <entry key="M2" value="3.0603108785131825" />
+      <entry key="M5" value="6.496573746152147" />
+      <entry key="M10" value="10.343488568365908" />
+      <entry key="M15" value="13.013537127300381" />
+      <entry key="M30" value="18.20483953955082" />
+      <entry key="H1" value="23.38275558637659" />
+      <entry key="H2" value="27.394910032597792" />
+      <entry key="H4" value="29.955274287043302" />
+      <entry key="D1" value="32.454416442591175" />
+      <entry key="W1" value="32.92106039257047" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7631296047333047" />
+      <entry key="MS500" value="0.9594114921246679" />
+      <entry key="S2" value="1.351468947436042" />
+      <entry key="S5" value="1.9294808349655288" />
+      <entry key="S10" value="2.536650170361764" />
+      <entry key="S30" value="4.104916697523064" />
+      <entry key="S60" value="5.963891942755587" />
+      <entry key="M2" value="10.06323642349791" />
+      <entry key="M5" value="23.75756519128844" />
+      <entry key="M10" value="46.75696802667309" />
+      <entry key="M15" value="69.04150014371558" />
+      <entry key="M30" value="125.22863652118075" />
+      <entry key="H1" value="190.69008030305787" />
+      <entry key="H2" value="244.48506050646722" />
+      <entry key="H4" value="279.6320247864327" />
+      <entry key="D1" value="314.3699690023617" />
+      <entry key="W1" value="320.89509147826044" />
+    </decayedShown>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -96,52 +172,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Database Script.aula.sql.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Connection.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.telaValidacao.php.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;PHP Script.Connection.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.Servicos.php.executor&quot;: &quot;Debug&quot;,
-    &quot;PHP Script.TelaDeLogin.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Trabalhos/IntellijProjects/Projetos_Pessoais/oFuscadosBoxer&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.aula.sql.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Connection.php.executor": "Run",
+    "JavaScript Debug.TelaValidacao.php.executor": "Debug",
+    "JavaScript Debug.telaValidacao.php.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PHP Script.Connection.php.executor": "Run",
+    "PHP Script.Servicos.php.executor": "Debug",
+    "PHP Script.TelaDeLogin.php.executor": "Run",
+    "PHP Script.TelaValidacao.php.executor": "Debug",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "24.16.0",
+    "javascript.nodejs.core.library.typings.version": "24.12.4",
+    "javascript.preferred.runtime.type.id": "node",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Trabalhos/IntellijProjects/Projetos_Pessoais/oFuscadosBoxer",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlserver"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f/database/\&quot;Oficina\&quot;&quot;,
-      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f&quot;
+    "RunConfigurationTargetLRU": [
+      "17959df4-dd0b-4765-90fc-09dffc206d4f/database/\"Oficina\"",
+      "17959df4-dd0b-4765-90fc-09dffc206d4f"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\img" />
@@ -155,6 +235,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="aula.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/Main/sql/aula.sql" />
       <script-mode>FILE</script-mode>
@@ -166,8 +251,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -225,6 +309,8 @@
       <workItem from="1775586240331" duration="1731000" />
       <workItem from="1775752342278" duration="431000" />
       <workItem from="1778775372830" duration="10113000" />
+      <workItem from="1778785553152" duration="1714000" />
+      <workItem from="1779381167229" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -338,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775752640714</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <option name="closed" value="true" />
+      <created>1778785695687</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778785695687</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +443,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -357,10 +463,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Novo Repositorio" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Update&#10;Falta ainda implementar: Tabela de serviços, arrumar tabela de produtos, Implementar crud no sistema" />
     <MESSAGE value="Update &#10;Fornecedores incompleto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update &#10;Fornecedores incompleto" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

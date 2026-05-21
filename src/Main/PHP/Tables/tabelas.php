@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<script src="../../JavaScript/Node.js"></script>
+
 <header>
     <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
     <p id="title"><strong>OFuscadosBoxer</strong></p>
@@ -18,11 +20,11 @@
 
         <form action="../Tables/tabelas.php" method="post">
 
-            <input type="submit" id="clientes" name="clientes" value="">
-            <input type="submit" id="fornecedores" name="fornecedores" value="">
-            <input type="submit" id="produtos" name="produtos" value="">
-            <input type="submit" id="servicos" name="servicos" value="">
-            <input type="submit" id="veiculos" name="veiculos" value="">
+            <input type="button" onclick="callClientes()" id="clientes" name="clientes">
+            <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
+            <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
+            <input type="button" onclick="callServicos()" id="servicos" name="servicos">
+            <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
 
         </form>
 
@@ -31,41 +33,6 @@
 
 
     <?php
-
-    require "../DataBase/Connection.php";
-
-    $btnVeiculos = isset($_POST["veiculos"]);
-    $btnClientes = isset($_POST["clientes"]);
-    $btnFornecedores = isset($_POST["fornecedores"]);
-    $btnProdutos = isset($_POST["produtos"]);
-    $btnServicos = isset($_POST["servicos"]);
-
-
-
-    if($btnVeiculos == true)
-    {
-        require "Veiculos.php";
-    }
-
-    if($btnClientes == true)
-    {
-        require "Clientes.php";
-    }
-
-    if($btnFornecedores == true)
-    {
-        require "Fornecedores.php";
-    }
-
-    if($btnProdutos == true)
-    {
-        require "Produtos.php";
-    }
-
-    if($btnServicos == true)
-    {
-        require "Servicos.php";
-    }
 
     ?>
 </div>

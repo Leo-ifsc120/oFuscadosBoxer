@@ -1,5 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>OFuscadosBoxer</title>
+    <link rel="stylesheet" href="../../CSS/styleTabelas.css">
+</head>
+<body>
+
+<script src="../../JavaScript/Node.js"></script>
+
+<header>
+    <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
+    <p id="title"><strong>OFuscadosBoxer</strong></p>
+</header>
+
+<div class="container">
+
+
+
+        <form action="../Tables/tabelas.php" method="post">
+
+            <div class="button">
+                <input type="button" onclick="callClientes()" id="clientes" name="clientes">
+                <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
+                <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
+                <input type="button" onclick="callServicos()" id="servicos" name="servicos">
+                <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+
+                <input type="button" onclick="insertFornecedor()" id="inserir" name="inserir" value="inserir">
+            </div>
+
+        </form>
+
+
+
+
+
 <?php
 
+require "../DataBase/Connection.php";
 
 echo "<table> <tr id='theader'><th>Id</th><th>Razão social/Nome</th><th>Fantasia</th><th>Cnpj/CPF</th><th>Telefone</th><th>Endereço</th><th>CEP</th><th>E-Mail</th><th>Bairro</th><th>Cidade</th><th>UF/Região</th><th>Inscrição Estadual</th><th>WhatsApp</th><th>Contato</th><th>Data Cadastro</th><th>Nu Endereço</th><th>Complemento</th></tr>";
 $stmt = "select * from TblFornecedores";
@@ -28,9 +67,17 @@ foreach ($result as $row) {
                 <td> $row[15]  </td>
                 <td> $row[16]  </td>
 
-    
            </tr>";
-
 }
+
 echo "</table>";
 $stmt = null;
+
+?>
+
+</div>
+
+<h1>Fornecedores</h1>
+
+</body>
+</html>

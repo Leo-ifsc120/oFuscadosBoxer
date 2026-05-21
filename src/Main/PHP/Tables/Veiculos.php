@@ -1,4 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>OFuscadosBoxer</title>
+    <link rel="stylesheet" href="../../CSS/styleTabelas.css">
+</head>
+<body>
+
+<script src="../../JavaScript/Node.js"></script>
+
+<header>
+    <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
+    <p id="title"><strong>OFuscadosBoxer</strong></p>
+</header>
+
+<div class="container">
+
+    <div class="button">
+
+        <form action="../Tables/tabelas.php" method="post">
+
+            <input type="button" onclick="callClientes()" id="clientes" name="clientes">
+            <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
+            <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
+            <input type="button" onclick="callServicos()" id="servicos" name="servicos">
+            <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+
+            <input type="button" id="inserir" name="inserir" value="inserir">
+
+        </form>
+
+    </div>
+
+
+
 <?php
+
+require "../DataBase/Connection.php";
 
 echo "<table> <tr id='theader'><th>Cod</th><th>Descrição</th><th>Embalagem</th><th>Produto</th><th>Fabricante</th><th>Fornecedor</th><th>Estoque</th><th>Aplicação</th><th>Ano da Aplicação</th><th>Usado</th><th>Estoque minimo</th><th>fotopro</th></tr>";
 
@@ -23,3 +61,12 @@ foreach($result as $row) {
 }
 echo "</table>";
 $stmt = null;
+
+?>
+
+</div>
+
+<h1>Veiculos</h1>
+
+</body>
+</html>
