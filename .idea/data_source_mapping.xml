@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" value="17959df4-dd0b-4765-90fc-09dffc206d4f" />
     <file url="file://$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" value="17959df4-dd0b-4765-90fc-09dffc206d4f" />
     <file url="file://$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" value="17959df4-dd0b-4765-90fc-09dffc206d4f" />
   </component>

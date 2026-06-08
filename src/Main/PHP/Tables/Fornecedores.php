@@ -27,7 +27,7 @@
                 <input type="button" onclick="callServicos()" id="servicos" name="servicos">
                 <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
 
-                <input type="button" onclick="insertFornecedor()" id="inserir" name="inserir" value="inserir">
+                <input type="button" onclick="callInsertFornecedor()" id="inserir" name="inserir" value="inserir">
             </div>
 
         </form>

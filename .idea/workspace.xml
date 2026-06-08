@@ -6,6 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Environment/StickyLines/DisabledLanguageList/@EntryValue" value="JAVA" type="string" />
     <option name="/Default/Environment/StickyLines/Enabled/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -17,17 +18,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedores.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +66,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="package.json" />
         <option value="PHP File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,61 +99,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000003269978" />
-      <entry key="MS500" value="1.0126738618058937" />
-      <entry key="S2" value="1.3357489340127628" />
-      <entry key="S5" value="1.6816804289470038" />
-      <entry key="S10" value="2.0352431961406063" />
-      <entry key="S30" value="3.1542203625820826" />
-      <entry key="S60" value="4.411723284170993" />
-      <entry key="M2" value="7.138036648896932" />
-      <entry key="M5" value="17.373551472553263" />
-      <entry key="M10" value="36.505551822404854" />
-      <entry key="M15" value="56.10618481525125" />
-      <entry key="M30" value="107.07906934286876" />
-      <entry key="H1" value="167.3429571049254" />
-      <entry key="H2" value="217.11107287061685" />
-      <entry key="H4" value="249.6882067355177" />
-      <entry key="D1" value="281.91762435591875" />
-      <entry key="W1" value="287.9743313978644" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000033254937726" />
+      <entry key="S2" value="1.0427954264230745" />
+      <entry key="S5" value="1.3272477599668993" />
+      <entry key="S10" value="1.8914680120427543" />
+      <entry key="S30" value="3.5063966653439045" />
+      <entry key="S60" value="5.205130885588765" />
+      <entry key="M2" value="8.838569985856438" />
+      <entry key="M5" value="21.836951737874998" />
+      <entry key="M10" value="42.2654482572152" />
+      <entry key="M15" value="62.65651370261894" />
+      <entry key="M30" value="123.39092608560158" />
+      <entry key="H1" value="227.99213645063492" />
+      <entry key="H2" value="363.03258158015103" />
+      <entry key="H4" value="485.5731411038189" />
+      <entry key="D1" value="640.0560332450818" />
+      <entry key="W1" value="673.2419193277194" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.281755369288868E-25" />
-      <entry key="MS500" value="1.3375941792542026E-5" />
-      <entry key="S2" value="0.060475727443868414" />
-      <entry key="S5" value="0.32582988079033287" />
-      <entry key="S10" value="0.5869761566022874" />
-      <entry key="S30" value="1.1004277400029576" />
-      <entry key="S60" value="1.7056168160866318" />
-      <entry key="M2" value="3.0603108785131825" />
-      <entry key="M5" value="6.496573746152147" />
-      <entry key="M10" value="10.343488568365908" />
-      <entry key="M15" value="13.013537127300381" />
-      <entry key="M30" value="18.20483953955082" />
-      <entry key="H1" value="23.38275558637659" />
-      <entry key="H2" value="27.394910032597792" />
-      <entry key="H4" value="29.955274287043302" />
-      <entry key="D1" value="32.454416442591175" />
-      <entry key="W1" value="32.92106039257047" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.830845014667832E-261" />
+      <entry key="S2" value="7.294222777255314E-66" />
+      <entry key="S5" value="8.814376746902759E-27" />
+      <entry key="S10" value="9.388571737641966E-14" />
+      <entry key="S30" value="4.638010355491894E-5" />
+      <entry key="S60" value="0.007708909844761982" />
+      <entry key="M2" value="0.11488944228771138" />
+      <entry key="M5" value="0.7225162304685845" />
+      <entry key="M10" value="1.7154430885104939" />
+      <entry key="M15" value="2.7799785578667806" />
+      <entry key="M30" value="7.295880458635371" />
+      <entry key="H1" value="18.66454126115124" />
+      <entry key="H2" value="35.19043912708519" />
+      <entry key="H4" value="50.362955526965436" />
+      <entry key="D1" value="69.2798633190807" />
+      <entry key="W1" value="73.30336372173261" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7631296047333047" />
-      <entry key="MS500" value="0.9594114921246679" />
-      <entry key="S2" value="1.351468947436042" />
-      <entry key="S5" value="1.9294808349655288" />
-      <entry key="S10" value="2.536650170361764" />
-      <entry key="S30" value="4.104916697523064" />
-      <entry key="S60" value="5.963891942755587" />
-      <entry key="M2" value="10.06323642349791" />
-      <entry key="M5" value="23.75756519128844" />
-      <entry key="M10" value="46.75696802667309" />
-      <entry key="M15" value="69.04150014371558" />
-      <entry key="M30" value="125.22863652118075" />
-      <entry key="H1" value="190.69008030305787" />
-      <entry key="H2" value="244.48506050646722" />
-      <entry key="H4" value="279.6320247864327" />
-      <entry key="D1" value="314.3699690023617" />
-      <entry key="W1" value="320.89509147826044" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044940195" />
+      <entry key="S2" value="0.9975167499902586" />
+      <entry key="S5" value="1.0981734781013177" />
+      <entry key="S10" value="1.580455568856223" />
+      <entry key="S30" value="3.278671181715564" />
+      <entry key="S60" value="5.060259689312967" />
+      <entry key="M2" value="8.849114126613982" />
+      <entry key="M5" value="22.479942262490315" />
+      <entry key="M10" value="43.90943236545807" />
+      <entry key="M15" value="65.37000513179754" />
+      <entry key="M30" value="130.62841656179285" />
+      <entry key="H1" value="246.60528739318508" />
+      <entry key="H2" value="398.182926091501" />
+      <entry key="H4" value="535.9096678062663" />
+      <entry key="D1" value="709.3301860877999" />
+      <entry key="W1" value="746.5444278444853" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -172,56 +171,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Database Script.aula.sql.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Connection.php.executor": "Run",
-    "JavaScript Debug.TelaValidacao.php.executor": "Debug",
-    "JavaScript Debug.telaValidacao.php.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PHP Script.Connection.php.executor": "Run",
-    "PHP Script.Servicos.php.executor": "Debug",
-    "PHP Script.TelaDeLogin.php.executor": "Run",
-    "PHP Script.TelaValidacao.php.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "24.16.0",
-    "javascript.nodejs.core.library.typings.version": "24.12.4",
-    "javascript.preferred.runtime.type.id": "node",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Trabalhos/IntellijProjects/Projetos_Pessoais/oFuscadosBoxer",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.runtime",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Database Script.aula.sql.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.telaValidacao.php.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PHP Script.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Servicos.php.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Script.TelaDeLogin.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.12.4&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Trabalhos/IntellijProjects/Projetos_Pessoais/oFuscadosBoxer&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;sqlserver&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "17959df4-dd0b-4765-90fc-09dffc206d4f/database/\"Oficina\"",
-      "17959df4-dd0b-4765-90fc-09dffc206d4f"
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f/database/\&quot;Oficina\&quot;&quot;,
+      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\img" />
@@ -310,7 +311,11 @@
       <workItem from="1775752342278" duration="431000" />
       <workItem from="1778775372830" duration="10113000" />
       <workItem from="1778785553152" duration="1714000" />
-      <workItem from="1779381167229" duration="6057000" />
+      <workItem from="1779381167229" duration="6252000" />
+      <workItem from="1779732267931" duration="854000" />
+      <workItem from="1779817892751" duration="5984000" />
+      <workItem from="1780874485924" duration="10000" />
+      <workItem from="1780919182678" duration="3235000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -432,7 +437,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778785695687</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update">
+      <option name="closed" value="true" />
+      <created>1779387268299</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779387268299</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update">
+      <option name="closed" value="true" />
+      <created>1779387430522</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779387430522</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

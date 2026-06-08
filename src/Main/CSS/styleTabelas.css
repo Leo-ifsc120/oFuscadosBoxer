@@ -57,13 +57,24 @@ div.cabecalho
 div.insertform
 {
     margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-
-
-    width: 75%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #929292;
     height: auto;
 
+}
+input#insertinput
+{
+    display: block;
+}
+button#insertbutton
+{
+    column-fill: balance-all;
+    justify-self: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
 }
 
 table
@@ -100,31 +111,36 @@ input[type="button"]
 }
 label
 {
-
+justify-self: left;
 }
 
 #fornecedores
 {
     background-image: url("../img/Imagens/FORNECEDORES.png");
     background-size: cover;
+    border-radius: 10px;
 }
 #clientes
 {
     background-image: url("../img/Imagens/Clientes.png");
     background-size: cover;
+    border-radius: 10px;
 }
 #produtos
 {
     background-image: url("../img/Imagens/Produtos.png");
     background-size: cover;
+    border-radius: 10px;
 }
 #servicos
 {
     background-image: url("../img/Imagens/servicos.png");
     background-size: cover;
+    border-radius: 10px;
 }
 #veiculos
 {
     background-image: url("../img/Imagens/veiculos.png");
     background-size: cover;
+    border-radius: 10px;
 }
