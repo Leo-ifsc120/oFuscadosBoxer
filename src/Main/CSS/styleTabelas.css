@@ -54,19 +54,41 @@ div.cabecalho
     background-color: #7f7f7f;
 
 }
+
+
+div.insertContainer
+{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #929292;
+    justify-items: center;
+    width: auto;
+    height: auto;
+}
+div.insertCabecalho
+{
+    margin: 30px;
+    width: 550px;
+    border: #eeeeee 4px solid;
+    background-color: #7f7f7f;
+
+}
 div.insertform
 {
     margin: auto;
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #929292;
     height: auto;
-
 }
 input#insertinput
 {
     display: block;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 button#insertbutton
 {
@@ -75,6 +97,19 @@ button#insertbutton
     margin-top: 10px;
     width: 150px;
     height: 30px;
+    grid-column-start: 2;
+    grid-row-start: 13;
+
+}
+button#cancelarbutton
+{
+    column-fill: balance-all;
+    justify-self: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    grid-column-start: 3;
+    grid-row-start: 13;
 }
 
 table
@@ -112,6 +147,11 @@ input[type="button"]
 label
 {
 justify-self: left;
+}
+label#insertLabel
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 
 #fornecedores

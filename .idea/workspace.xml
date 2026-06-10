@@ -17,16 +17,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Inserts pelo PHP&#10;troca de tabelas pelo JS&#10;remover o NodeJs&#10;Terminar insert e testar">
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Banco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedores.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,60 +98,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000033254937726" />
-      <entry key="S2" value="1.0427954264230745" />
-      <entry key="S5" value="1.3272477599668993" />
-      <entry key="S10" value="1.8914680120427543" />
-      <entry key="S30" value="3.5063966653439045" />
-      <entry key="S60" value="5.205130885588765" />
-      <entry key="M2" value="8.838569985856438" />
-      <entry key="M5" value="21.836951737874998" />
-      <entry key="M10" value="42.2654482572152" />
-      <entry key="M15" value="62.65651370261894" />
-      <entry key="M30" value="123.39092608560158" />
-      <entry key="H1" value="227.99213645063492" />
-      <entry key="H2" value="363.03258158015103" />
-      <entry key="H4" value="485.5731411038189" />
-      <entry key="D1" value="640.0560332450818" />
-      <entry key="W1" value="673.2419193277194" />
+      <entry key="MS500" value="1.000000006903619" />
+      <entry key="S2" value="1.009115548423777" />
+      <entry key="S5" value="1.156558512227132" />
+      <entry key="S10" value="1.5012414011013997" />
+      <entry key="S30" value="3.1245788812759274" />
+      <entry key="S60" value="5.1927798686007245" />
+      <entry key="M2" value="8.386184427743634" />
+      <entry key="M5" value="14.077195285115575" />
+      <entry key="M10" value="25.19388601906083" />
+      <entry key="M15" value="41.547281168390626" />
+      <entry key="M30" value="102.00580912666462" />
+      <entry key="H1" value="219.89147788164735" />
+      <entry key="H2" value="387.9416437503829" />
+      <entry key="H4" value="554.6836905478772" />
+      <entry key="D1" value="781.9791843435652" />
+      <entry key="W1" value="833.0604200150055" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.830845014667832E-261" />
-      <entry key="S2" value="7.294222777255314E-66" />
-      <entry key="S5" value="8.814376746902759E-27" />
-      <entry key="S10" value="9.388571737641966E-14" />
-      <entry key="S30" value="4.638010355491894E-5" />
-      <entry key="S60" value="0.007708909844761982" />
-      <entry key="M2" value="0.11488944228771138" />
-      <entry key="M5" value="0.7225162304685845" />
-      <entry key="M10" value="1.7154430885104939" />
-      <entry key="M15" value="2.7799785578667806" />
-      <entry key="M30" value="7.295880458635371" />
-      <entry key="H1" value="18.66454126115124" />
-      <entry key="H2" value="35.19043912708519" />
-      <entry key="H4" value="50.362955526965436" />
-      <entry key="D1" value="69.2798633190807" />
-      <entry key="W1" value="73.30336372173261" />
+      <entry key="MS100" value="6.555826223162039E-17" />
+      <entry key="MS500" value="5.798631181999073E-4" />
+      <entry key="S2" value="0.15517843644076404" />
+      <entry key="S5" value="0.47460527157740423" />
+      <entry key="S10" value="0.689016709674491" />
+      <entry key="S30" value="0.9418374980873646" />
+      <entry key="S60" value="1.3195167038256645" />
+      <entry key="M2" value="2.1067111804493095" />
+      <entry key="M5" value="3.3651419026074523" />
+      <entry key="M10" value="4.281301437713026" />
+      <entry key="M15" value="5.089252325117752" />
+      <entry key="M30" value="8.189841581182467" />
+      <entry key="H1" value="17.13757368560953" />
+      <entry key="H2" value="33.71584021867659" />
+      <entry key="H4" value="51.76690068706762" />
+      <entry key="D1" value="77.21417833204838" />
+      <entry key="W1" value="82.98836659923455" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044940195" />
-      <entry key="S2" value="0.9975167499902586" />
-      <entry key="S5" value="1.0981734781013177" />
-      <entry key="S10" value="1.580455568856223" />
-      <entry key="S30" value="3.278671181715564" />
-      <entry key="S60" value="5.060259689312967" />
-      <entry key="M2" value="8.849114126613982" />
-      <entry key="M5" value="22.479942262490315" />
-      <entry key="M10" value="43.90943236545807" />
-      <entry key="M15" value="65.37000513179754" />
-      <entry key="M30" value="130.62841656179285" />
-      <entry key="H1" value="246.60528739318508" />
-      <entry key="H2" value="398.182926091501" />
-      <entry key="H4" value="535.9096678062663" />
-      <entry key="D1" value="709.3301860877999" />
-      <entry key="W1" value="746.5444278444853" />
+      <entry key="MS100" value="0.035402621415493704" />
+      <entry key="MS500" value="0.512706309457269" />
+      <entry key="S2" value="0.9474294375396337" />
+      <entry key="S5" value="1.476075996849488" />
+      <entry key="S10" value="2.084562035154956" />
+      <entry key="S30" value="4.009992234606955" />
+      <entry key="S60" value="6.466595039993973" />
+      <entry key="M2" value="10.453321875398274" />
+      <entry key="M5" value="17.41347102172209" />
+      <entry key="M10" value="29.448102651392087" />
+      <entry key="M15" value="46.606221120323205" />
+      <entry key="M30" value="110.15752210197691" />
+      <entry key="H1" value="236.9865143365826" />
+      <entry key="H2" value="421.6189356879209" />
+      <entry key="H4" value="606.422755964006" />
+      <entry key="D1" value="859.1868043030412" />
+      <entry key="W1" value="916.0477887188247" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -236,11 +234,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="aula.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/Main/sql/aula.sql" />
       <script-mode>FILE</script-mode>
@@ -252,7 +245,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -315,7 +308,8 @@
       <workItem from="1779732267931" duration="854000" />
       <workItem from="1779817892751" duration="5984000" />
       <workItem from="1780874485924" duration="10000" />
-      <workItem from="1780919182678" duration="3235000" />
+      <workItem from="1780919182678" duration="3960000" />
+      <workItem from="1781052889343" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -453,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779387430522</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update&#10;&#10;Inserts pelo PHP&#10;troca de tabelas pelo JS&#10;remover o NodeJs&#10;Terminar insert e testar">
+      <option name="closed" value="true" />
+      <created>1780922512327</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1780922512327</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +489,8 @@
     <MESSAGE value="Update&#10;Falta ainda implementar: Tabela de serviços, arrumar tabela de produtos, Implementar crud no sistema" />
     <MESSAGE value="Update &#10;Fornecedores incompleto" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update&#10;&#10;Inserts pelo PHP&#10;troca de tabelas pelo JS&#10;remover o NodeJs&#10;Terminar insert e testar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;&#10;Inserts pelo PHP&#10;troca de tabelas pelo JS&#10;remover o NodeJs&#10;Terminar insert e testar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
