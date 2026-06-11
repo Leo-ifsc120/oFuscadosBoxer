@@ -37,6 +37,7 @@ class Fornecedores
      $this->bairro               = trim($_POST["Bairro"]);
      $this->cidade               = trim($_POST["Cidade"]);
      $this->uf                   = trim($_POST["UF"]);
+     $this->dataCadastro         = date("Y-m-d");
  }
 
  function inserirFornecedor($conn)

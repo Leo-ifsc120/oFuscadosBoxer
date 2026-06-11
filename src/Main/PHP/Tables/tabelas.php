@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<script src="../../JavaScript/Node.js"></script>
+<script src="../../JavaScript/Script.js"></script>
 
 <header>
     <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
@@ -19,12 +19,19 @@
     <div class="button">
 
         <form action="../Tables/tabelas.php" method="post">
+            <div class="button">
 
-            <input type="button" onclick="callClientes()" id="clientes" name="clientes">
-            <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
-            <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
-            <input type="button" onclick="callServicos()" id="servicos" name="servicos">
-            <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+                <div id="tables">
+
+                    <input type="button" onclick="callClientes()" id="clientes" name="clientes">
+                    <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
+                    <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
+                    <input type="button" onclick="callServicos()" id="servicos" name="servicos">
+                    <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+
+                </div>
+
+            </div>
 
         </form>
 

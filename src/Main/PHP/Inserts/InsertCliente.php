@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+InsertFornecedor.php<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -16,39 +16,41 @@
 
 <div class="insertContainer">
     <div class="insertCabecalho">
-        <h1>Cadastro de Fornecedores</h1>
+        <h1>Cadastro de Clientes</h1>
 
-            <form action="InsertFornecedor.php" method="post">
+            <form action="InsertCliente.php" method="post">
 
                 <div class="insertform">
 
                     <label id="insertLabel">Razão Social: </label>
                     <input id="insertinput" type="text" name="razaoSocial" required>
-                    <label id="insertLabel">Fantasia:</label>
-                    <input id="insertinput" type="text" name="fantasia" required>
-                    <label id="insertLabel">Cnpj/cpf:</label>
-                    <input id="insertinput" type="text" name="cnpjcpf" required>
-                    <label id="insertLabel">Inscrição Estadual:</label>
-                    <input id="insertinput" type="text" name="inscricao" required>
                     <label id="insertLabel">E-Mail:</label>
                     <input id="insertinput" type="text" name="email" required>
                     <label id="insertLabel">Telefone:</label>
                     <input id="insertinput" type="text" name="telefone" required>
                     <label id="insertLabel">WhatsApp:</label>
                     <input id="insertinput" type="text" name="whatsApp" required>
+                    <label id="insertLabel">Cnpj/cpf:</label>
+                    <input id="insertinput" type="text" name="cnpjcpf" required>
                     <label id="insertLabel">Endereço:</label>
                     <input id="insertinput" type="text" name="endereco" required>
-                    <label id="insertLabel">CEP:</label>
-                    <input id="insertinput" type="text" name="CEP" required>
+                    <label id="insertLabel">N endereco: </label>
+                    <input id="insertinput" type="text" name="nendereco" required>
                     <label id="insertLabel">Bairro:</label>
                     <input id="insertinput" type="text" name="Bairro" required>
                     <label id="insertLabel">Cidade:</label>
                     <input id="insertinput" type="text" name="Cidade" required>
                     <label id="insertLabel">UF/Região:</label>
                     <input id="insertinput" type="text" name="UF" required>
+                    <label id="insertLabel">Complemento:</label>
+                    <input id="insertinput" type="text" name="complemento" required>
+                    <label id="insertLabel">CEP:</label>
+                    <input id="insertinput" type="text" name="CEP" required>
+                    <label id="insertLabel">Fantasia:</label>
+                    <input id="insertinput" type="text" name="fantasia" required>
 
-                    <button id="insertbutton" name="insertFornecedor" id="insertbutton">Inserir cadastro</button>
-                    <button id="cancelarbutton" type="submit" onclick="callFornecedores()" name="cancelarFornecedor" id="cancelarbutton">Cancelar Cadastro</button>
+                    <button id="insertbutton" name="insertCliente" id="insertbutton">Inserir cadastro</button>
+                    <button id="cancelarbutton" onclick="callClientes()" name="cancelarClientes" id="cancelarbutton">Cancelar Cadastro</button>
 
                 </div>
 
@@ -59,24 +61,22 @@
 <?php
 
 require "../DataBase/banco.php";
-require "../DataBase/Fornecedores.php";
+require "../DataBase/Clientes.php";
 
 $banco = new Banco();
 $conexao = $banco->connect();
 
-$fornecedor = new Fornecedores();
+$cliente = new Clientes();
 
-$btnInsert = isset($_POST['insertFornecedor']);
-$btnCancelar = isset($_POST['cancelarFornecedor']);
+$btnInsert = isset($_POST['insertCliente']);
+$btnCancelar = isset($_POST['cancelarCliente']);
 
 if ($btnInsert)
 {
-    $fornecedor->receberDados($conexao);
-    $fornecedor->inserirFornecedor($conexao);
+    $cliente->receberDados($conexao);
+    $cliente->inserirCliente($conexao);
 }
 
 ?>
-
-
 </body>
 </html>

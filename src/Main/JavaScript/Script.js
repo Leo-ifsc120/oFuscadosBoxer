@@ -35,3 +35,9 @@ function callInsertFornecedor()
     location.href = "../Inserts/InsertFornecedor.php";
 }
 
+function callInsertCliente()
+{
+    event.preventDefault()
+    location.href = "../Inserts/InsertCliente.php";
+}
+

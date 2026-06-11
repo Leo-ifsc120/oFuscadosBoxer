@@ -17179,8 +17179,8 @@
     <table id="5644" parent="5609" name="TblClientes">
       <CreatedTimestamp>2021-04-20.07:49:55.987</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2022-04-28.07:16:03.493</ModifiedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2026-06-11.11:56:01.113</ModifiedTimestamp>
       <ObjectId>430624577</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
@@ -17361,19 +17361,19 @@
     </column>
     <column id="5671" parent="5644" name="Dsemail">
       <Position>7</Position>
-      <StoredType>varchar(30 char)|0s</StoredType>
+      <StoredType>varchar(40 char)|0s</StoredType>
     </column>
     <column id="5672" parent="5644" name="DsBairro">
       <Position>8</Position>
-      <StoredType>varchar(20 char)|0s</StoredType>
+      <StoredType>varchar(30 char)|0s</StoredType>
     </column>
     <column id="5673" parent="5644" name="DsCidade">
       <Position>9</Position>
-      <StoredType>varchar(20 char)|0s</StoredType>
+      <StoredType>varchar(30 char)|0s</StoredType>
     </column>
     <column id="5674" parent="5644" name="DSRegiao">
       <Position>10</Position>
-      <StoredType>varchar(20 char)|0s</StoredType>
+      <StoredType>varchar(30 char)|0s</StoredType>
     </column>
     <column id="5675" parent="5644" name="CdCnpjCPF">
       <Position>11</Position>

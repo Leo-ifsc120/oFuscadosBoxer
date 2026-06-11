@@ -98,7 +98,7 @@ button#insertbutton
     width: 150px;
     height: 30px;
     grid-column-start: 2;
-    grid-row-start: 13;
+    grid-row-start: final;
 
 }
 button#cancelarbutton
@@ -109,7 +109,7 @@ button#cancelarbutton
     width: 150px;
     height: 30px;
     grid-column-start: 3;
-    grid-row-start: 13;
+    grid-row-start: final;
 }
 
 table
@@ -125,14 +125,41 @@ tr:nth-child(even) {
     background-color: #7C7C7C;
 }
 
-#theader
-{
-    background-color: #7C7C7C;
-}
 
+
+form
+{
+    position: sticky;
+    top: 0;
+
+    margin: auto;
+    width: 100%;
+
+}
 div.button
 {
+    width: 100%;
     height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #929292;
+}
+
+div#tables
+{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #929292;
+    justify-items: left;
+}
+div#crud
+{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #929292;
+    justify-items: right;
 }
 
 input[type="button"]

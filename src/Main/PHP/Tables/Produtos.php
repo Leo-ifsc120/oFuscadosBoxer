@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<script src="../../JavaScript/Node.js"></script>
+<script src="../../JavaScript/Script.js"></script>
 
 <header>
     <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
