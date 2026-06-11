@@ -18,23 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Insert funcional&#10;Replicar para as outras tabelas&#10;Começar a trabalhar na pesquisa de conteudo">
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Clientes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertCliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertServico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertVeiculo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/Insertproduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17959df4-dd0b-4765-90fc-09dffc206d4f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Produtos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Clientes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +85,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/DataBase/Clientes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Login/TelaDeLogin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -107,61 +96,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000010303" />
-      <entry key="MS500" value="1.0040049501480024" />
-      <entry key="S2" value="1.2515644624412596" />
-      <entry key="S5" value="1.5766153644295005" />
-      <entry key="S10" value="1.8160167997679888" />
-      <entry key="S30" value="3.2827160397655426" />
-      <entry key="S60" value="5.596201119603544" />
-      <entry key="M2" value="8.956851714748613" />
-      <entry key="M5" value="16.74180234549714" />
-      <entry key="M10" value="26.54138539428298" />
-      <entry key="M15" value="34.991083214846796" />
-      <entry key="M30" value="64.7534558328567" />
-      <entry key="H1" value="147.04749633983033" />
-      <entry key="H2" value="318.9289664173987" />
-      <entry key="H4" value="543.3932192164295" />
-      <entry key="D1" value="923.011834130649" />
-      <entry key="W1" value="1018.852802874031" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000607818453122" />
+      <entry key="S2" value="1.0888763874168141" />
+      <entry key="S5" value="1.4539207376530665" />
+      <entry key="S10" value="2.0162930188474517" />
+      <entry key="S30" value="3.543967271564493" />
+      <entry key="S60" value="5.05630805845236" />
+      <entry key="M2" value="6.907830758017921" />
+      <entry key="M5" value="9.244428113080822" />
+      <entry key="M10" value="10.682144084493958" />
+      <entry key="M15" value="11.776964500137366" />
+      <entry key="M30" value="19.777004348967505" />
+      <entry key="H1" value="62.61176328531632" />
+      <entry key="H2" value="198.24414687795215" />
+      <entry key="H4" value="428.1988777880805" />
+      <entry key="D1" value="901.6985151705625" />
+      <entry key="W1" value="1033.8887898988266" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.8304377683454467E-97" />
-      <entry key="S2" value="7.293960425761977E-25" />
-      <entry key="S5" value="2.214039481345648E-10" />
-      <entry key="S10" value="1.48796487906998E-5" />
-      <entry key="S30" value="0.024596659967222247" />
-      <entry key="S60" value="0.15765243908697188" />
-      <entry key="M2" value="0.4249120439125725" />
-      <entry key="M5" value="0.9676199840787915" />
-      <entry key="M10" value="1.571826217578868" />
-      <entry key="M15" value="2.215209133155417" />
-      <entry key="M30" value="5.083369311063593" />
-      <entry key="H1" value="12.625030799789533" />
-      <entry key="H2" value="28.76967612276749" />
-      <entry key="H4" value="51.237094604374384" />
-      <entry key="D1" value="90.95392727036892" />
-      <entry key="W1" value="101.1672685315916" />
+      <entry key="MS500" value="4.743009706865837E-114" />
+      <entry key="S2" value="4.7002298436643884E-29" />
+      <entry key="S5" value="5.298211884055887E-12" />
+      <entry key="S10" value="2.9913810840327004E-6" />
+      <entry key="S30" value="0.02536218693154609" />
+      <entry key="S60" value="0.26617103809358716" />
+      <entry key="M2" value="0.8861953556126718" />
+      <entry key="M5" value="1.954423233702651" />
+      <entry key="M10" value="2.838376202787998" />
+      <entry key="M15" value="3.3799267971377676" />
+      <entry key="M30" value="4.778916811529431" />
+      <entry key="H1" value="9.19301386664887" />
+      <entry key="H2" value="22.15420384341155" />
+      <entry key="H4" value="44.90288404912619" />
+      <entry key="D1" value="93.61575925406282" />
+      <entry key="W1" value="107.46567142012624" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.524006334435206E-6" />
-      <entry key="MS500" value="0.10137792411737537" />
-      <entry key="S2" value="0.7811127792293626" />
-      <entry key="S5" value="1.3400428979280532" />
-      <entry key="S10" value="1.6791405324247992" />
-      <entry key="S30" value="3.207152177044691" />
-      <entry key="S60" value="5.666635188629449" />
-      <entry key="M2" value="9.312004422551011" />
-      <entry key="M5" value="17.656143502951842" />
-      <entry key="M10" value="28.07218835283102" />
-      <entry key="M15" value="37.17175222684441" />
-      <entry key="M30" value="69.8078519013889" />
-      <entry key="H1" value="159.64220326554118" />
-      <entry key="H2" value="347.66652824155994" />
-      <entry key="H4" value="594.6030294202359" />
-      <entry key="D1" value="1013.9580473190753" />
-      <entry key="W1" value="1120.0188555407412" />
+      <entry key="MS100" value="2.2032611015663076E-5" />
+      <entry key="MS500" value="0.11711648904586189" />
+      <entry key="S2" value="0.6190852103732642" />
+      <entry key="S5" value="1.1183043765079475" />
+      <entry key="S10" value="1.7408524703175579" />
+      <entry key="S30" value="3.36835752397794" />
+      <entry key="S60" value="5.160368593512436" />
+      <entry key="M2" value="7.6746310229579935" />
+      <entry key="M5" value="11.132848945019104" />
+      <entry key="M10" value="13.48201845206141" />
+      <entry key="M15" value="15.128881122159868" />
+      <entry key="M30" value="24.53684649221971" />
+      <entry key="H1" value="71.78545576406427" />
+      <entry key="H2" value="220.3746399863048" />
+      <entry key="H4" value="473.07820669328083" />
+      <entry key="D1" value="995.3063650769428" />
+      <entry key="W1" value="1141.3531733126595" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -328,6 +317,7 @@
       <workItem from="1781052889343" duration="4272000" />
       <workItem from="1781136220367" duration="3000" />
       <workItem from="1781193999803" duration="6740000" />
+      <workItem from="1781208499451" duration="4711000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -481,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781057702346</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update&#10;&#10;Insert funcional&#10;Replicar para as outras tabelas&#10;Começar a trabalhar na pesquisa de conteudo">
+      <option name="closed" value="true" />
+      <created>1781208596660</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1781208596660</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
