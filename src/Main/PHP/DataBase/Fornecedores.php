@@ -37,14 +37,14 @@ class Fornecedores
      $this->bairro               = trim($_POST["Bairro"]);
      $this->cidade               = trim($_POST["Cidade"]);
      $this->uf                   = trim($_POST["UF"]);
-     $this->dataCadastro         = date("Y-m-d");
+     $this->dataCadastro         = date("Y-m-d h:i:s");
  }
 
  function inserirFornecedor($conn)
  {
 
-     $sql = "INSERT INTO TblFornecedores (Cdfornecedor, DsRazao, DsFantasia, CdCnpjCpf, CdIE, Dsemail, DsTelefone, DsWattsapp, Dsendereco, CdCep, DsBairro, dsCidade)
-                VALUES ('$this->cd_fornecedor', '$this->razao', '$this->Fantasia', '$this->Fantasia', '$this->inscricaoEstadual', '$this->email', '$this->telefone', '$this->whatsApp', '$this->endereco', '$this->cep', '$this->bairro', '$this->cidade')";
+     $sql = "INSERT INTO TblFornecedores (Cdfornecedor, DsRazao, DsFantasia, CdCnpjCpf, CdIE, Dsemail, DsTelefone, DsWattsapp, Dsendereco, CdCep, DsBairro, dsCidade, DtCadastro)
+                VALUES ('$this->cd_fornecedor', '$this->razao', '$this->Fantasia', '$this->Fantasia', '$this->inscricaoEstadual', '$this->email', '$this->telefone', '$this->whatsApp', '$this->endereco', '$this->cep', '$this->bairro', '$this->cidade', '$this->dataCadastro')";
      $conn->query($sql) or $conn->errorInfo();
 
      echo "<p> Cadastro feito </p>";

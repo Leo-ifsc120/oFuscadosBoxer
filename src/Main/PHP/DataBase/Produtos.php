@@ -1,6 +1,6 @@
 <?php
 
-class Clientes
+class Produtos
 {
     public $cdCliente;
     public $razao;

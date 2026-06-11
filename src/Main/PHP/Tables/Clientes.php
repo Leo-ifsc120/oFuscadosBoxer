@@ -16,7 +16,7 @@
 
 <div class="container">
 
-    <div class="button">
+
 
         <form action="../Tables/tabelas.php" method="post">
             <div class="button">
@@ -46,7 +46,7 @@
 
         </form>
 
-    </div>
+
 
 
 
