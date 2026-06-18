@@ -16,21 +16,38 @@
 
 <div class="container">
 
-    <div class="button">
+    <form action="Produtos.php" method="post">
 
-        <form action="../Tables/tabelas.php" method="post">
+        <div class="button">
 
-            <input type="button" onclick="callClientes()" id="clientes" name="clientes">
-            <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
-            <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
-            <input type="button" onclick="callServicos()" id="servicos" name="servicos">
-            <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+            <div id="tables">
+                <input type="button" onclick="callClientes()" id="clientes" name="clientes">
+                <input type="button" onclick="callFornecedores()" id="fornecedores" name="fornecedores">
+                <input type="button" onclick="callProdutos()" id="produtos" name="produtos">
+                <input type="button" onclick="callServicos()" id="servicos" name="servicos">
+                <input type="button" onclick="callVeiculos()" id="veiculos" name="veiculos">
+            </div>
 
-            <input type="button" id="inserir" name="inserir" value="inserir">
 
-        </form>
+            <div id="crud">
 
-    </div>
+                <div id="search">
+                    <input type="button" class="crud" id="pesquisar">
+                    <input type="text" name="pesquisa" id="pesquisa">
+                </div>
+
+                <div id="mod">
+                    <input type="button" onclick="callInsertFornecedor()" class="crud" id="inserir" name="inserir" value="inserir">
+                    <input type="button" onclick="callAlterarFornecedor()" class="crud" id="alterar" name="alterar" value="alterar">
+                    <input type="button" onclick="callDeletarFornecedor()" class="crud" id="deletar" name="deletar" value="deletar">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </form>
 
 
 

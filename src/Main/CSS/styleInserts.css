@@ -41,11 +41,12 @@ h1
 
 div.container
 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: #929292;
     width: 100%;
     height: auto;
+    min-height: 300px;
 }
 
 div.cabecalho
@@ -57,95 +58,48 @@ div.cabecalho
 
 }
 
-table
+div.insertContainer
 {
-    border: solid black 1px;
-}
-
-td
-{
-    padding: 3px;
-    border: solid black 1px;
-}
-
-tr:nth-child(even)
-{
-    background-color: #7C7C7C;
-}
-
-form
-{
-    position: sticky;
-    top: 0;
     margin: auto;
-    width: 100%;
-    border-bottom: #595959 10px solid;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: #929292;
+    justify-items: center;
+    width: auto;
+    height: auto;
 }
 
-div.button
+div.insertCabecalho
 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 30px;
+    width: 550px;
+    border: #eeeeee 4px solid;
+    background-color: #7f7f7f;
+
 }
 
-div#tables
+div.insertform
 {
-    display: flex;
-    flex-direction: row;
-    justify-self: flex-start;
-    margin-left: 25px;
-    order: 1;
-    column-gap: 25px;
-}
-
-div#crud
-{
-    margin-right: 25px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    order: 2;
-}
-
-div#search
-{
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-}
-
-div#mod
-{
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #929292;
+    height: auto;
 }
 
 
-input[type="button"]
+
+label
 {
-    width: 75px;
-    height: 75px;
-    border: none;
-    border-radius: 5px;
+    justify-self: left;
 }
 
-input.crud
+label#insertLabel
 {
-    height: 50px;
-    width: 50px;
-}
-
-input[name="pesquisa"]
-{
-    height: 50px;
-    width: 300px;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 
 #fornecedores
