@@ -32,8 +32,8 @@
             <div id="crud">
 
                 <div id="search">
-                    <input type="button" class="crud" id="pesquisar">
-                    <input type="text" name="pesquisa" id="pesquisa">
+                    <input type="submit" class="crud" id="pesquisar" name="pesquisar" value="Pesquisar">
+                    <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui...">
                 </div>
 
                 <div id="mod">
@@ -53,9 +53,33 @@
 
 require "../DataBase/Connection.php";
 
-echo "<table> <tr id='theader'><th>Cod</th><th>Descrição</th><th>Embalagem</th><th>Produto</th><th>Fabricante</th><th>Fornecedor</th><th>Estoque</th><th>Aplicação</th><th>Ano da Aplicação</th><th>Usado</th><th>Estoque minimo</th><th>fotopro</th></tr>";
+echo "<table> <tr id='theader'>
+    <th><input type='radio' name='index' id='cod' value='CdVeiculo'><label for='cod'>Cod</label></th>
+    <th><input type='radio' name='index' id='descricao' value='DsVeiculo'><label for='descricao'>Descrição</label></th>
+    <th><input type='radio' name='index' id='embalagem' value='DsEmbalagem'><label for='embalagem'>Embalagem</label></th>
+    <th><input type='radio' name='index' id='produto' value='DsProduto'><label for='produto'>Produto</label></th>
+    <th><input type='radio' name='index' id='fabricante' value='DsFabricante'><label for='fabricante'>Fabricante</label></th>
+    <th><input type='radio' name='index' id='fornecedor' value='DsFornecedor'><label for='fornecedor'>Fornecedor</label></th>
+    <th><input type='radio' name='index' id='estoque' value='NrEstoque'><label for='estoque'>Estoque</label></th>
+    <th><input type='radio' name='index' id='aplicacao' value='DsAplicacao'><label for='aplicacao'>Aplicação</label></th>
+    <th><input type='radio' name='index' id='ano_aplicacao' value='NrAnoAplicacao'><label for='ano_aplicacao'>Ano da Aplicação</label></th>
+    <th><input type='radio' name='index' id='usado' value='InUsado'><label for='usado'>Usado</label></th>
+    <th><input type='radio' name='index' id='estoque_minimo' value='NrEstoqueMinimo'><label for='estoque_minimo'>Estoque minimo</label></th>
+    <th>Foto</th>
+</tr>";
 
 $stmt = "select * from tblVeiculos";
+
+if(isset($_POST['pesquisar']))
+{
+    if(!empty($_POST['index']) && !empty($_POST['pesquisa']))
+    {
+        $index = $_POST['index'];
+        $pesquisa = $_POST['pesquisa'];
+        $stmt = "select * from tblVeiculos where $index like '%$pesquisa%'";
+    }
+}
+
 $result = $conn->query($stmt)->fetchAll();
 
 foreach($result as $row) {

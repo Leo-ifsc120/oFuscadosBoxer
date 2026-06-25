@@ -11,7 +11,7 @@
 
 <header>
     <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
-    <p id="title"><strong>OFuscadosBoxer</strong></p>
+    <h1 id="title"><strong>OFuscadosBoxer</strong></h1>
 </header>
 
 <div class="container">
@@ -37,11 +37,6 @@
 
     </div>
 
-
-
-    <?php
-
-    ?>
 </div>
 
 </body>

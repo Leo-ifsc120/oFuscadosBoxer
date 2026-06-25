@@ -41,3 +41,9 @@ function callInsertCliente()
     location.href = "../Inserts/InsertCliente.php";
 }
 
+function buscarFornecedor()
+{
+    event.preventDefault()
+
+}
+

@@ -11,7 +11,7 @@
 
 <header>
     <img alt="" src="../../img/Imagens/oFuscadosLogo.jpg" id="logo">
-    <p id="title"><strong>OFuscadosBoxer</strong></p>
+    <h1 id="title"><strong>OFuscadosBoxer</strong></h1>
 </header>
 
 <div class="container">
@@ -33,8 +33,8 @@
                 <div id="crud">
 
                     <div id="search">
-                        <input type="button" class="crud" id="pesquisar">
-                        <input type="text" name="pesquisa" id="pesquisa">
+                                <input type="submit" class="crud" id="pesquisar" name="pesquisar" value="Pesquisar">
+                                <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite o ID para alterar:">
                     </div>
 
                     <div id="mod">
@@ -46,29 +46,60 @@
                 </div>
 
 
+
+
             </div>
 
-        </form>
+            <table>
+                <tr id='theader'>
+                    <th><input type='radio' name='index' id='id' value='Cdfornecedor'><label for='id'>ID</label></th>
+                    <th><input type='radio' name='index' id='razao_social' value='DsRazao'><label for='razao_social'>Razão social/Nome</label></th>
+                    <th><input type='radio' name='index' id='fantasia' value='DsFantasia'><label for='fantasia'>Fantasia</label></th>
+                    <th><input type='radio' name='index' id='cnpj_cpf' value='CdCnpjCpf'><label for='cnpj_cpf'>Cnpj/CPF</label></th>
+                    <th><input type='radio' name='index' id='telefone' value='DsTelefone'><label for='telefone'>Telefone</label></th>
+                    <th><input type='radio' name='index' id='endereco' value='DsEndereco'><label for='endereco'>Endereço</label></th>
+                    <th><input type='radio' name='index' id='cep' value='DsCep'><label for='cep'>CEP</label></th>
+                    <th><input type='radio' name='index' id='email' value='Dsemail'><label for='email'>E-Mail</label></th>
+                    <th><input type='radio' name='index' id='bairro' value='DsBairro'><label for='bairro'>Bairro</label></th>
+                    <th><input type='radio' name='index' id='cidade' value='dsCidade'><label for='cidade'>Cidade</label></th>
+                    <th><input type='radio' name='index' id='uf_regiao' value='DSRegiao'><label for='uf_regiao'>UF/Região</label></th>
+                    <th><input type='radio' name='index' id='inscricao_estadual' value='CdIE'><label for='inscricao_estadual'>Inscrição Estadual</label></th>
+                    <th><input type='radio' name='index' id='whatsapp' value='DsWhatsapp'><label for='whatsapp'>WhatsApp</label></th>
+                    <th><input type='radio' name='index' id='contato' value='DsContato'><label for='contato'>Contato</label></th>
+                    <th><input type='radio' name='index' id='data_cadastro' value='DtCadastro'><label for='data_cadastro'>Data Cadastro</label></th>
+                    <th><input type='radio' name='index' id='nu_endereco' value='Nrendereco'><label for='nu_endereco'>Nu Endereço</label></th>
+                    <th><input type='radio' name='index' id='complemento' value='Dscomplemento'><label for='complemento'>Complemento</label></th>
+                </tr>
+
+                <?php
+
+                require "../DataBase/Connection.php";
 
 
 
+                if(isset($_POST['pesquisar']))
+                {
+                    if(!empty($_POST['index']) && !empty($_POST['pesquisa']))
+                    {
+                        $index = $_POST['index'];
+                        $pesquisa = $_POST['pesquisa'];
+                        $stmt = "select * from TblFornecedores where $index like '%$pesquisa%'";
+                    }
+                    else
+                    {
+                        $stmt = "select * from TblFornecedores";
+                    }
+                }
+                else
+                {
+                    $stmt = "select * from TblFornecedores";
+                }
+
+                $result = $conn->query($stmt)->fetchAll();
+                foreach ($result as $row) {
 
 
-<?php
-
-require "../DataBase/Connection.php";
-
-$btnBuscar = isset($_POST['pesquisar']);
-
-if($btnBuscar) {
-    echo "<table> <tr id='theader'><th>Id</th><th>Razão social/Nome</th><th>Fantasia</th><th>Cnpj/CPF</th><th>Telefone</th><th>Endereço</th><th>CEP</th><th>E-Mail</th><th>Bairro</th><th>Cidade</th><th>UF/Região</th><th>Inscrição Estadual</th><th>WhatsApp</th><th>Contato</th><th>Data Cadastro</th><th>Nu Endereço</th><th>Complemento</th></tr>";
-    $stmt = "select * from TblFornecedores";
-    $result = $conn->query($stmt)->fetchAll();
-
-    foreach ($result as $row) {
-
-
-        echo "<tr>
+                    echo "<tr>
                 <td> $row[0]  </td>
                 <td> $row[1]  </td>
                 <td> $row[2]  </td>
@@ -88,18 +119,25 @@ if($btnBuscar) {
                 <td> $row[16]  </td>
 
            </tr>";
-    }
+                }
 
-    echo "</table>";
-}
 
-$stmt = null;
 
-?>
+                $stmt = null;
+
+
+
+                ?>
+
+            </table>
+
+        </form>
+
+
 
 </div>
 
-<h1>Fornecedores</h1>
+<p>Fornecedores</p>
 
 </body>
 </html>

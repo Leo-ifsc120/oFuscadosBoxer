@@ -8,6 +8,9 @@
     <option name="/Default/Environment/StickyLines/Enabled/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -18,14 +21,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer">
-      <change afterPath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,60 +106,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000002" />
-      <entry key="S10" value="1.0000000253106445" />
-      <entry key="S30" value="1.0078590626342185" />
-      <entry key="S60" value="1.216158792720281" />
-      <entry key="M2" value="2.3029566422977967" />
-      <entry key="M5" value="7.527423235747518" />
-      <entry key="M10" value="20.685506268093274" />
-      <entry key="M15" value="36.25537041796831" />
-      <entry key="M30" value="77.6002851511079" />
-      <entry key="H1" value="141.47145769540208" />
-      <entry key="H2" value="276.30092116171437" />
-      <entry key="H4" value="512.4563202418678" />
-      <entry key="D1" value="1050.1583807295885" />
-      <entry key="W1" value="1209.5642030830747" />
+      <entry key="MS500" value="1.0000000375659284" />
+      <entry key="S2" value="1.0139219017611876" />
+      <entry key="S5" value="1.1811793641960546" />
+      <entry key="S10" value="1.4441509408448345" />
+      <entry key="S30" value="2.3941541078278306" />
+      <entry key="S60" value="4.154522515727543" />
+      <entry key="M2" value="6.9643814738081895" />
+      <entry key="M5" value="11.38095704432188" />
+      <entry key="M10" value="16.516293117090488" />
+      <entry key="M15" value="22.696540916342663" />
+      <entry key="M30" value="47.13659136242292" />
+      <entry key="H1" value="97.11066926021022" />
+      <entry key="H2" value="192.29244289486238" />
+      <entry key="H4" value="399.1668428789812" />
+      <entry key="D1" value="1185.4451422498091" />
+      <entry key="W1" value="1502.4152545029765" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.245573223260306E-124" />
-      <entry key="S2" value="1.2241420184144278E-31" />
-      <entry key="S5" value="4.316509709085397E-13" />
-      <entry key="S10" value="6.570014999286833E-7" />
-      <entry key="S30" value="0.008693390517262017" />
-      <entry key="S60" value="0.09338931564797444" />
-      <entry key="M2" value="0.32941684672936594" />
-      <entry key="M5" value="1.2696018785118994" />
-      <entry key="M10" value="3.132439785486394" />
-      <entry key="M15" value="4.758657147757628" />
-      <entry key="M30" value="8.36238677742331" />
-      <entry key="H1" value="13.849387960920813" />
-      <entry key="H2" value="26.14368207992889" />
-      <entry key="H4" value="48.967881856542114" />
-      <entry key="D1" value="103.45008308219037" />
-      <entry key="W1" value="119.94304517766726" />
+      <entry key="MS100" value="1.1873229338528867E-4" />
+      <entry key="MS500" value="0.16403980132163928" />
+      <entry key="S2" value="0.69689415681883" />
+      <entry key="S5" value="1.1602311595909114" />
+      <entry key="S10" value="1.4841975477084732" />
+      <entry key="S30" value="1.8104676099816113" />
+      <entry key="S60" value="2.042145438833054" />
+      <entry key="M2" value="2.48877237471606" />
+      <entry key="M5" value="3.2728385148586217" />
+      <entry key="M10" value="4.293565258613192" />
+      <entry key="M15" value="5.47564842006251" />
+      <entry key="M30" value="9.2971684975209" />
+      <entry key="H1" value="15.675520352819865" />
+      <entry key="H2" value="26.14010374663775" />
+      <entry key="H4" value="46.91583196656985" />
+      <entry key="D1" value="125.55761657131049" />
+      <entry key="W1" value="157.64403753755826" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.25178200077549E-18" />
-      <entry key="MS500" value="3.830977040511476E-4" />
-      <entry key="S2" value="0.1399031159535126" />
-      <entry key="S5" value="0.4553349167963336" />
-      <entry key="S10" value="0.6747856994774848" />
-      <entry key="S30" value="0.8931486789282896" />
-      <entry key="S60" value="1.2416796345259489" />
-      <entry key="M2" value="2.588674884794076" />
-      <entry key="M5" value="8.759798571152917" />
-      <entry key="M10" value="23.77449790742506" />
-      <entry key="M15" value="40.967243351717556" />
-      <entry key="M30" value="85.91740614481795" />
-      <entry key="H1" value="155.28260931370357" />
-      <entry key="H2" value="302.41076114022803" />
-      <entry key="H4" value="561.3949963029031" />
-      <entry key="D1" value="1153.5990249324173" />
-      <entry key="W1" value="1329.505707788015" />
+      <entry key="MS100" value="1.3174174457454947E-4" />
+      <entry key="MS500" value="0.1744462972193943" />
+      <entry key="S2" value="0.9619110611557681" />
+      <entry key="S5" value="1.8244700392215103" />
+      <entry key="S10" value="2.579914049623058" />
+      <entry key="S30" value="4.044359914968291" />
+      <entry key="S60" value="6.09266471516563" />
+      <entry key="M2" value="9.381629388696817" />
+      <entry key="M5" value="14.611970265831102" />
+      <entry key="M10" value="20.78046297994854" />
+      <entry key="M15" value="28.14475596906783" />
+      <entry key="M30" value="56.40452328132708" />
+      <entry key="H1" value="112.75697934737205" />
+      <entry key="H2" value="218.40501592152876" />
+      <entry key="H4" value="446.0562800458017" />
+      <entry key="D1" value="1310.9910803412363" />
+      <entry key="W1" value="1660.0572183344038" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -167,6 +173,32 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -177,10 +209,12 @@
     &quot;Database Script.aula.sql.executor&quot;: &quot;Run&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Fornecedores.php.executor&quot;: &quot;Coverage&quot;,
     &quot;JavaScript Debug.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.telaValidacao.php.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;PHP Script.Connection.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Fornecedores.php.executor&quot;: &quot;Debug&quot;,
     &quot;PHP Script.Servicos.php.executor&quot;: &quot;Debug&quot;,
     &quot;PHP Script.TelaDeLogin.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP Script.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
@@ -194,6 +228,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.16.0&quot;,
@@ -208,7 +243,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -237,12 +272,15 @@
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\MainScreen" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.aula.sql">
     <configuration name="aula.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/Main/sql/aula.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" />
       <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" namespace="database/&quot;Oficina&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Fornecedores.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php">
       <method v="2" />
     </configuration>
   </component>
@@ -318,6 +356,10 @@
       <workItem from="1781193999803" duration="6740000" />
       <workItem from="1781208499451" duration="5027000" />
       <workItem from="1781798282736" duration="3897000" />
+      <workItem from="1781802252401" duration="3487000" />
+      <workItem from="1781814755077" duration="10381000" />
+      <workItem from="1782330927854" duration="1535000" />
+      <workItem from="1782332495369" duration="5978000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -495,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781215038950</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer">
+      <option name="closed" value="true" />
+      <created>1781802386674</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1781802386674</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,6 +587,9 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oFuscadosBoxer$Fornecedores_php.dat" NAME="Fornecedores.php Coverage Results" MODIFIED="1781830690405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

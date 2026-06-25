@@ -32,8 +32,8 @@
             <div id="crud">
 
                 <div id="search">
-                    <input type="button" class="crud" id="pesquisar">
-                    <input type="text" name="pesquisa" id="pesquisa">
+                    <input type="submit" class="crud" id="pesquisar" name="pesquisar" value="Pesquisar">
+                    <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui...">
                 </div>
 
                 <div id="mod">
@@ -55,8 +55,35 @@
 
 require "../DataBase/Connection.php";
 
-echo "<table> <tr id='theader'><th>Cód Serviço</th><th>Cód Cliente</th><th>Razão Social</th><th>Cód Veículo</th><th>KM Atual</th><th>Status</th><th>Situação</th><th>Óleo Trocado</th><th>Data Ordem de Serviço</th><th>Data de Entrada</th><th>Entrega Prevista</th><th>Data Saída</th><th>Valor Pago Antecipado</th><th>Falta Pagar</th></tr>";
+echo "<table> <tr id='theader'>
+    <th><input type='radio' name='index' id='cod_servico' value='CdServico'><label for='cod_servico'>Cód Serviço</label></th>
+    <th><input type='radio' name='index' id='cod_cliente' value='cdcliente'><label for='cod_cliente'>Cód Cliente</label></th>
+    <th><input type='radio' name='index' id='razao_social' value='DsRazao'><label for='razao_social'>Razão Social</label></th>
+    <th><input type='radio' name='index' id='cod_veiculo' value='cdveiculo'><label for='cod_veiculo'>Cód Veículo</label></th>
+    <th><input type='radio' name='index' id='km_atual' value='NrKmAtual'><label for='km_atual'>KM Atual</label></th>
+    <th><input type='radio' name='index' id='status' value='InStatus'><label for='status'>Status</label></th>
+    <th><input type='radio' name='index' id='situacao' value='InSituacao'><label for='situacao'>Situação</label></th>
+    <th><input type='radio' name='index' id='oleo_trocado' value='InTrocaoleo'><label for='oleo_trocado'>Óleo Trocado</label></th>
+    <th><input type='radio' name='index' id='data_os' value='DtOrdemServico'><label for='data_os'>Data Ordem de Serviço</label></th>
+    <th><input type='radio' name='index' id='data_entrada' value='DtEntrada'><label for='data_entrada'>Data de Entrada</label></th>
+    <th><input type='radio' name='index' id='data_prevista' value='DtPrevisto'><label for='data_prevista'>Entrega Prevista</label></th>
+    <th><input type='radio' name='index' id='data_saida' value='DtSaida'><label for='data_saida'>Data Saída</label></th>
+    <th><input type='radio' name='index' id='valor_antecipado' value='VlordemServicoPgAntecipado'><label for='valor_antecipado'>Valor Pago Antecipado</label></th>
+    <th><input type='radio' name='index' id='falta_pagar' value='VlordemServicofaltaPagar'><label for='falta_pagar'>Falta Pagar</label></th>
+</tr>";
+
 $stmt = "select * from TblServicos";
+
+if(isset($_POST['pesquisar']))
+{
+    if(!empty($_POST['index']) && !empty($_POST['pesquisa']))
+    {
+        $index = $_POST['index'];
+        $pesquisa = $_POST['pesquisa'];
+        $stmt = "select * from TblServicos where $index like '%$pesquisa%'";
+    }
+}
+
 $result = $conn->query($stmt)->fetchAll();
 
 

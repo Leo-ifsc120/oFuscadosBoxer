@@ -7,6 +7,41 @@ body
     background-color: #A8A8A8;
 }
 
+#fornecedores
+{
+    background-image: url("../img/Imagens/FORNECEDORES.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#clientes
+{
+    background-image: url("../img/Imagens/Clientes.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#produtos
+{
+    background-image: url("../img/Imagens/Produtos.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#servicos
+{
+    background-image: url("../img/Imagens/servicos.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#veiculos
+{
+    background-image: url("../img/Imagens/veiculos.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
 header
 {
     margin: auto;
@@ -31,12 +66,13 @@ img#logo
     font-size: 50px;
 }
 
-h1
+p
 {
     font-size: 35px;
     text-align: center;
     margin: 0;
     background-color: #bedabe;
+    font-weight: bold;
 }
 
 div.container
@@ -57,15 +93,15 @@ div.cabecalho
 
 }
 
-table
+table, th, td
 {
-    border: solid black 1px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 td
 {
     padding: 3px;
-    border: solid black 1px;
 }
 
 tr:nth-child(even)
@@ -148,37 +184,17 @@ input[name="pesquisa"]
     width: 300px;
 }
 
-#fornecedores
+input[type=radio]
 {
-    background-image: url("../img/Imagens/FORNECEDORES.png");
-    background-size: cover;
-    border-radius: 10px;
+    display: none;
 }
 
-#clientes
+input[type=radio]:checked + label
 {
-    background-image: url("../img/Imagens/Clientes.png");
-    background-size: cover;
-    border-radius: 10px;
+    border-bottom: 2px solid black;
 }
 
-#produtos
+label:HOVER
 {
-    background-image: url("../img/Imagens/Produtos.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#servicos
-{
-    background-image: url("../img/Imagens/servicos.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#veiculos
-{
-    background-image: url("../img/Imagens/veiculos.png");
-    background-size: cover;
-    border-radius: 10px;
+    border-bottom: 2px solid white;
 }

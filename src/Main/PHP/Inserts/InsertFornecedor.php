@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>OFuscadosBoxer</title>
-    <link rel="stylesheet" href="../../CSS/styleTabelas.css">
+    <link rel="stylesheet" href="../../CSS/styleInserts.css">
 </head>
 <body>
 
@@ -14,13 +14,13 @@
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
-<div class="insertContainer">
-    <div class="insertCabecalho">
+<div class="container">
+    <div class="cabecalho">
         <h1>Cadastro de Fornecedores</h1>
 
             <form action="InsertFornecedor.php" method="post">
 
-                <div class="insertform">
+                <div class="form">
 
                     <label id="insertLabel">Razão Social: </label>
                     <input id="insertinput" type="text" name="razaoSocial" required>
@@ -46,10 +46,10 @@
                     <input id="insertinput" type="text" name="Cidade" required>
                     <label id="insertLabel">UF/Região:</label>
                     <input id="insertinput" type="text" name="UF" required>
-
-                    <button id="insertbutton" name="insertFornecedor" id="insertbutton">Inserir cadastro</button>
-                    <button id="cancelarbutton" type="submit" onclick="callFornecedores()" name="cancelarFornecedor" id="cancelarbutton">Cancelar Cadastro</button>
-
+                    <div id="buttons">
+                        <button id="insertbutton" name="insertFornecedor" id="insertbutton">Inserir cadastro</button>
+                        <button id="cancelarbutton" type="submit" onclick="callFornecedores()" name="cancelarFornecedor" id="cancelarbutton">Cancelar Cadastro</button>
+                    </div>
                 </div>
 
             </form>

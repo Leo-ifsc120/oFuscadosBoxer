@@ -58,18 +58,7 @@ div.cabecalho
 
 }
 
-div.insertContainer
-{
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #929292;
-    justify-items: center;
-    width: auto;
-    height: auto;
-}
-
-div.insertCabecalho
+div.cabecalho
 {
     margin: 30px;
     width: 550px;
@@ -78,7 +67,7 @@ div.insertCabecalho
 
 }
 
-div.insertform
+div.form
 {
     margin: auto;
     padding: 20px;
@@ -89,7 +78,7 @@ div.insertform
     height: auto;
 }
 
-
+div#buttons
 
 label
 {
