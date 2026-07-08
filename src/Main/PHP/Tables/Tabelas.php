@@ -18,7 +18,7 @@
 
     <div class="button">
 
-        <form action="../Tables/tabelas.php" method="post">
+        <form action="../Tables/Tabelas.php" method="post">
             <div class="button">
 
                 <div id="tables">

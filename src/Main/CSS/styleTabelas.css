@@ -5,6 +5,10 @@ body
     font-family: "Iosevka Charon Mono", sans-serif;
     margin: 0;
     background-color: #A8A8A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #fornecedores
@@ -44,9 +48,9 @@ body
 
 header
 {
-    margin: auto;
+    margin: 0;
     background-color: #7C7C7C;
-    width: auto;
+    width: 100%;
     height: 150px;
     display: flex;
 }
@@ -66,13 +70,17 @@ img#logo
     font-size: 50px;
 }
 
-p
+h1#clientes_fim
 {
-    font-size: 35px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     margin: 0;
-    background-color: #bedabe;
-    font-weight: bold;
+    background-color: #7f7f7f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 10px solid #595959;
 }
 
 div.container
@@ -82,15 +90,6 @@ div.container
     background-color: #929292;
     width: 100%;
     height: auto;
-}
-
-div.cabecalho
-{
-    margin: 30px;
-    width: 60%;
-    border: #eeeeee 4px solid;
-    background-color: #7f7f7f;
-
 }
 
 table, th, td
@@ -111,18 +110,26 @@ tr:nth-child(even)
 
 form
 {
-    position: sticky;
-    top: 0;
     margin: auto;
     width: 100%;
-    border-bottom: #595959 10px solid;
-    background-color: #929292;
+}
+
+table
+{
+    margin: auto;
+    width: 100%;
 }
 
 div.button
 {
+    border-bottom: #595959 10px solid;
+    background-color: #929292;
+    position: sticky;
+    top: 0;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     height: 75px;
     display: flex;
@@ -180,9 +187,17 @@ input.crud
 
 input[name="pesquisa"]
 {
-    height: 50px;
+    height: 20px;
     width: 300px;
+    font-size: 20px;
+    align-self: center;
 }
+
+input[name="pesquisa"]::placeholder
+{
+    font-size: 20px;
+}
+
 
 input[type=radio]
 {

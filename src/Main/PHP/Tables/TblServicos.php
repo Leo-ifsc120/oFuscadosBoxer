@@ -16,7 +16,7 @@
 
 <div class="container">
 
-    <form action="Servicos.php" method="post">
+    <form action="TblServicos.php" method="post">
 
         <div class="button">
 
@@ -37,9 +37,9 @@
                 </div>
 
                 <div id="mod">
-                    <input type="button" onclick="callInsertFornecedor()" class="crud" id="inserir" name="inserir" value="inserir">
-                    <input type="button" onclick="callAlterarFornecedor()" class="crud" id="alterar" name="alterar" value="alterar">
-                    <input type="button" onclick="callDeletarFornecedor()" class="crud" id="deletar" name="deletar" value="deletar">
+                    <input type="button" onclick="callInsertServico()" class="crud" id="inserir" name="inserir" value="inserir">
+                    <input type="button" onclick="callAlterarServico()" class="crud" id="alterar" name="alterar" value="alterar">
+                    <input type="button" onclick="callDeletarServico()" class="crud" id="deletar" name="deletar" value="deletar">
                 </div>
 
             </div>

@@ -1,49 +1,54 @@
 function callVeiculos()
 {
     event.preventDefault()
-    location.href = "../Tables/veiculos.php";
+    location.href = "../Tables/TblVeiculos.php";
 
 }
 function callClientes()
 {
     event.preventDefault()
-    location.href = "../Tables/Clientes.php";
+    location.href = "../Tables/TblClientes.php";
 
 }
 function callFornecedores()
 {
     event.preventDefault()
-    location.href = "../Tables/Fornecedores.php";
+    location.href = "../Tables/TblFornecedores.php";
 
 }
 function callProdutos()
 {
     event.preventDefault()
-    location.href = "../Tables/Produtos.php";
+    location.href = "../Tables/TblProdutos.php";
 
 }
 function callServicos()
 {
     event.preventDefault()
-    location.href = "../Tables/Servicos.php";
+    location.href = "../Tables/TblServicos.php";
 
 }
 
 function callInsertFornecedor()
 {
     event.preventDefault()
-    location.href = "../Inserts/InsertFornecedor.php";
+    location.href = "../Inserts/FormFornecedor.php";
+}
+
+function callAlterarFornecedor()
+{
+    event.preventDefault()
+    location.href = "../Forms/FormFornecedor.php";
+}
+
+function callDeletarFornecedor()
+{
+    event.preventDefault()
 }
 
 function callInsertCliente()
 {
     event.preventDefault()
-    location.href = "../Inserts/InsertCliente.php";
-}
-
-function buscarFornecedor()
-{
-    event.preventDefault()
-
+    location.href = "../Inserts/FormCliente.php";
 }
 

@@ -17,7 +17,7 @@ if ($resultado = null)
 }
 else
 {
-    require "../Tables/tabelas.php";
+    require "../Tables/Tabelas.php";
 }
 
 

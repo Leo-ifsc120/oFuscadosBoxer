@@ -17,7 +17,7 @@
 <div class="container">
 
 
-        <form action="Fornecedores.php" method="post">
+        <form action="TblFornecedores.php" method="post">
 
             <div class="button">
 
@@ -73,9 +73,10 @@
 
                 <?php
 
-                require "../DataBase/Connection.php";
+                require "../DataBase/Banco.php";
 
-
+                $banco = new Banco();
+                $conn = $banco->connect();
 
                 if(isset($_POST['pesquisar']))
                 {

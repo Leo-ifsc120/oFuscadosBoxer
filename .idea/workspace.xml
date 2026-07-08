@@ -21,17 +21,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer">
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblClientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/FormCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/FormFornecedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertVeiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertVeiculo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/Insertproduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/Formproduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblFornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblProdutos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblVeiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Tabelas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,60 +114,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000375659284" />
-      <entry key="S2" value="1.0139219017611876" />
-      <entry key="S5" value="1.1811793641960546" />
-      <entry key="S10" value="1.4441509408448345" />
-      <entry key="S30" value="2.3941541078278306" />
-      <entry key="S60" value="4.154522515727543" />
-      <entry key="M2" value="6.9643814738081895" />
-      <entry key="M5" value="11.38095704432188" />
-      <entry key="M10" value="16.516293117090488" />
-      <entry key="M15" value="22.696540916342663" />
-      <entry key="M30" value="47.13659136242292" />
-      <entry key="H1" value="97.11066926021022" />
-      <entry key="H2" value="192.29244289486238" />
-      <entry key="H4" value="399.1668428789812" />
-      <entry key="D1" value="1185.4451422498091" />
-      <entry key="W1" value="1502.4152545029765" />
+      <entry key="MS500" value="1.000000000076275" />
+      <entry key="S2" value="1.0029605829613444" />
+      <entry key="S5" value="1.1099403096810128" />
+      <entry key="S10" value="1.5394106329512358" />
+      <entry key="S30" value="3.65655377313163" />
+      <entry key="S60" value="5.663505217710072" />
+      <entry key="M2" value="8.962938929297861" />
+      <entry key="M5" value="18.179786630808305" />
+      <entry key="M10" value="28.087280300646427" />
+      <entry key="M15" value="34.779137255499386" />
+      <entry key="M30" value="52.29084121341187" />
+      <entry key="H1" value="90.0548341363474" />
+      <entry key="H2" value="174.48494953596435" />
+      <entry key="H4" value="365.46422864268624" />
+      <entry key="D1" value="1251.4294994631803" />
+      <entry key="W1" value="1664.479376771982" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1873229338528867E-4" />
-      <entry key="MS500" value="0.16403980132163928" />
-      <entry key="S2" value="0.69689415681883" />
-      <entry key="S5" value="1.1602311595909114" />
-      <entry key="S10" value="1.4841975477084732" />
-      <entry key="S30" value="1.8104676099816113" />
-      <entry key="S60" value="2.042145438833054" />
-      <entry key="M2" value="2.48877237471606" />
-      <entry key="M5" value="3.2728385148586217" />
-      <entry key="M10" value="4.293565258613192" />
-      <entry key="M15" value="5.47564842006251" />
-      <entry key="M30" value="9.2971684975209" />
-      <entry key="H1" value="15.675520352819865" />
-      <entry key="H2" value="26.14010374663775" />
-      <entry key="H4" value="46.91583196656985" />
-      <entry key="D1" value="125.55761657131049" />
-      <entry key="W1" value="157.64403753755826" />
+      <entry key="MS100" value="1.8027037673773858E-109" />
+      <entry key="MS500" value="1.7831376634214935E-22" />
+      <entry key="S2" value="3.6542328576000065E-6" />
+      <entry key="S5" value="0.0066852628481281024" />
+      <entry key="S10" value="0.08176345668081778" />
+      <entry key="S30" value="0.43414790037180684" />
+      <entry key="S60" value="0.6698731318391508" />
+      <entry key="M2" value="0.9362429374787493" />
+      <entry key="M5" value="1.6844964917867102" />
+      <entry key="M10" value="2.733209920515506" />
+      <entry key="M15" value="3.661136985226193" />
+      <entry key="M30" value="6.610925593734337" />
+      <entry key="H1" value="12.73126008647987" />
+      <entry key="H2" value="24.295391767965928" />
+      <entry key="H4" value="46.08300208199757" />
+      <entry key="D1" value="137.94777705309735" />
+      <entry key="W1" value="180.32586228997422" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3174174457454947E-4" />
-      <entry key="MS500" value="0.1744462972193943" />
-      <entry key="S2" value="0.9619110611557681" />
-      <entry key="S5" value="1.8244700392215103" />
-      <entry key="S10" value="2.579914049623058" />
-      <entry key="S30" value="4.044359914968291" />
-      <entry key="S60" value="6.09266471516563" />
-      <entry key="M2" value="9.381629388696817" />
-      <entry key="M5" value="14.611970265831102" />
-      <entry key="M10" value="20.78046297994854" />
-      <entry key="M15" value="28.14475596906783" />
-      <entry key="M30" value="56.40452328132708" />
-      <entry key="H1" value="112.75697934737205" />
-      <entry key="H2" value="218.40501592152876" />
-      <entry key="H4" value="446.0562800458017" />
-      <entry key="D1" value="1310.9910803412363" />
-      <entry key="W1" value="1660.0572183344038" />
+      <entry key="MS100" value="0.0036955376825218585" />
+      <entry key="MS500" value="0.32623873695498296" />
+      <entry key="S2" value="0.7581579812916078" />
+      <entry key="S5" value="0.9991550942093828" />
+      <entry key="S10" value="1.5230258585531886" />
+      <entry key="S30" value="3.987493928794612" />
+      <entry key="S60" value="6.253491230668803" />
+      <entry key="M2" value="9.84604478059468" />
+      <entry key="M5" value="19.83158286002493" />
+      <entry key="M10" value="30.793984869258377" />
+      <entry key="M15" value="38.415173701363095" />
+      <entry key="M30" value="58.87467978961212" />
+      <entry key="H1" value="102.75580577708666" />
+      <entry key="H2" value="198.74962444953954" />
+      <entry key="H4" value="411.5179709434671" />
+      <entry key="D1" value="1389.363587599536" />
+      <entry key="W1" value="1844.8027323463407" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -196,6 +204,7 @@
           </model>
         </option>
         <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
       </template>
     </option>
   </component>
@@ -243,7 +252,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -280,14 +289,14 @@
       <data-source id="17959df4-dd0b-4765-90fc-09dffc206d4f" namespace="database/&quot;Oficina&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Fornecedores.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php">
+    <configuration name="TblFornecedores.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/Main/PHP/Tables/TblFornecedores.php">
       <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -360,6 +369,13 @@
       <workItem from="1781814755077" duration="10381000" />
       <workItem from="1782330927854" duration="1535000" />
       <workItem from="1782332495369" duration="5978000" />
+      <workItem from="1782404157062" duration="5553000" />
+      <workItem from="1782412489062" duration="605000" />
+      <workItem from="1782433151268" duration="4594000" />
+      <workItem from="1782946282200" duration="578000" />
+      <workItem from="1782946904052" duration="886000" />
+      <workItem from="1782958503144" duration="292000" />
+      <workItem from="1783517108284" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -545,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781802386674</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer">
+      <option name="closed" value="true" />
+      <created>1782404611553</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1782404611553</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

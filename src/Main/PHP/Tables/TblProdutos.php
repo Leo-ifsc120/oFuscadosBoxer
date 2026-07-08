@@ -16,7 +16,7 @@
 
 <div class="container">
 
-    <form action="Produtos.php" method="post">
+    <form action="TblProdutos.php" method="post">
 
         <div class="button">
 
@@ -37,9 +37,9 @@
                 </div>
 
                 <div id="mod">
-                    <input type="button" onclick="callInsertFornecedor()" class="crud" id="inserir" name="inserir" value="inserir">
-                    <input type="button" onclick="callAlterarFornecedor()" class="crud" id="alterar" name="alterar" value="alterar">
-                    <input type="button" onclick="callDeletarFornecedor()" class="crud" id="deletar" name="deletar" value="deletar">
+                    <input type="button" onclick="callInsertProduto()" class="crud" id="inserir" name="inserir" value="inserir">
+                    <input type="button" onclick="callAlterarProduto()" class="crud" id="alterar" name="alterar" value="alterar">
+                    <input type="button" onclick="callDeletarProduto()" class="crud" id="deletar" name="deletar" value="deletar">
                 </div>
 
             </div>
@@ -57,8 +57,8 @@ require "../DataBase/Connection.php";
 
 echo "<table> <tr id='theader'>
     <th><input type='radio' name='index' id='id' value='CdProduto'><label for='id'>ID</label></th>
-    <th><input type='radio' name='index' id='cod_barras' value='CdBarras'><label for='cod_barras'>Código de Barras</label></th>
-    <th><input type='radio' name='index' id='descricao' value='DsProduto'><label for='descricao'>Descrição</label></th>
+    <th><input type='radio' name='index' id='cod_barras' value='CodBarras'><label for='cod_barras'>Código de Barras</label></th>
+    <th><input type='radio' name='index' id='descricao' value='DsObservacao'><label for='descricao'>Descrição</label></th>
     <th><input type='radio' name='index' id='embalagem' value='DsEmbalagem'><label for='embalagem'>Embalagem</label></th>
     <th><input type='radio' name='index' id='estoque' value='NrEstoque'><label for='estoque'>Estoque</label></th>
     <th><input type='radio' name='index' id='fabricantes' value='DsFabricante'><label for='fabricantes'>Fabricantes</label></th>

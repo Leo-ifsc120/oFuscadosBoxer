@@ -18,7 +18,7 @@
     <div class="insertCabecalho">
         <h1>Cadastro de Fornecedores</h1>
 
-            <form action="InsertFornecedor.php" method="post">
+            <form action="FormFornecedor.php" method="post">
 
                 <div class="insertform">
 

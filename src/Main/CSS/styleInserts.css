@@ -41,21 +41,13 @@ h1
 
 div.container
 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #929292;
     width: 100%;
-    height: auto;
+    height: 760px;
     min-height: 300px;
-}
-
-div.cabecalho
-{
-    margin: 30px;
-    width: 60%;
-    border: #eeeeee 4px solid;
-    background-color: #7f7f7f;
-
 }
 
 div.cabecalho
@@ -71,17 +63,25 @@ div.form
 {
     margin: auto;
     padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #929292;
     height: auto;
 }
 
 div#buttons
+{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+}
 
 label
 {
+
     justify-self: left;
 }
 
@@ -89,39 +89,4 @@ label#insertLabel
 {
     grid-column-start: 1;
     grid-column-end: 1;
-}
-
-#fornecedores
-{
-    background-image: url("../img/Imagens/FORNECEDORES.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#clientes
-{
-    background-image: url("../img/Imagens/Clientes.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#produtos
-{
-    background-image: url("../img/Imagens/Produtos.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#servicos
-{
-    background-image: url("../img/Imagens/servicos.png");
-    background-size: cover;
-    border-radius: 10px;
-}
-
-#veiculos
-{
-    background-image: url("../img/Imagens/veiculos.png");
-    background-size: cover;
-    border-radius: 10px;
 }
