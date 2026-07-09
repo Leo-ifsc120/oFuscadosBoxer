@@ -20,26 +20,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer">
-      <change afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblClientes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="642a7c99-e2a6-4318-8569-b64b01c1e9e2" name="Changes" comment="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer&#10;&#10;Updates a fazer&#10;Deletes a fazer&#10;Pesquisa Fornecedores pronto&#10;pesquisa clientes, veiculos, produtos e Serviços">
+      <change afterPath="$PROJECT_DIR$/src/Main/PHP/FormUpdates/FormUpdateFornecedor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleTabelas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/CSS/styleInserts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/CSS/styleForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/JavaScript/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/FormCliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/FormFornecedor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/InsertVeiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertVeiculo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Inserts/Insertproduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Forms/Formproduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Login/TelaValidacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Clientes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblFornecedores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblProdutos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Servicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblServicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/Veiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblVeiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/tabelas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/Tabelas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Clientes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/DataBase/Fornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/DataBase/Produtos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Forms/FormCliente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Forms/FormFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/FormInserts/FormInsertFornecedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Forms/Formproduto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertServico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Forms/InsertVeiculo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/TblClientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblClientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/TblFornecedores.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblFornecedores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/TblProdutos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblProdutos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/TblServicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblServicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/PHP/Tables/TblVeiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/PHP/Tables/TblVeiculos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,61 +112,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000076275" />
-      <entry key="S2" value="1.0029605829613444" />
-      <entry key="S5" value="1.1099403096810128" />
-      <entry key="S10" value="1.5394106329512358" />
-      <entry key="S30" value="3.65655377313163" />
-      <entry key="S60" value="5.663505217710072" />
-      <entry key="M2" value="8.962938929297861" />
-      <entry key="M5" value="18.179786630808305" />
-      <entry key="M10" value="28.087280300646427" />
-      <entry key="M15" value="34.779137255499386" />
-      <entry key="M30" value="52.29084121341187" />
-      <entry key="H1" value="90.0548341363474" />
-      <entry key="H2" value="174.48494953596435" />
-      <entry key="H4" value="365.46422864268624" />
-      <entry key="D1" value="1251.4294994631803" />
-      <entry key="W1" value="1664.479376771982" />
+      <entry key="MS100" value="1.0175790388232626" />
+      <entry key="MS500" value="1.4456552479484857" />
+      <entry key="S2" value="1.8170521107297588" />
+      <entry key="S5" value="1.9223588146286315" />
+      <entry key="S10" value="1.9603951346339856" />
+      <entry key="S30" value="1.9866201592722679" />
+      <entry key="S60" value="1.9934262608847977" />
+      <entry key="M2" value="2.0388772627394895" />
+      <entry key="M5" value="3.9577032014350513" />
+      <entry key="M10" value="11.51915253093323" />
+      <entry key="M15" value="20.135247689862748" />
+      <entry key="M30" value="43.42446767819299" />
+      <entry key="H1" value="81.43010477749887" />
+      <entry key="H2" value="150.968426828957" />
+      <entry key="H4" value="308.0183072088054" />
+      <entry key="D1" value="1302.6821844688795" />
+      <entry key="W1" value="1891.6182725767846" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.8027037673773858E-109" />
-      <entry key="MS500" value="1.7831376634214935E-22" />
-      <entry key="S2" value="3.6542328576000065E-6" />
-      <entry key="S5" value="0.0066852628481281024" />
-      <entry key="S10" value="0.08176345668081778" />
-      <entry key="S30" value="0.43414790037180684" />
-      <entry key="S60" value="0.6698731318391508" />
-      <entry key="M2" value="0.9362429374787493" />
-      <entry key="M5" value="1.6844964917867102" />
-      <entry key="M10" value="2.733209920515506" />
-      <entry key="M15" value="3.661136985226193" />
-      <entry key="M30" value="6.610925593734337" />
-      <entry key="H1" value="12.73126008647987" />
-      <entry key="H2" value="24.295391767965928" />
-      <entry key="H4" value="46.08300208199757" />
-      <entry key="D1" value="137.94777705309735" />
-      <entry key="W1" value="180.32586228997422" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.43038322376458E-133" />
+      <entry key="S5" value="1.407357673037827E-53" />
+      <entry key="S10" value="3.751476606668135E-27" />
+      <entry key="S30" value="1.553823688843766E-9" />
+      <entry key="S60" value="3.9494539511893336E-5" />
+      <entry key="M2" value="0.006676348383885012" />
+      <entry key="M5" value="0.2123323374514746" />
+      <entry key="M10" value="0.9062538384504426" />
+      <entry key="M15" value="1.6178890960695602" />
+      <entry key="M30" value="3.5353311943340167" />
+      <entry key="H1" value="6.864677652730512" />
+      <entry key="H2" value="13.603818145408937" />
+      <entry key="H4" value="30.387772510951446" />
+      <entry key="D1" value="134.703626658015" />
+      <entry key="W1" value="195.7170144493917" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0036955376825218585" />
-      <entry key="MS500" value="0.32623873695498296" />
-      <entry key="S2" value="0.7581579812916078" />
-      <entry key="S5" value="0.9991550942093828" />
-      <entry key="S10" value="1.5230258585531886" />
-      <entry key="S30" value="3.987493928794612" />
-      <entry key="S60" value="6.253491230668803" />
-      <entry key="M2" value="9.84604478059468" />
-      <entry key="M5" value="19.83158286002493" />
-      <entry key="M10" value="30.793984869258377" />
-      <entry key="M15" value="38.415173701363095" />
-      <entry key="M30" value="58.87467978961212" />
-      <entry key="H1" value="102.75580577708666" />
-      <entry key="H2" value="198.74962444953954" />
-      <entry key="H4" value="411.5179709434671" />
-      <entry key="D1" value="1389.363587599536" />
-      <entry key="W1" value="1844.8027323463407" />
+      <entry key="MS100" value="0.061595794870019996" />
+      <entry key="MS500" value="0.976097913819095" />
+      <entry key="S2" value="1.6698945462124197" />
+      <entry key="S5" value="1.860617018696071" />
+      <entry key="S10" value="1.9290229161932058" />
+      <entry key="S30" value="1.9760492760827415" />
+      <entry key="S60" value="1.9881632777735307" />
+      <entry key="M2" value="2.0425122508446405" />
+      <entry key="M5" value="4.161877671962996" />
+      <entry key="M10" value="12.407595813591984" />
+      <entry key="M15" value="21.730668815467205" />
+      <entry key="M30" value="46.934544967976926" />
+      <entry key="H1" value="88.27185797881762" />
+      <entry key="H2" value="164.55134049795933" />
+      <entry key="H4" value="338.38446991593895" />
+      <entry key="D1" value="1437.3717968107767" />
+      <entry key="W1" value="2087.3324624950737" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -199,7 +198,7 @@
         <option name="modeId" value="Agent" />
         <option name="model">
           <model>
-            <option name="modelType" value="builtin_family" />
+            <option name="modelType" value="builtin_id" />
             <option name="modelValue" value="auto" />
           </model>
         </option>
@@ -212,76 +211,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Database Script.aula.sql.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Connection.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Fornecedores.php.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.telaValidacao.php.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;PHP Script.Connection.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.Fornecedores.php.executor&quot;: &quot;Debug&quot;,
-    &quot;PHP Script.Servicos.php.executor&quot;: &quot;Debug&quot;,
-    &quot;PHP Script.TelaDeLogin.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.TelaValidacao.php.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.16.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.12.4&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Trabalhos/IntellijProjects/oFuscadosBoxer/src/Main/CSS&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Database Script.aula.sql.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Connection.php.executor": "Run",
+    "JavaScript Debug.FormUpdateFornecedor.php.executor": "Debug",
+    "JavaScript Debug.Fornecedores.php.executor": "Coverage",
+    "JavaScript Debug.TelaValidacao.php.executor": "Debug",
+    "JavaScript Debug.telaValidacao.php.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PHP Script.Connection.php.executor": "Run",
+    "PHP Script.Fornecedores.php.executor": "Debug",
+    "PHP Script.Servicos.php.executor": "Debug",
+    "PHP Script.TelaDeLogin.php.executor": "Run",
+    "PHP Script.TelaValidacao.php.executor": "Debug",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "24.16.0",
+    "javascript.nodejs.core.library.typings.version": "24.12.4",
+    "javascript.preferred.runtime.type.id": "node",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Trabalhos/IntellijProjects/oFuscadosBoxer/src/Main/PHP/Forms/Updates",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/leona/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.16.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlserver"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f/database/\&quot;Oficina\&quot;&quot;,
-      &quot;17959df4-dd0b-4765-90fc-09dffc206d4f&quot;
+    "RunConfigurationTargetLRU": [
+      "17959df4-dd0b-4765-90fc-09dffc206d4f/database/\"Oficina\"",
+      "17959df4-dd0b-4765-90fc-09dffc206d4f"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP\Forms\Updates" />
       <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\CSS" />
       <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP\Inserts" />
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP" />
+      <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP\InsertForms" />
+      <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP\Forms\Updates" />
+      <recent name="D:\Trabalhos\IntellijProjects\oFuscadosBoxer\src\Main\PHP\Forms\Inserts" />
       <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\Tables" />
-      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\DataBase" />
-      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP\Login" />
-      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\Main\PHP" />
-      <recent name="C:\Users\leona\IdeaProjects\oFuscadosBoxer\src\MainScreen" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.aula.sql">
+  <component name="RunManager">
     <configuration name="aula.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/Main/sql/aula.sql" />
       <script-mode>FILE</script-mode>
@@ -375,7 +376,8 @@
       <workItem from="1782946282200" duration="578000" />
       <workItem from="1782946904052" duration="886000" />
       <workItem from="1782958503144" duration="292000" />
-      <workItem from="1783517108284" duration="1374000" />
+      <workItem from="1783517108284" duration="6849000" />
+      <workItem from="1783554375420" duration="13468000" />
     </task>
     <task id="LOCAL-00001" summary="Novo Repositorio">
       <option name="closed" value="true" />
@@ -569,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782404611553</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer&#10;&#10;Updates a fazer&#10;Deletes a fazer&#10;Pesquisa Fornecedores pronto&#10;pesquisa clientes, veiculos, produtos e Serviços">
+      <option name="closed" value="true" />
+      <created>1783518654445</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1783518654445</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +616,8 @@
     <MESSAGE value="Update&#10;&#10;Inserts pelo PHP&#10;troca de tabelas pelo JS&#10;remover o NodeJs&#10;Terminar insert e testar" />
     <MESSAGE value="Update&#10;&#10;Insert funcional&#10;Replicar para as outras tabelas&#10;Começar a trabalhar na pesquisa de conteudo" />
     <MESSAGE value="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer" />
+    <MESSAGE value="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer&#10;&#10;Updates a fazer&#10;Deletes a fazer&#10;Pesquisa Fornecedores pronto&#10;pesquisa clientes, veiculos, produtos e Serviços" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;&#10;Insert Clientes e Fornecedores concluidos&#10;&#10;Insert Produtos, Servicos Veiculos a fazer&#10;&#10;Updates a fazer&#10;Deletes a fazer&#10;Pesquisa Fornecedores pronto&#10;pesquisa clientes, veiculos, produtos e Serviços" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

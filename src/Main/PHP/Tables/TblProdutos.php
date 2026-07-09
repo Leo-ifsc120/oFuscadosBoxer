@@ -53,7 +53,10 @@
 
 <?php
 
-require "../DataBase/Connection.php";
+require "../DataBase/Banco.php";
+
+$banco = new Banco();
+$conn = $banco->connect();
 
 echo "<table> <tr id='theader'>
     <th><input type='radio' name='index' id='id' value='CdProduto'><label for='id'>ID</label></th>

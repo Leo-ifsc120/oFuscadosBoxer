@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>OFuscadosBoxer</title>
-    <link rel="stylesheet" href="../../CSS/styleTabelas.css">
+    <link rel="stylesheet" href="../../CSS/styleForm.css">
 </head>
 <body>
 
@@ -14,13 +14,13 @@
     <p id="title"><strong>OFuscadosBoxer</strong></p>
 </header>
 
-<div class="insertContainer">
-    <div class="insertCabecalho">
+<div class="container">
+    <div class="cabecalho">
         <h1>Cadastro de Fornecedores</h1>
 
-            <form action="FormFornecedor.php" method="post">
+            <form action="FormInsertFornecedor.php" method="post">
 
-                <div class="insertform">
+                <div class="form">
 
                     <label id="insertLabel">Razão Social: </label>
                     <input id="insertinput" type="text" name="razaoSocial" required>
@@ -38,6 +38,8 @@
                     <input id="insertinput" type="text" name="whatsApp" required>
                     <label id="insertLabel">Endereço:</label>
                     <input id="insertinput" type="text" name="endereco" required>
+                    <label id="insertLabel">Número:</label>
+                    <input id="insertinput" type="text" name="numero">
                     <label id="insertLabel">CEP:</label>
                     <input id="insertinput" type="text" name="CEP" required>
                     <label id="insertLabel">Bairro:</label>
@@ -46,10 +48,10 @@
                     <input id="insertinput" type="text" name="Cidade" required>
                     <label id="insertLabel">UF/Região:</label>
                     <input id="insertinput" type="text" name="UF" required>
-
+                </div>
+                <div id="buttons">
                     <button id="insertbutton" name="insertFornecedor" id="insertbutton">Inserir cadastro</button>
                     <button id="cancelarbutton" type="submit" onclick="callFornecedores()" name="cancelarFornecedor" id="cancelarbutton">Cancelar Cadastro</button>
-
                 </div>
 
             </form>
@@ -58,7 +60,7 @@
 
 <?php
 
-require "../DataBase/banco.php";
+require "../DataBase/Banco.php";
 require "../DataBase/Fornecedores.php";
 
 $banco = new Banco();

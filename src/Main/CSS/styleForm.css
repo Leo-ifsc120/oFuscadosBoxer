@@ -85,7 +85,7 @@ label
     justify-self: left;
 }
 
-label#insertLabel
+label.insertLabel
 {
     grid-column-start: 1;
     grid-column-end: 1;

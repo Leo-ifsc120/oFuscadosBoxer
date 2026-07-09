@@ -69,6 +69,7 @@
                     <th><input type='radio' name='index' id='data_cadastro' value='DtCadastro'><label for='data_cadastro'>Data Cadastro</label></th>
                     <th><input type='radio' name='index' id='nu_endereco' value='Nrendereco'><label for='nu_endereco'>Nu Endereço</label></th>
                     <th><input type='radio' name='index' id='complemento' value='Dscomplemento'><label for='complemento'>Complemento</label></th>
+                    <th>Ações</th>
                 </tr>
 
                 <?php

@@ -32,6 +32,9 @@
             <div id="crud">
 
                 <div id="search">
+                    <select name="Status" id="index">
+                        <option value="">Falta Pagar</option>
+                    </select>
                     <input type="submit" class="crud" id="pesquisar" name="pesquisar" value="Pesquisar">
                     <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui...">
                 </div>
@@ -47,30 +50,35 @@
 
         </div>
 
+        <table>
+            <tr id='theader'>
+                <th><input type='radio' name='index' id='cod_servico' value='CdServico'><label for='cod_servico'>Cód Serviço</label></th>
+                <th><input type='radio' name='index' id='cod_cliente' value='cdcliente'><label for='cod_cliente'>Cód Cliente</label></th>
+                <th><input type='radio' name='index' id='razao_social' value='DsRazao'><label for='razao_social'>Razão Social</label></th>
+                <th><input type='radio' name='index' id='cod_veiculo' value='cdveiculo'><label for='cod_veiculo'>Cód Veículo</label></th>
+                <th><input type='radio' name='index' id='km_atual' value='NrKmAtual'><label for='km_atual'>KM Atual</label></th>
+                <th><input type='radio' name='index' id='status' value='InStatus'><label for='status'>Status</label></th>
+                <th><input type='radio' name='index' id='situacao' value='InSituacao'><label for='situacao'>Situação</label></th>
+                <th><input type='radio' name='index' id='oleo_trocado' value='InTrocaoleo'><label for='oleo_trocado'>Óleo Trocado</label></th>
+                <th><input type='radio' name='index' id='data_os' value='DtOrdemServico'><label for='data_os'>Data Ordem de Serviço</label></th>
+                <th><input type='radio' name='index' id='data_entrada' value='DtEntrada'><label for='data_entrada'>Data de Entrada</label></th>
+                <th><input type='radio' name='index' id='data_prevista' value='DtPrevisto'><label for='data_prevista'>Entrega Prevista</label></th>
+                <th><input type='radio' name='index' id='data_saida' value='DtSaida'><label for='data_saida'>Data Saída</label></th>
+                <th><input type='radio' name='index' id='valor_antecipado' value='VlordemServicoPgAntecipado'><label for='valor_antecipado'>Valor Pago Antecipado</label></th>
+                <th><input type='radio' name='index' id='falta_pagar' value='VlordemServicofaltaPagar'><label for='falta_pagar'>Falta Pagar</label></th>
+            </tr>
+
+
     </form>
 
 
 
 <?php
 
-require "../DataBase/Connection.php";
+require "../DataBase/Banco.php";
 
-echo "<table> <tr id='theader'>
-    <th><input type='radio' name='index' id='cod_servico' value='CdServico'><label for='cod_servico'>Cód Serviço</label></th>
-    <th><input type='radio' name='index' id='cod_cliente' value='cdcliente'><label for='cod_cliente'>Cód Cliente</label></th>
-    <th><input type='radio' name='index' id='razao_social' value='DsRazao'><label for='razao_social'>Razão Social</label></th>
-    <th><input type='radio' name='index' id='cod_veiculo' value='cdveiculo'><label for='cod_veiculo'>Cód Veículo</label></th>
-    <th><input type='radio' name='index' id='km_atual' value='NrKmAtual'><label for='km_atual'>KM Atual</label></th>
-    <th><input type='radio' name='index' id='status' value='InStatus'><label for='status'>Status</label></th>
-    <th><input type='radio' name='index' id='situacao' value='InSituacao'><label for='situacao'>Situação</label></th>
-    <th><input type='radio' name='index' id='oleo_trocado' value='InTrocaoleo'><label for='oleo_trocado'>Óleo Trocado</label></th>
-    <th><input type='radio' name='index' id='data_os' value='DtOrdemServico'><label for='data_os'>Data Ordem de Serviço</label></th>
-    <th><input type='radio' name='index' id='data_entrada' value='DtEntrada'><label for='data_entrada'>Data de Entrada</label></th>
-    <th><input type='radio' name='index' id='data_prevista' value='DtPrevisto'><label for='data_prevista'>Entrega Prevista</label></th>
-    <th><input type='radio' name='index' id='data_saida' value='DtSaida'><label for='data_saida'>Data Saída</label></th>
-    <th><input type='radio' name='index' id='valor_antecipado' value='VlordemServicoPgAntecipado'><label for='valor_antecipado'>Valor Pago Antecipado</label></th>
-    <th><input type='radio' name='index' id='falta_pagar' value='VlordemServicofaltaPagar'><label for='falta_pagar'>Falta Pagar</label></th>
-</tr>";
+$banco = new Banco();
+$conn = $banco->connect();
 
 $stmt = "select * from TblServicos";
 
@@ -80,7 +88,16 @@ if(isset($_POST['pesquisar']))
     {
         $index = $_POST['index'];
         $pesquisa = $_POST['pesquisa'];
-        $stmt = "select * from TblServicos where $index like '%$pesquisa%'";
+        if($index == 'DsRazao')
+        {
+            $stmt = "select CdCliente,DsRazao from TblCientes where $index like '%$pesquisa%'";
+            $result = $conn->query($stmt)->fetchAll();
+            $stmt = "select * from TblServicos where cdcliente in (" . implode(",", array_column($result, 'CdCliente')) . ")";
+        }
+        else
+        {
+            $stmt = "select * from TblServicos where $index like '%$pesquisa%'";
+        }
     }
 }
 
@@ -91,13 +108,48 @@ foreach( $result as $row ) {
     $stmt = "select * from TblClientes where TblClientes.CdCliente = $row[cdcliente]";
     $cliente = $conn->query($stmt)->fetch();
 
+
+
+    if($row['InStatus'] == 1)
+    {
+        $status = "Ativo";
+    }
+    else
+    {
+        $status = "Inativo";
+    }
+    if($row['InSituacao'] == 1)
+    {
+
+    }
+    else
+        if($row['InSituacao'] == 2)
+        {
+
+        }
+        else
+            if($row['InSituacao'] == 3)
+            {
+
+            }
+            else
+                if($row['InSituacao'] == 4)
+                {
+                    $row['InSituacao'] = "Aguardando Pagamento";
+                }
+                else
+                {
+                    $row['InSituacao'] = "Finalizado";
+                }
+
+
     echo "<tr>
                 <td> $row[CdServico]  </td>
                 <td> $row[cdcliente]  </td>
                 <td> $cliente[DsRazao]  </td>
                 <td> $row[cdveiculo]  </td>
                 <td> $row[NrKmAtual]  </td>
-                <td> $row[InStatus]  </td>
+                <td> $status  </td>
                 <td> $row[InSituacao]  </td>
                 <td> $row[InTrocaoleo]  </td>
                 <td> $row[DtOrdemServico]  </td>

@@ -67,7 +67,10 @@
 
             <?php
 
-            require "../DataBase/Connection.php";
+            require "../DataBase/Banco.php";
+
+            $banco = new Banco();
+            $conn = $banco->connect();
 
             $stmt = "select * from TblClientes";
 
